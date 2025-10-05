@@ -16,7 +16,6 @@ aether:skyroot_woodland
 darkerdepths:glowshroom_forest
 darkerdepths:molten_cavern
 darkerdepths:sandy_catacombs
-eco:floating_river
 feur_dimensional_skyland:skyland
 integrateddynamics:meneglin
 lionfishapi:original_source_marker
@@ -158,6 +157,13 @@ regions_unexplored:tropical_river
 regions_unexplored:tropics
 regions_unexplored:willow_forest
 terrablender:deferred_placeholder
+thermal_shock:borean_forest
+thermal_shock:borean_tundra
+thermal_shock:graveyard
+thermal_shock:luminous_sea
+thermal_shock:non_biome
+thermal_shock:stardust_garden
+thermal_shock:vermillion_woods
 twilightforest:clearing
 twilightforest:dark_forest
 twilightforest:dark_forest_center
