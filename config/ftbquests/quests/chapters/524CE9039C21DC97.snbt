@@ -1,0 +1,106 @@
+{
+	autofocus_id: "15D102DE2394A495"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "524CE9039C21DC97"
+	group: "70C8850B64AECE42"
+	icon: "thermal:steel_ingot"
+	id: "524CE9039C21DC97"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["73531FB69122489F"]
+			id: "15D102DE2394A495"
+			tasks: [{
+				id: "72BA5656AD674175"
+				item: "ad_astra:etrionic_blast_furnace"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15D102DE2394A495"]
+			id: "2F9AAEA563550E3F"
+			tasks: [{
+				id: "55B23C823EC66270"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+				title: "Any #forge:ingots/steel"
+				type: "item"
+			}]
+			title: "钢锭"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2F9AAEA563550E3F"]
+			id: "47C442362B73368D"
+			tasks: [{
+				id: "4C9F346FB46259B1"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2F9AAEA563550E3F"]
+			id: "606961105725FF7C"
+			tasks: [{
+				id: "17D328BF95540F6A"
+				item: "ad_astra:fuel_refinery"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2F9AAEA563550E3F"]
+			id: "293BC8386BEEE985"
+			tasks: [{
+				id: "381B68006962F21D"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "ad_astra_giselle_addon:space_breathing"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"606961105725FF7C"
+				"293BC8386BEEE985"
+				"47C442362B73368D"
+			]
+			id: "750B557031EFBBEE"
+			subtitle: "月球"
+			tasks: [{
+				id: "0701A767BCB667FD"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+	]
+	title: "原始工业"
+}

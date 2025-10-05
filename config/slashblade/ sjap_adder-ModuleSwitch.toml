@@ -58,7 +58,7 @@ fireDanceComboRatio = 0.1
 burningDanceComboRatio = 0.1
 #The Combo Ratio of ColdDrive
 #Range: 0.0 ~ 100.0
-coldDriveComboRatio = 0.1
+coldDriveComboRatio = 0.02
 #The Combo Ratio of SakuraWaveEdgeLeft
 #Range: 0.0 ~ 100.0
 sakuraWaveEdgeLeftComboRatio = 1.2

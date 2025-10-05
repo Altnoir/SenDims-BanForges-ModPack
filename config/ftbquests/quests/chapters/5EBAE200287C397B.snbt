@@ -6,6 +6,17 @@
 	id: "5EBAE200287C397B"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		dependencies: ["0B0F1D8BE89F8980"]
+		id: "6140B0BCEB7F9D64"
+		tasks: [{
+			dimension: "thermal_shock:loqendia"
+			id: "603D3E735EDE35F5"
+			type: "dimension"
+		}]
+		title: "永恒花园"
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "花园"
 }

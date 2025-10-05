@@ -203,7 +203,7 @@
 				type: "item"
 			}]
 			x: -12.0d
-			y: -4.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["52726CE2A2740BF7"]
@@ -237,7 +237,7 @@
 			}]
 			title: "深境证章的信息"
 			x: -16.0d
-			y: -4.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["71F1943E6E3FCA17"]
@@ -256,7 +256,7 @@
 			}]
 			title: "阶级-无-伤害强化材料"
 			x: -16.0d
-			y: -8.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["71F1943E6E3FCA17"]
@@ -275,7 +275,7 @@
 			}]
 			title: "阶级-无-生命强化材料"
 			x: -16.0d
-			y: 0.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["71F1943E6E3FCA17"]
@@ -287,16 +287,17 @@
 			}]
 			title: "阶级-无-突破"
 			x: -20.0d
-			y: -4.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["13B6F6AC7608F794"]
 			id: "0B0F1D8BE89F8980"
+			subtitle: "永恒花园"
 			tasks: [{
-				id: "072B46CCA9F00419"
-				type: "checkmark"
+				id: "4ABE72912DE0F08B"
+				item: "kubejs:garden_lighter"
+				type: "item"
 			}]
-			title: " 花园"
 			x: -8.0d
 			y: -8.0d
 		}
@@ -323,6 +324,17 @@
 			}]
 			x: -8.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["5BDFD8CB35D8AFC6"]
+			id: "73531FB69122489F"
+			tasks: [{
+				id: "19D50CF451B4F924"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -4.0d
 		}
 	]
 	title: "空岛"

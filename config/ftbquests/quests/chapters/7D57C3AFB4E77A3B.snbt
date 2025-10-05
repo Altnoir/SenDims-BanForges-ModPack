@@ -165,8 +165,8 @@
 				type: "checkmark"
 			}]
 			title: "剑技"
-			x: 0.0d
-			y: 4.0d
+			x: -4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1CFE15E293B7087E"]
@@ -176,8 +176,8 @@
 				type: "checkmark"
 			}]
 			title: "连击A"
-			x: 0.0d
-			y: 8.0d
+			x: -8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["487B3101C7F7A60E"]
@@ -187,8 +187,8 @@
 				type: "checkmark"
 			}]
 			title: "连击B"
-			x: 4.0d
-			y: 8.0d
+			x: -8.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["487B3101C7F7A60E"]
@@ -198,8 +198,8 @@
 				type: "checkmark"
 			}]
 			title: "连击C"
-			x: -4.0d
-			y: 8.0d
+			x: -8.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1CFE15E293B7087E"]
@@ -220,8 +220,126 @@
 				type: "checkmark"
 			}]
 			title: "SA与SE"
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6FD736B74327F2AF"]
+			id: "4A57E4499E188BD7"
+			tasks: [{
+				id: "1A8F2A07FC34EBC5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 0b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							proudSoul: 0
+						}
+					}
+					id: "slashblade:slashblade_wood"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6FD736B74327F2AF"]
+			id: "0FB1DB4C541D2D2B"
+			tasks: [{
+				id: "2827DB09990A6B93"
+				item: "last_smith:research_table"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 4.0d
+		}
+		{
+			dependencies: [
+				"4A57E4499E188BD7"
+				"0FB1DB4C541D2D2B"
+			]
+			id: "65E2433B2D35FACA"
+			tasks: [{
+				id: "15884F376FF15E95"
+				item: "last_smith:scroll_basic"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["65E2433B2D35FACA"]
+			id: "733A23B4A4EF2379"
+			tasks: [{
+				id: "455F4652EA515C87"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 0b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							proudSoul: 0
+						}
+					}
+					id: "slashblade:slashblade_bamboo"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["65E2433B2D35FACA"]
+			id: "0AB0FC7F385062F4"
+			tasks: [{
+				id: "0B0523BA3765A7FB"
+				item: "last_smith:blade"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.0d
 		}
 	]
 	title: "拔刀剑"
