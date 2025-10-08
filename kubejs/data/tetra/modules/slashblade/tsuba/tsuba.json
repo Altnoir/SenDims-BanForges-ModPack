@@ -23,19 +23,19 @@
           "generic.attack_damage": -0.5
         },
         "secondaryAttributes": {
-          "generic.attack_damage": 0.5
+          "generic.attack_damage": 1
         },
         "tertiaryAttributes": {
-          "generic.attack_damage":0.5
+          "generic.attack_damage":-1
         },
         "primaryEffects": {
           "RefineStrengthening": 0.5
         },
         "secondaryEffects":{
-          "RefineStrengthening": -0.5
+          "RefineStrengthening": 1
         },
         "tertiaryEffects": {
-          "RefineStrengthening":1.5
+          "RefineStrengthening": -1
         },
         "durability": 0.5,
         "magicCapacity": 4,

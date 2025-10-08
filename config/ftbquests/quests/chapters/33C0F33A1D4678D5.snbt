@@ -444,8 +444,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 24.0d
+			x: -4.0d
+			y: 20.0d
 		}
 		{
 			dependencies: ["3C1CB82ADF4FBBC1"]
@@ -458,6 +458,48 @@
 			}]
 			x: -4.0d
 			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4B5C544E097417A0"
+				"1228411DE12CCDA4"
+				"3AA48697057EBF80"
+			]
+			hide_dependency_lines: true
+			id: "0631080913A35DC4"
+			tasks: [{
+				advancement: "twilightforest:progress_merge"
+				criterion: ""
+				id: "35CB460B37C7E0C8"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["0631080913A35DC4"]
+			id: "2B54682ADC820C2A"
+			tasks: [{
+				advancement: "twilightforest:giants"
+				criterion: ""
+				id: "062614A380FD9033"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["2B54682ADC820C2A"]
+			id: "6442E0C760FAF02B"
+			size: 2.0d
+			tasks: [{
+				advancement: "twilightforest:progress_troll"
+				criterion: ""
+				id: "533B2858172590D0"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 32.0d
 		}
 	]
 	title: "暮色森林"

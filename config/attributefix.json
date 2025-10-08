@@ -286,6 +286,17 @@
         "value": 128
       }
     },
+    "slashblade_sendims:frenzy_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 512,
+        "value": 512
+      }
+    },
     "attributeslib:dodge_chance": {
       "enabled": false,
       "min": {
@@ -306,6 +317,17 @@
       "max": {
         "default": 10000,
         "value": 10000
+      }
+    },
+    "slashblade_sendims:frenzy_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "minecraft:zombie.spawn_reinforcements": {
@@ -372,6 +394,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "slashblade_sendims:madness_reduce": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 512,
+        "value": 512
       }
     },
     "minecraft:generic.armor_toughness": {
@@ -559,6 +592,17 @@
       "max": {
         "default": 34,
         "value": 34
+      }
+    },
+    "slashblade_sendims:ap_gain_percentage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 512,
+        "value": 512
       }
     },
     "slashblade_sendims:parry_heal_amount": {

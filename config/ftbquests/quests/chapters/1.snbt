@@ -326,8 +326,13 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["5BDFD8CB35D8AFC6"]
+			dependencies: [
+				"5BDFD8CB35D8AFC6"
+				"52726CE2A2740BF7"
+			]
+			dependency_requirement: "one_completed"
 			id: "73531FB69122489F"
+			subtitle: "原始工业"
 			tasks: [{
 				id: "19D50CF451B4F924"
 				item: "minecraft:iron_ingot"

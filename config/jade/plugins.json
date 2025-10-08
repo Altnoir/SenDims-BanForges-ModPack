@@ -54,19 +54,8 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "jadeaddons": {
-    "equipment_requirement": ""
-  },
   "jadeaddons.mcjtylib": {
     "jadeaddons": true
-  },
-  "easy_villagers": {
-    "villager": true,
-    "converter": true,
-    "breeder": true
-  },
-  "twilightforest": {
-    "quest_ram_wool": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -80,9 +69,6 @@
     "adventure": true,
     "ench": true,
     "spawner": true
-  },
-  "gravestone": {
-    "grave": true
   },
   "balm": {
     "jade": true
@@ -106,6 +92,23 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
+  },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
+  "easy_villagers": {
+    "villager": true,
+    "converter": true,
+    "breeder": true
+  },
+  "aether_redux": {
+    "logicator": true
+  },
+  "twilightforest": {
+    "quest_ram_wool": true
+  },
+  "gravestone": {
+    "grave": true
   },
   "storagedrawers": {
     "display.stacklimit": true,

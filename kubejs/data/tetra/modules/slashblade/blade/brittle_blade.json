@@ -25,22 +25,22 @@
       },
       "extract": {
         "primaryAttributes": {
-          "generic.attack_damage": 4
+          "generic.attack_damage": -0.5
         },
         "secondaryAttributes": {
-          "generic.attack_damage": 1
+          "generic.attack_damage": 0.5
         },
         "tertiaryAttributes": {
-          "generic.attack_damage":2
+          "generic.attack_damage": 1.5
         },
         "primaryEffects": {
-          "RefineStrengthening": 0.75
+          "RefineStrengthening": 1.5
         },
         "secondaryEffects":{
-          "RefineStrengthening": 0.75
+          "RefineStrengthening": -1
         },
         "tertiaryEffects": {
-          "RefineStrengthening": -1.5
+          "RefineStrengthening": 0.5
         },
         "durability": -0.2,
         "magicCapacity": 3,

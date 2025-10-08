@@ -3,84 +3,84 @@
     "key": "settled",
     "level": 1,
     "effects": {
-      "RefineStrengthening": 1
+      "RefineStrengthening": 0.5
     }
   },
   {
     "key": "settled",
     "level": 2,
     "effects": {
-      "RefineStrengthening": 2
+      "RefineStrengthening": 1
     }
   },
   {
     "key": "settled",
     "level": 3,
     "effects": {
-      "RefineStrengthening": 3
+      "RefineStrengthening": 1.5
     }
   },
   {
     "key": "settled",
     "level": 4,
     "effects": {
-      "RefineStrengthening": 4
+      "RefineStrengthening": 2
     }
   },
   {
     "key": "settled",
     "level": 5,
     "effects": {
-      "RefineStrengthening": 5
+      "RefineStrengthening": 2.5
     }
   },
   {
     "key": "settled",
     "level": 6,
     "effects": {
-      "RefineStrengthening": 6
+      "RefineStrengthening": 3
     }
   },
   {
     "key": "settled",
     "level": 7,
     "effects": {
-      "RefineStrengthening": 7
+      "RefineStrengthening": 4
     }
   },
   {
     "key": "settled",
     "level": 8,
     "effects": {
-      "RefineStrengthening": 8
+      "RefineStrengthening": 5
     }
   },
   {
     "key": "settled",
     "level": 9,
     "effects": {
-      "RefineStrengthening": 9
+      "RefineStrengthening": 6
     }
   },
   {
     "key": "settled",
     "level": 10,
     "effects": {
-      "RefineStrengthening": 10
+      "RefineStrengthening": 7
     }
   },
   {
     "key": "settled",
     "level": 11,
     "effects": {
-      "RefineStrengthening": 11
+      "RefineStrengthening": 8
     }
   },
   {
     "key": "settled",
     "level": 12,
     "effects": {
-      "RefineStrengthening": 12
+      "RefineStrengthening": 9
     }
   },
   {

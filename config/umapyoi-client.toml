@@ -10,9 +10,6 @@
 	#Deciding whether to omit details.
 	#After enabling, some details need to be pressed to display.
 	tooltip_switch = true
-	#Deciding whether to always display skill's details.
-	#After enabling, skill book will always display skill's details.
-	always_display_skill_details = false
 	#Determines whether to render model's hiden parts.
 	#Hiden parts like breasts won't render after closing this.
 	hiden_parts_render = false
@@ -25,4 +22,6 @@
 	#Determining the interval tick between twice tail animation.
 	#Range: > 10
 	tail_animation_interval = 200
+	#Deciding whether to always display skill or factor's details.
+	always_display_details = false
 

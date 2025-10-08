@@ -8,20 +8,112 @@
 	id: "57ADB472871000CE"
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["71B535DCE4CFEF8F"]
-		description: ["注：原始的天境传送门需要使用神能晶块作为门框材料"]
-		id: "0F8DC1AEBBC762C1"
-		size: 2.0d
-		tasks: [{
-			dimension: "aether:the_aether"
-			icon: "aether:cold_aercloud"
-			id: "355E773D4FC133FD"
-			title: "天境"
-			type: "dimension"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["71B535DCE4CFEF8F"]
+			description: ["注：原始的天境传送门需要使用神能晶块作为门框材料"]
+			id: "0F8DC1AEBBC762C1"
+			size: 2.0d
+			tasks: [{
+				dimension: "aether:the_aether"
+				icon: "aether:cold_aercloud"
+				id: "355E773D4FC133FD"
+				title: "天境"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F8DC1AEBBC762C1"]
+			id: "4B49B929B1C14728"
+			tasks: [{
+				id: "6FC07F0B0875BF44"
+				item: "aether:quicksoil"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F8DC1AEBBC762C1"]
+			id: "0B8FAEFD583DAAA2"
+			tasks: [{
+				id: "399166178E1191E9"
+				item: "aether:holystone"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0F8DC1AEBBC762C1"]
+			id: "123278FEAC1E9548"
+			tasks: [{
+				id: "708EBAF711E31C49"
+				item: "aether:ambrosium_shard"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0F8DC1AEBBC762C1"
+				"4B49B929B1C14728"
+			]
+			id: "7CBB12CD9FDCA6A4"
+			tasks: [{
+				id: "1B87D42F6942C457"
+				structure: "aether:bronze_dungeon"
+				type: "structure"
+			}]
+			title: "青铜地牢"
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0F8DC1AEBBC762C1"
+				"0B8FAEFD583DAAA2"
+			]
+			id: "48E30F8BC43E9AD4"
+			tasks: [{
+				id: "1369CCA3A62484BF"
+				structure: "aether:silver_dungeon"
+				type: "structure"
+			}]
+			title: "白银地牢"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"0F8DC1AEBBC762C1"
+				"123278FEAC1E9548"
+			]
+			id: "6B7C4E19A6FD6939"
+			tasks: [{
+				id: "3B5BCC1BC163A6CD"
+				structure: "aether:gold_dungeon"
+				type: "structure"
+			}]
+			title: "黄金地牢"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F8DC1AEBBC762C1"]
+			id: "0687CEFE5099B94C"
+			tasks: [{
+				id: "16349B9A6DED9597"
+				structure: "lost_aether_content:platinum_dungeon"
+				type: "structure"
+			}]
+			title: "白金地牢"
+			x: 0.0d
+			y: -8.0d
+		}
+	]
 	title: "天境"
 }

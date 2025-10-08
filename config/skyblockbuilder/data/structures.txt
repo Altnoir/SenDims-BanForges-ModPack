@@ -11,7 +11,6 @@ aether:bronze_dungeon
 aether:gold_dungeon
 aether:large_aercloud
 aether:silver_dungeon
-aether_villages:olympic_citadel
 apotheosis:tower_leaf
 apotheosis:tower_main
 apotheosis:tower_sand
@@ -87,6 +86,7 @@ cataclysm:sunken_city
 darkerdepths:catacombs
 darkerdepths:rope_mine_desert
 darkerdepths:rope_mine_forest
+deep_aether:brass_dungeon
 explorify:badlands_pyramid
 explorify:black_spiral
 explorify:campsite

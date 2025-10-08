@@ -1,8 +1,7 @@
 global.materialReplaceRules = new Map();
 
 // 箭矢 
-global.materialArrow1 = 'minecraft:arrow';
-global.materialReplaceRules.set(global.materialArrow1, [
+global.materialReplaceRules.set('minecraft:arrow', [
     'minecraft:spectral_arrow',
     'minecraft:tipped_arrow',
     'aether:golden_dart',
@@ -10,21 +9,18 @@ global.materialReplaceRules.set(global.materialArrow1, [
     'aether:enchanted_dart'
 ]);
 
-global.materialBook1 = 'minecraft:book'
-global.materialReplaceRules.set(global.materialBook1, [
+global.materialReplaceRules.set('minecraft:book', [
     'minecraft:enchanted_book'
 ]);
 
-global.materialLowBook = 'umapyoi:speed_low_item'
-global.materialReplaceRules.set(global.materialLowBook, [
+global.materialReplaceRules.set('umapyoi:speed_low_item', [
     'umapyoi:stamina_low_item',
     'umapyoi:strength_low_item',
     'umapyoi:mentality_low_item',
     'umapyoi:wisdom_low_item'
 ]);
 
-global.materialMidBook = 'umapyoi:speed_mid_item'
-global.materialReplaceRules.set(global.materialMidBook, [
+global.materialReplaceRules.set('umapyoi:speed_mid_item', [
     'umapyoi:stamina_mid_item',
     'umapyoi:strength_mid_item',
     'umapyoi:mentality_mid_item',
@@ -32,21 +28,18 @@ global.materialReplaceRules.set(global.materialMidBook, [
     'umapyoi:skill_book'
 ]);
 
-global.materialHighBook = 'umapyoi:speed_high_item'
-global.materialReplaceRules.set(global.materialHighBook, [
+global.materialReplaceRules.set('umapyoi:speed_high_item', [
     'umapyoi:stamina_high_item',
     'umapyoi:strength_high_item',
     'umapyoi:mentality_high_item',
     'umapyoi:wisdom_high_item'
 ]);
 
-global.materialCrop = 'minecraft:potato'
-global.materialReplaceRules.set(global.materialCrop, [
+global.materialReplaceRules.set('minecraft:potato', [
     '#c:crops'
 ]);
 
-global.materialHorn = 'blue_skies:azulfo_horn'
-global.materialReplaceRules.set(global.materialHorn, [
+global.materialReplaceRules.set('blue_skies:azulfo_horn', [
     'minecraft:goat_horn'
 ]);
 
@@ -83,12 +76,11 @@ LootJS.modifiers((event) => {
 });
 
 ServerEvents.tags("item", event => {
-    for (const to of global.materialReplaceRules.keys()) {
-        event.add(to.id + "_unified", 
-            global.materialReplaceRules.get(to)
-        )
-        
-    }
+    global.materialReplaceRules.forEach((value, key) => {
+        const id = "kubejs:" + key.split(":")[1] + "_unified";
+        event.add(id, value);
+        console.log(id);
+    })
     
 
 })

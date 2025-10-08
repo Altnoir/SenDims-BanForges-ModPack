@@ -20,19 +20,19 @@
       "key": "handle/",
       "extract": {
         "primaryAttributes": {
-          "generic.attack_damage": 0.5
+          "generic.attack_damage": -0.5
         },
         "secondaryAttributes": {
           "generic.attack_damage": -0.5
         },
         "tertiaryAttributes": {
-          "generic.attack_damage": 1
+          "generic.attack_damage": 0
         },
         "primaryEffects": {
           "RefineStrengthening": 0.5
         },
         "secondaryEffects":{
-          "RefineStrengthening": 2
+          "RefineStrengthening": -1
         },
         "tertiaryEffects": {
           "RefineStrengthening": -0.5
