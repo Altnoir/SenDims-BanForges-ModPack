@@ -9,7 +9,7 @@ soulCost = 1000
 #Range: 10 ~ 100
 maxAttackModifier = 40
 #拔刀触发幻影剑技
-enableDoSlash = true
+enableDoSlash = false
 #SS后攻击变三段
 enabless = false
 #快刀无感模块
@@ -17,7 +17,7 @@ disable_stun = true
 #经验值增伤
 xp_add = false
 #是否开启持刀无法交互除刀以外的所有的可交互选项功能
-disableOtherInteractions = true
+disableOtherInteractions = false
 #幻影剑倍率模块精炼等级加成系数
 #Range: 0.0 ~ 1.7976931348623157E308
 refinedFactor = 0.05

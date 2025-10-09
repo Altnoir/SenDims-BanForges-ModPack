@@ -292,6 +292,52 @@
 		{
 			dependencies: ["13B6F6AC7608F794"]
 			id: "0B0F1D8BE89F8980"
+			rewards: [
+				{
+					id: "2106DCF3BF620456"
+					item: {
+						Count: 1
+						id: "quark:backpack"
+						tag: {
+							Inventory: [
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25055D8999C236B4"
+					item: "minecraft:lime_shulker_box"
+					type: "item"
+				}
+			]
 			subtitle: "永恒花园"
 			tasks: [{
 				id: "4ABE72912DE0F08B"

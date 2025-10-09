@@ -66,3 +66,5 @@ mods/\[灾变\] L_Enders_Cataclysm-3.15.jar
 mods/L_Enders_Cataclysm-3.16.jar
 /SenDims_BanForges-natives
 /config/jei
+.probe/*
+!.probe/probe-settings.json

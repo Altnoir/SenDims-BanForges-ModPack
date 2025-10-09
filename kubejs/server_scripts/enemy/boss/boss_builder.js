@@ -104,7 +104,15 @@ const bossMaterialBuilder = (event, entity, path) => {
             return builder;
         },
         
-        // 添加属性修改器(范围值)
+        /**
+         * 
+         * @param {String} attribute 
+         * @param {String} operation 
+         * @param {number} min 最小值
+         * @param {number} steps 步数
+         * @param {number} step 每步增幅
+         * @returns 
+         */
         addAttributeRange(attribute, operation, min, steps, step) {
             if (currentRarity) {
                 stats[currentRarity].attribute_modifiers.push({
@@ -129,7 +137,7 @@ const bossMaterialBuilder = (event, entity, path) => {
                 stats: stats
             };
             
-            event.addJson(`apostle:bosses/${path}/${entityId.replace(':', '_')}.json`, json);
+            event.addJson(`sdbf:bosses/${path}/${entityId.replace(':', '_')}.json`, json);
             console.log(`[Boss Builder] Boss "${entityId}" created.`);
         }
     };

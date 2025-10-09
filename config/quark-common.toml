@@ -1835,7 +1835,7 @@
 		"Enable Ravager Hide" = true
 		"Items In Backpack Tick" = true
 		"Base Ravager Hide Drop" = 1
-		"Extra Chance Per Looting" = 0.5
+		"Extra Chance Per Looting" = 0.0
 		"Allow Armor Stand Unloading" = true
 
 	[oddities.crate]

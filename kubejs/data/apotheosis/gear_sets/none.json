@@ -1,0 +1,19 @@
+{
+	"weight": 90,
+	"quality": 2.5,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "minecraft:shield"
+			}
+		}
+	],
+	"offhands": [],
+	"boots": [],
+	"leggings": [],
+	"chestplates": [],
+	"helmets": [],
+	"tags": [
+		"none"
+	]
+}

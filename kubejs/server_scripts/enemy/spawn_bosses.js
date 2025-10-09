@@ -131,33 +131,18 @@ const registerBossStructure = (config) => {
 }
 
 registerBossStructure({
-    activateItem: 'blue_skies:pyrope_gem',
+    activateItem: 'aether_redux:golden_swet_ball',
     blockMapping: {
-        'A': 'blue_skies:starlit_planks',
-        'B': 'blue_skies:moonstone_block',
-        'C': 'blue_skies:turquoise_stonebrick'
+        'A': 'aether:cold_aercloud',
+        'B': 'aether:ambrosium_block',
+        'C': 'aether:angelic_stone'
     },
     destroyAfterSpawn: true,
     executeCommands: (level, centerPos, player) => {
         player.tell(Text.of("TungTungTung").obfuscated())
-        level.runCommandSilent(`execute at ${player.name.string} run place structure blue_skies:everbright_blinding_dungeon`);
+        level.runCommandSilent(`execute at ${player.name.string} run place structure lost_aether_content:platinum_dungeon`);
     },
-    structureName: "everbright_blinding_dungeon"
-});
-
-registerBossStructure({
-    activateItem: 'blue_skies:starlit_sapling',
-    blockMapping: {
-        'A': 'blue_skies:turquoise_stonebrick',
-        'B': 'blue_skies:pyrope_block',
-        'C': 'blue_skies:moonstone_block'
-    },
-    destroyAfterSpawn: true,
-    executeCommands: (level, centerPos, player) => {
-        player.tell(Text.of("TungTungTung").obfuscated())
-        level.runCommandSilent(`execute at ${player.name.string} run place structure blue_skies:nature_dungeon`);
-    },
-    structureName: "nature_dungeon"
+    structureName: "platinum_dungeon"
 });
 
 BlockEvents.rightClicked(event => {

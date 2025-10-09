@@ -2,28 +2,24 @@ const $ForgeTier = Java.loadClass("net.minecraftforge.common.ForgeTier")
 const $BlockTags = Java.loadClass("net.minecraft.tags.BlockTags")
 const $TierSortingRegistry = Java.loadClass("net.minecraftforge.common.TierSortingRegistry")
 
-StartupEvents.init(event => {
-    const enderium = new $ForgeTier(5,
-        2000, 4, 4, 15, $BlockTags.create("kubejs:mining_tier_5"), () => Ingredient.of()
-    )
-    $TierSortingRegistry.registerTier(enderium, "enderium", ["minecraft:netherite"], [])
+SBSDEvents.registerTier(event => {
+    event.registerTier(5,
+         "kubejs:mining_tier_5", Ingredient.of("nuclearcraft:enderium"), ["minecraft:netherite"],
+          "kubejs:enderium")
 
     // TODO 6
 
-    const thorium = new $ForgeTier(7,
-        3000, 6, 6, 25, $BlockTags.create("kubejs:mining_tier_7"), () => Ingredient.of()
-    )
-    $TierSortingRegistry.registerTier(thorium, "thorium", ["minecraft:enderium"], [])
+    event.registerTier(7,
+         "kubejs:mining_tier_7", Ingredient.of("nuclearcraft:thorium"), ["kubejs:enderium"],
+          "kubejs:thorium")
 
-    const tough = new $ForgeTier(8,
-        3500, 7, 7, 30, $BlockTags.create("kubejs:mining_tier_8"), () => Ingredient.of()
-    )
-    $TierSortingRegistry.registerTier(tough, "tough", ["minecraft:thorium"], [])
+    event.registerTier(8,
+         "kubejs:mining_tier_8", Ingredient.of("nuclearcraft:tough_alloy"), ["kubejs:thorium"],
+          "kubejs:tough")
 
-    const qnp = new $ForgeTier(9,
-        4000, 8, 8, 35, $BlockTags.create("kubejs:mining_tier_9"), () => Ingredient.of()
-    )
-    $TierSortingRegistry.registerTier(qnp, "qnp", ["minecraft:tough"], [])
+    event.registerTier(9,
+         "kubejs:mining_tier_9", Ingredient.of("nuclearcraft:qnp"), ["kubejs:tough"],
+          "kubejs:qnp")
 
     // TODO 10
 

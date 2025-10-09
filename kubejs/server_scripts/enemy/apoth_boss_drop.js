@@ -20,30 +20,30 @@ const jadeMap = {
 
 EntityEvents.drops(event => {
     if (event.entity.isPlayer()) return;
-    const jades = [];
+    let extraDrops = [];
     for (const i of event.getDrops()) {
-        for (const rule of global.materialRemoveRule) {
-            // console.log(i)
-            // console.log(rule.test(i.getItem()))
-            if (rule.test(i.getItem())) {
-                let nbt = i.getItem().getNbt();
-                let item = "minecraft:air";
-                if (nbt && nbt.contains("affix_data")) {
-                    let affix = nbt.getCompound("affix_data");
-                    if (affix && affix.contains("rarity")) {
-                        item = bossDropReplace.get(String(affix.getString("rarity")));
+        // console.log(i)
+        // console.log(rule.test(i.getItem()))
+        if (global.materialRemoveRule.test(i.getItem())) {
+            let nbt = i.getItem().getNbt();
+            let item = "minecraft:air";
+            if (nbt && nbt.contains("affix_data")) {
+                let affix = nbt.getCompound("affix_data");
+                if (affix && affix.contains("rarity")) {
+                    let rarity = String(affix.getString("rarity"));
+                    item = bossDropReplace.get(rarity);
 
-                        jades.push($BloodJade.withKillCount(jadeMap[String(affix.getString("rarity"))]));
+                    extraDrops.push($BloodJade.withKillCount(jadeMap[rarity]));
 
-                    }
                 }
-                i.setItem(item);
-                break;
             }
+            i.setItem(item);
+            break;
         }
+
     }
 
-    jades.forEach(ele => {
+    extraDrops.forEach(ele => {
         event.addDrop(ele);
     })
 

@@ -43,11 +43,12 @@ global.materialReplaceRules.set('blue_skies:azulfo_horn', [
     'minecraft:goat_horn'
 ]);
 
-global.materialRemoveRule = [
-    ItemFilter.TOOL,
-    ItemFilter.ARMOR,
-    ItemFilter.WEAPON
-]
+global.materialRemoveRule = ItemFilter.or(
+    ItemFilter.TOOL, ItemFilter.or(
+        ItemFilter.ARMOR, ItemFilter.or(
+            ItemFilter.WEAPON, 'minecraft:shield'
+        )))
+
 
 LootJS.modifiers((event) => {
     const entityModifier = event.addLootTypeModifier(LootType.ENTITY);
@@ -65,13 +66,10 @@ LootJS.modifiers((event) => {
         });
     }
 
-    global.materialRemoveRule.forEach(rule => {
-        entityModifier.removeLoot(rule);
-        blockModifier.removeLoot(rule);
-        fishingModifier.removeLoot(rule);
-        chestModifier.removeLoot(rule);
-    })
-
+    entityModifier.removeLoot(global.materialRemoveRule);
+    blockModifier.removeLoot(global.materialRemoveRule);
+    fishingModifier.removeLoot(global.materialRemoveRule);
+    chestModifier.removeLoot(global.materialRemoveRule);
 
 });
 
@@ -79,8 +77,8 @@ ServerEvents.tags("item", event => {
     global.materialReplaceRules.forEach((value, key) => {
         const id = "kubejs:" + key.split(":")[1] + "_unified";
         event.add(id, value);
-        console.log(id);
+        // console.log(id);
     })
-    
+
 
 })

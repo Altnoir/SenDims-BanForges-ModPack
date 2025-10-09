@@ -25,4 +25,14 @@ ServerEvents.recipes(event => {
         A: 'aether:ambrosium_shard',
         B: 'minecraft:map'
     }).id('sdbf:sq_gold_dungeon_s2')
+
+    event.shaped($StructureQuill.forStructure("deep_aether:brass_dungeon"), [
+        'AAA',
+        'ABA',
+        'AAA'
+    ], {
+        A: 'aether:golden_amber',
+        B: 'minecraft:map'
+    }).id('sdbf:sq_brass_dungeon_s2')
+
 })
