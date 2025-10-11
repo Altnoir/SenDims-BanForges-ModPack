@@ -13,6 +13,44 @@ ServerEvents.recipes(event => {
         })
         .id("sdbf:jade_to_soul")
 
+    event.smithing('slashblade:proudsoul_sphere',
+        'slashblade:proudsoul_tiny',
+        'slashblade:proudsoul_ingot',
+        'slashblade:proudsoul_ingot'
+    ).id("sdbf:proudsoul_sphere")
+
+    event.smithing('slashblade:proudsoul_crystal',
+        'slashblade:proudsoul_sphere',
+        'slashblade:proudsoul_sphere',
+        'slashblade:proudsoul_sphere'
+    ).id("sdbf:proudsoul_crystal")
+
+    event.smithing('slashblade:proudsoul_trapezohedron',
+        'slashblade:proudsoul_crystal',
+        'slashblade:proudsoul_crystal',
+        'slashblade:proudsoul_crystal'
+    ).id("sdbf:proudsoul_trapezohedron")
+
+    event.recipes.thermal.smelter('slashblade:proudsoul_sphere', [
+        '2x slashblade:proudsoul_ingot'
+    ])
+        .energy(8192)
+        .id("sdbf:proudsoul_sphere_acc")
+
+    event.recipes.thermal.smelter('2x slashblade:proudsoul_crystal', [
+        '5x slashblade:proudsoul_sphere',
+        'minecraft:bedrock'
+    ])
+        .energy(16384)
+        .id("sdbf:proudsoul_crystal_acc")
+
+    event.recipes.thermal.smelter('slashblade:proudsoul_trapezohedron', [
+        '2x slashblade:proudsoul_crystal',
+        'minecraft:bedrock'
+    ])
+        .energy(32768)
+        .id("sdbf:proudsoul_trapezohedron_acc")
+
 })
 
 

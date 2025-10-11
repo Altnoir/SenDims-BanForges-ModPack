@@ -4,15 +4,14 @@
   "slots": [
     "chest/base"
   ],
-  "improvements": [
-  ],
+  "improvements": [],
   "variants": [
     {
-      "materials": [ 
+      "materials": [
         "tetra:wood/",
-        "tetra:gem/", 
-        "tetra:metal/", 
-        "tetra:bone/" 
+        "tetra:gem/",
+        "tetra:metal/",
+        "tetra:bone/"
       ],
       "key": "heavy_chest_base/",
       "aspects": {
@@ -20,23 +19,35 @@
       },
       "durability": 7,
       "integrity": 1,
+      "attributes": {
+        "**minecraft:generic.movement_speed": -0.05
+      },
       "extract": {
-        "secondaryAttributes": {
+        "tertiaryAttributes": {
+          "minecraft:generic.armor": 0.2,
+          "minecraft:generic.armor_toughness": 0.2
         },
+        "primaryEffects": {},
+        "secondaryEffects": {},
+        "tertiaryEffects": {},
         "durability": 0.3,
         "integrity": 1,
         "magicCapacity": 1,
         "glyph": {
           "textureX": 16
         },
-        "availableTextures": [ "" ],
+        "availableTextures": ["base"],
         "models": [
           {
             "type": "gecko",
-            "location": "geotetraarmor:item/armor/heavy/armor"
+            "location": "geotetraarmor:item/armor/vanilla/"
           },
           {
-            "location": "minecraft:item/iron_helmet"
+            "type": "gecko",
+            "location": "geotetraarmor:item/armor/heavy/"
+          },
+          {
+            "location": "geotetraarmor:item/module/armor/chest/"
           }
         ]
       }

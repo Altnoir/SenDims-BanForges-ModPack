@@ -37,7 +37,7 @@
 			}]
 			title: "钢锭"
 			x: 0.0d
-			y: 4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2F9AAEA563550E3F"]
@@ -48,7 +48,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 8.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2F9AAEA563550E3F"]
@@ -58,8 +58,8 @@
 				item: "ad_astra:fuel_refinery"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 8.0d
+			x: -2.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2F9AAEA563550E3F"]
@@ -78,8 +78,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: 8.0d
+			x: 2.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -99,7 +99,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 12.0d
+			y: 7.5d
 		}
 	]
 	title: "原始工业"

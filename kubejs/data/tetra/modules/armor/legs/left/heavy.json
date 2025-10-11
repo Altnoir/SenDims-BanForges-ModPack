@@ -1,11 +1,8 @@
 {
   "replace": true,
   "type": "tetra:basic_major_module",
-  "slots": [
-    "legs/left"
-  ],
-  "improvements": [
-  ],
+  "slots": ["legs/left"],
+  "improvements": [],
   "variants": [
     {
       "materials": [ "tetra:wood/","tetra:gem/", "tetra:metal/", "tetra:bone/" ],
@@ -15,23 +12,34 @@
       },
       "durability": 7,
       "integrity": 1,
+      "attributes": {
+        "**minecraft:generic.movement_speed": -0.05
+      },
       "extract": {
-        "secondaryAttributes": {
+        "tertiaryAttributes": {
+          "minecraft:generic.armor": 1
         },
+        "primaryEffects":{},
+        "secondaryEffects": {},
+        "tertiaryEffects": {},
         "durability": 0.3,
         "integrity": 1,
         "magicCapacity": 1,
         "glyph": {
           "textureX": 16
         },
-        "availableTextures": [ "" ],
+        "availableTextures": [ "left" ],
         "models": [
           {
             "type": "gecko",
-            "location": "geotetraarmor:item/armor/heavy/armor_left"
+            "location": "geotetraarmor:item/armor/vanilla/"
           },
           {
-            "location": "minecraft:item/iron_helmet"
+            "type": "gecko",
+            "location": "geotetraarmor:item/armor/heavy/"
+          },
+          {
+            "location": "geotetraarmor:item/module/armor/legs/"
           }
         ]
       }

@@ -3,7 +3,7 @@
 [client]
 	#Determines whether to render vanilla armor slot's model.
 	#Player's armor won't render after closing this.
-	vanilla_armor_render = false
+	vanilla_armor_render = true
 	#Decide Overlays' switch
 	#Uma's selected skill and motivation won't render after closing this.
 	overlay_switch = true

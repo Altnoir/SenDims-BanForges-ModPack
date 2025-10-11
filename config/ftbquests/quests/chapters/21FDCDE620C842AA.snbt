@@ -8,18 +8,32 @@
 	id: "21FDCDE620C842AA"
 	order_index: 4
 	quest_links: [ ]
-	quests: [{
-		id: "5251AFEDB9C97974"
-		size: 2.0d
-		tasks: [{
-			dimension: "minecraft:the_nether"
-			icon: "minecraft:netherrack"
-			id: "0676BA676B9646D4"
-			title: "下界"
-			type: "dimension"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["36E8BDF00D6B600E"]
+			id: "5251AFEDB9C97974"
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:netherrack"
+				id: "0676BA676B9646D4"
+				title: "下界"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5251AFEDB9C97974"]
+			id: "188D639DFD113F3D"
+			tasks: [{
+				id: "3AD617781A3E8557"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+	]
 	title: "下界"
 }

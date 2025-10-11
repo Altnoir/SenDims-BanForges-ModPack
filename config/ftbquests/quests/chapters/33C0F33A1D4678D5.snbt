@@ -44,8 +44,8 @@
 				item: "twilightforest:magic_map"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 4.0d
+			x: 2.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3C1CB82ADF4FBBC1"]
@@ -57,7 +57,7 @@
 				type: "advancement"
 			}]
 			x: 0.0d
-			y: 4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["222D394D6FDDC479"]
@@ -70,7 +70,7 @@
 				type: "advancement"
 			}]
 			x: 0.0d
-			y: 8.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["20FDE881446DF8AF"]
@@ -83,7 +83,7 @@
 				type: "advancement"
 			}]
 			x: 0.0d
-			y: 12.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["3AA758300110DA33"]
@@ -94,8 +94,8 @@
 				id: "47531649AEE8B3D9"
 				type: "advancement"
 			}]
-			x: 4.0d
-			y: 12.0d
+			x: 2.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["3AA758300110DA33"]
@@ -106,8 +106,8 @@
 				id: "15EA1C2B0855EF75"
 				type: "advancement"
 			}]
-			x: -4.0d
-			y: 12.0d
+			x: -2.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["3AA758300110DA33"]
@@ -119,7 +119,7 @@
 				type: "advancement"
 			}]
 			x: 0.0d
-			y: 16.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["6FC69F6C86DA91E0"]
@@ -130,8 +130,8 @@
 				id: "13695AD53F7708EA"
 				type: "advancement"
 			}]
-			x: 8.0d
-			y: 12.0d
+			x: 5.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["2EDA6C0823CAF5BE"]
@@ -142,8 +142,8 @@
 				id: "0B0B2970B56803A0"
 				type: "advancement"
 			}]
-			x: -8.0d
-			y: 12.0d
+			x: -5.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["46D7551ADB56C59D"]
@@ -155,7 +155,7 @@
 				type: "advancement"
 			}]
 			x: 0.0d
-			y: 20.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["20FDE881446DF8AF"]
@@ -207,8 +207,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: 8.0d
+			x: 2.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6E604BAD9F8D769C"]
@@ -260,8 +260,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: 8.0d
+			x: 5.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["44EB434977E45FFC"]
@@ -354,8 +354,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.0d
-			y: 8.0d
+			x: 7.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3AA48697057EBF80"]
@@ -444,8 +444,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
-			y: 20.0d
+			x: -2.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["3C1CB82ADF4FBBC1"]
@@ -456,7 +456,7 @@
 				id: "2463B8E591F9350D"
 				type: "advancement"
 			}]
-			x: -4.0d
+			x: -2.5d
 			y: 0.0d
 		}
 		{
@@ -500,6 +500,162 @@
 			}]
 			x: 0.0d
 			y: 32.0d
+		}
+		{
+			dependencies: ["3AA758300110DA33"]
+			id: "4E3BAFCCEB91837F"
+			tasks: [{
+				id: "1F2EA1B3DDABEBE5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/named/yasha/yasha.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:sakura_end"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/named/yasha/yasha.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 6.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 70
+							proudSoul: 0
+							translationKey: "item.slashblade.yasha"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/named/yasha/yasha.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:sakura_end"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/named/yasha/yasha.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 6.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 70
+							proudSoul: 0
+							translationKey: "item.slashblade.yasha"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["222D394D6FDDC479"]
+			id: "67E435039C0EB3FA"
+			tasks: [{
+				id: "49B7701860E69ABF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade_addon:model/darkraven/dark_raven.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:wave_edge"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade_addon:model/darkraven/dark_raven.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 7.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 80
+							proudSoul: 0
+							translationKey: "item.slashblade_addon.dark_raven"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade_addon:model/darkraven/dark_raven.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:wave_edge"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade_addon:model/darkraven/dark_raven.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 7.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 80
+							proudSoul: 0
+							translationKey: "item.slashblade_addon.dark_raven"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
 		}
 	]
 	title: "暮色森林"

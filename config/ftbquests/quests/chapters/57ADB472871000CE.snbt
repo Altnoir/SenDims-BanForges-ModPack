@@ -32,7 +32,7 @@
 				item: "aether:quicksoil"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -2.5d
 			y: 0.0d
 		}
 		{
@@ -43,8 +43,8 @@
 				item: "aether:holystone"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 4.0d
+			x: -2.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0F8DC1AEBBC762C1"]
@@ -54,7 +54,7 @@
 				item: "aether:ambrosium_shard"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.5d
 			y: 0.0d
 		}
 		{
@@ -70,7 +70,7 @@
 				type: "structure"
 			}]
 			title: "青铜地牢"
-			x: -8.0d
+			x: -5.0d
 			y: 0.0d
 		}
 		{
@@ -86,8 +86,8 @@
 				type: "structure"
 			}]
 			title: "白银地牢"
-			x: -4.0d
-			y: 8.0d
+			x: -2.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -102,7 +102,7 @@
 				type: "structure"
 			}]
 			title: "黄金地牢"
-			x: 8.0d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
@@ -119,7 +119,7 @@
 			}]
 			title: "白金地牢"
 			x: 0.0d
-			y: -8.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["6B7C4E19A6FD6939"]
@@ -134,8 +134,8 @@
 				item: "aether:gold_dungeon_key"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 4.0d
+			x: 5.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["48E30F8BC43E9AD4"]
@@ -150,8 +150,8 @@
 				item: "aether:silver_dungeon_key"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 12.0d
+			x: -2.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["7CBB12CD9FDCA6A4"]
@@ -166,8 +166,8 @@
 				item: "aether:bronze_dungeon_key"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 4.0d
+			x: -5.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0F8DC1AEBBC762C1"]
@@ -197,7 +197,7 @@
 			]
 			title: "结构召唤仪式：白金地牢"
 			x: 0.0d
-			y: -4.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["0F8DC1AEBBC762C1"]
@@ -207,8 +207,8 @@
 				item: "aether:golden_amber"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 4.0d
+			x: 2.5d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -223,8 +223,8 @@
 				type: "structure"
 			}]
 			title: "黄铜地牢"
-			x: 4.0d
-			y: 8.0d
+			x: 2.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["614A7F7B332E03A7"]
@@ -239,8 +239,8 @@
 				item: "deep_aether:brass_dungeon_key"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 12.0d
+			x: 2.5d
+			y: 7.5d
 		}
 	]
 	title: "天境"

@@ -18,7 +18,7 @@
 	hunger_can_repair = true
 	#Determines whether to enable slashblade's PVP.
 	#If enable, player can attack player with SlashBlade.
-	pvp_enable = false
+	pvp_enable = true
 	#Determines whether to enable slashblade's friendly fire.
 	#If enable, player can attack friendly entity with SlashBlade.
 	friendly_enable = true

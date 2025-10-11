@@ -1,0 +1,76 @@
+{
+	autofocus_id: "26B66FFB1E5C691C"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6E8533DE5023FA36"
+	group: "70C8850B64AECE42"
+	icon: "minecraft:barrel"
+	id: "6E8533DE5023FA36"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:chest"
+			id: "26B66FFB1E5C691C"
+			tasks: [{
+				id: "48BE8864EB543F1A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:chests"
+					}
+				}
+				title: "Any #forge:chests"
+				type: "item"
+			}]
+			title: "箱子"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26B66FFB1E5C691C"]
+			dependency_requirement: "one_completed"
+			id: "6130B752208314B7"
+			tasks: [{
+				id: "1854FBD3346613F2"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["26B66FFB1E5C691C"]
+			icon: "storagedrawers:oak_full_drawers_1"
+			id: "6B3D579B97B1A48A"
+			tasks: [{
+				id: "62B3EB15A67E3204"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+				title: "Any #storagedrawers:drawers"
+				type: "item"
+			}]
+			title: "抽屉"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26B66FFB1E5C691C"]
+			id: "7EE0F0E7324E3356"
+			tasks: [{
+				id: "04B93ED562C8AFAB"
+				item: "quark:crate"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+	]
+	title: "库存管理"
+}

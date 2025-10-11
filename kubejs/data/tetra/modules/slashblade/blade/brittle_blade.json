@@ -25,22 +25,13 @@
       },
       "extract": {
         "primaryAttributes": {
-          "generic.attack_damage": -0.5
-        },
-        "secondaryAttributes": {
-          "generic.attack_damage": 0.5
-        },
-        "tertiaryAttributes": {
           "generic.attack_damage": 1.5
         },
         "primaryEffects": {
-          "RefineStrengthening": 1.5
+          "RefineStrengthening": 1
         },
         "secondaryEffects":{
-          "RefineStrengthening": -1
-        },
-        "tertiaryEffects": {
-          "RefineStrengthening": 0.5
+          "RefineStrengthening": -0.5
         },
         "durability": -0.2,
         "magicCapacity": 3,

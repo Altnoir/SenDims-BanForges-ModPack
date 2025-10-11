@@ -1,42 +1,46 @@
 {
   "replace": true,
   "type": "tetra:basic_major_module",
-  "slots": [
-    "head/base"
-  ],
-  "improvements": [
-  ],
+  "slots": ["head/base"],
+  "improvements": [],
   "variants": [
     {
-      "materials": [ 
-        "tetra:wood/",
-        "tetra:gem/", 
-        "tetra:metal/", 
-        "tetra:bone/" 
-      ],
-      "key": "heavy_head/",
+      "materials": [ "tetra:wood/","tetra:gem/", "tetra:metal/", "tetra:bone/" ],
+      "key": "heavy_head_base/",
       "aspects": {
         "breakable": 2
       },
       "durability": 7,
       "integrity": 1,
+      "attributes": {
+        "**minecraft:generic.movement_speed": -0.1
+      },
       "extract": {
-        "secondaryAttributes": {
+        "tertiaryAttributes": {
+          "minecraft:generic.armor": 0.9,
+          "minecraft:generic.armor_toughness": 0.2
         },
+        "primaryEffects":{},
+        "secondaryEffects": {},
+        "tertiaryEffects": {},
         "durability": 0.3,
         "integrity": 1,
         "magicCapacity": 1,
         "glyph": {
           "textureX": 16
         },
-        "availableTextures": [ "" ],
+        "availableTextures": ["base"],
         "models": [
           {
             "type": "gecko",
-            "location": "geotetraarmor:item/armor/heavy/armor"
+            "location": "geotetraarmor:item/armor/vanilla/"
           },
           {
-            "location": "minecraft:item/iron_helmet"
+            "type": "gecko",
+            "location": "geotetraarmor:item/armor/heavy/"
+          },
+          {
+            "location": "geotetraarmor:item/module/armor/head/"
           }
         ]
       }

@@ -108,7 +108,7 @@
 				type: "checkmark"
 			}]
 			title: "行动力"
-			x: 4.0d
+			x: 2.5d
 			y: 0.0d
 		}
 		{
@@ -127,8 +127,8 @@
 				type: "checkmark"
 			}]
 			title: "首领"
-			x: 4.0d
-			y: -4.0d
+			x: 2.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["57C686A75E491E21"]
@@ -155,7 +155,7 @@
 			}]
 			title: "招架"
 			x: 0.0d
-			y: -4.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["6FD736B74327F2AF"]
@@ -165,7 +165,7 @@
 				type: "checkmark"
 			}]
 			title: "剑技"
-			x: -4.0d
+			x: -2.5d
 			y: 0.0d
 		}
 		{
@@ -176,7 +176,7 @@
 				type: "checkmark"
 			}]
 			title: "连击A"
-			x: -8.0d
+			x: -5.0d
 			y: 0.0d
 		}
 		{
@@ -187,8 +187,8 @@
 				type: "checkmark"
 			}]
 			title: "连击B"
-			x: -8.0d
-			y: 4.0d
+			x: -5.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["487B3101C7F7A60E"]
@@ -198,8 +198,8 @@
 				type: "checkmark"
 			}]
 			title: "连击C"
-			x: -8.0d
-			y: -4.0d
+			x: -5.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1CFE15E293B7087E"]
@@ -209,8 +209,8 @@
 				type: "checkmark"
 			}]
 			title: "特殊行动"
-			x: -4.0d
-			y: 4.0d
+			x: -2.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1CFE15E293B7087E"]
@@ -220,8 +220,8 @@
 				type: "checkmark"
 			}]
 			title: "SA与SE"
-			x: -4.0d
-			y: -4.0d
+			x: -2.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["6FD736B74327F2AF"]
@@ -262,7 +262,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6FD736B74327F2AF"]
@@ -272,8 +272,8 @@
 				item: "last_smith:research_table"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 4.0d
+			x: 2.5d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -287,7 +287,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 8.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["65E2433B2D35FACA"]
@@ -327,8 +327,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
-			y: 12.0d
+			x: -2.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["65E2433B2D35FACA"]
@@ -338,8 +338,8 @@
 				item: "last_smith:blade"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 12.0d
+			x: 2.5d
+			y: 7.5d
 		}
 	]
 	title: "拔刀剑"
