@@ -27,7 +27,7 @@ ServerEvents.recipes(event => {
 
     event.smithing('slashblade:proudsoul_trapezohedron',
         'slashblade:proudsoul_crystal',
-        'slashblade:proudsoul_crystal',
+        'slashblade_useful_addon:soul_crystal',
         'slashblade:proudsoul_crystal'
     ).id("sdbf:proudsoul_trapezohedron")
 
@@ -44,8 +44,9 @@ ServerEvents.recipes(event => {
         .energy(16384)
         .id("sdbf:proudsoul_crystal_acc")
 
-    event.recipes.thermal.smelter('slashblade:proudsoul_trapezohedron', [
+    event.recipes.thermal.smelter('2x slashblade:proudsoul_trapezohedron', [
         '2x slashblade:proudsoul_crystal',
+        'slashblade_useful_addon:soul_crystal',
         'minecraft:bedrock'
     ])
         .energy(32768)

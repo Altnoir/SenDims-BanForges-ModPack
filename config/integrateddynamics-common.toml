@@ -123,7 +123,7 @@
 		#The distance from which part offsets should be shown.
 		partOffsetRenderDistance = 16
 		#When true, disable the collision for cable.
-		disableCableCollision = false
+		disableCableCollision = true
 
 	[machine.cable]
 		#If cable shapes should be determined dynamically. Disable this if FPS issues would occur.

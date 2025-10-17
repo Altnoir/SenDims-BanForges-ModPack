@@ -119,7 +119,7 @@
 			}]
 			title: "白金地牢"
 			x: 0.0d
-			y: -5.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6B7C4E19A6FD6939"]
@@ -197,7 +197,7 @@
 			]
 			title: "结构召唤仪式：白金地牢"
 			x: 0.0d
-			y: -2.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0F8DC1AEBBC762C1"]
@@ -241,6 +241,213 @@
 			}]
 			x: 2.5d
 			y: 7.5d
+		}
+		{
+			dependencies: ["6B7C4E19A6FD6939"]
+			id: "21E590C64DC1A908"
+			tasks: [{
+				id: "671D5640972E190A"
+				item: "aether:life_shard"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["48E30F8BC43E9AD4"]
+			id: "4E482FD8B2C2FA93"
+			tasks: [{
+				id: "7A3B9998CB912008"
+				item: "aether:regeneration_stone"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0F8DC1AEBBC762C1"]
+			id: "08926606B24086D7"
+			tasks: [{
+				id: "3CB78CAB02F76371"
+				item: "deep_aether:bio_crystal"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0F8DC1AEBBC762C1"]
+			id: "465AFA19A305AB81"
+			tasks: [{
+				id: "2C9A88DBC62C82CE"
+				item: "aether:zanite_gemstone"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0F8DC1AEBBC762C1"]
+			id: "71E1799970320B07"
+			tasks: [{
+				id: "16950F449470A982"
+				item: "aether_redux:blightbunny_fang"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0F8DC1AEBBC762C1"]
+			id: "4678FBC8BCAFCA82"
+			tasks: [{
+				id: "0338BD6B59DCDF90"
+				item: "aether_redux:refined_sentrite"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0F8DC1AEBBC762C1"]
+			id: "33BFB45C5C47D4E5"
+			tasks: [{
+				id: "79017DA3F1A6D501"
+				item: "aether_redux:lightroot_clump"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0F8DC1AEBBC762C1"]
+			id: "08363FF74B938904"
+			tasks: [{
+				id: "4C6B297180D6745F"
+				item: "aether_redux:veridium_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"08363FF74B938904"
+				"123278FEAC1E9548"
+				"4678FBC8BCAFCA82"
+			]
+			id: "370F691D89AF5467"
+			tasks: [{
+				id: "08FC83F02FB9B75D"
+				item: "deep_aether:metal_mixture"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0F8DC1AEBBC762C1"]
+			id: "5A823BD33F2BD562"
+			tasks: [{
+				id: "493970358F6515EB"
+				item: "aether_redux:mykapod_shell_chunk"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0F8DC1AEBBC762C1"]
+			id: "6543C211F987A5FF"
+			tasks: [{
+				id: "73F25BB5719ECB82"
+				item: "deep_aether:skyjade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0F8DC1AEBBC762C1"]
+			id: "01604A3C5394A6B9"
+			tasks: [{
+				id: "214869CD87398367"
+				item: "aether_redux:gravitite_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["614A7F7B332E03A7"]
+			id: "3001FAB78FAB1FEA"
+			tasks: [{
+				id: "455F7C58BA3521EC"
+				item: "deep_aether:squall_plate"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7CBB12CD9FDCA6A4"]
+			id: "1FD18D4CCBB63483"
+			tasks: [{
+				id: "4468CE425259C584"
+				item: "kubejs:neptune_ingot"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48E30F8BC43E9AD4"]
+			id: "4B44FD83A325F2F6"
+			tasks: [{
+				id: "5A3E8765588A9BD5"
+				item: "kubejs:valkyrie_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6B7C4E19A6FD6939"]
+			id: "08F23C4743FA0548"
+			tasks: [{
+				id: "3928CE368308F686"
+				item: "kubejs:phoenix_ingot"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"01604A3C5394A6B9"
+				"465AFA19A305AB81"
+				"6543C211F987A5FF"
+			]
+			dependency_requirement: "one_completed"
+			id: "3E8E74B1D1E90894"
+			tasks: [{
+				id: "45D871BD7E11C60C"
+				item: "deep_aether:stratus_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7CBB12CD9FDCA6A4"]
+			id: "3F0F05D26289CF7B"
+			tasks: [{
+				id: "1C7707DCC27332CD"
+				item: "aether_redux:sentry_chip"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.5d
 		}
 	]
 	title: "天境"

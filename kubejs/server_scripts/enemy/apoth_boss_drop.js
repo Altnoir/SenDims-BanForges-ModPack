@@ -11,11 +11,11 @@ bossDropReplace.set("apotheosis:ancient", '2x apotheosis:mythic_material');
 
 const jadeMap = {
     "apotheosis:common": 10,
-    "apotheosis:uncommon": 20,
-    "apotheosis:rare": 50,
-    "apotheosis:epic": 100,
-    "apotheosis:mythic": 200,
-    "apotheosis:ancient": 500,
+    "apotheosis:uncommon": 10,
+    "apotheosis:rare": 20,
+    "apotheosis:epic": 50,
+    "apotheosis:mythic": 50,
+    "apotheosis:ancient": 100,
 };
 
 EntityEvents.drops(event => {

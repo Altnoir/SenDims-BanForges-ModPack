@@ -43,6 +43,36 @@ global.materialReplaceRules.set('blue_skies:azulfo_horn', [
     'minecraft:goat_horn'
 ]);
 
+global.materialReplaceRules.set('minecraft:iron_ingot', [
+    'aether:iron_ring',
+    'aether:ice_ring',
+    'aether:skyroot_poison_bucket'
+]);
+
+global.materialReplaceRules.set('minecraft:gold_ingot', [
+    'aether:golden_ring'
+]);
+
+global.materialReplaceRules.set('aether:zanite_gemstone', [
+    'aether:zanite_ring'
+]);
+
+global.materialReplaceRules.set('deep_aether:skyjade', [
+    'deep_aether:skyjade_ring'
+]);
+
+global.materialReplaceRules.set('aether_redux:gravitite_ingot', [
+    'deep_aether:gravitite_ring'
+]);
+
+global.materialReplaceRules.set('deep_aether:stratus_ingot', [
+    'deep_aether:stratus_ring'
+]);
+
+global.materialReplaceRules.set('aether:ambrosium_shard', [
+    'aether_redux:enchanted_ring'
+]);
+
 global.materialRemoveRule = ItemFilter.or(
     ItemFilter.TOOL, ItemFilter.or(
         ItemFilter.ARMOR, ItemFilter.or(

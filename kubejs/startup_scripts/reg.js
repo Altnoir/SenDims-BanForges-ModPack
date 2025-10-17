@@ -2,6 +2,10 @@
 
 StartupEvents.registry('item', event => {
 
+    event.create('neptune_ingot').fireResistant().rarity('rare')
+    event.create('valkyrie_ingot').fireResistant().rarity('rare')
+    event.create('phoenix_ingot').fireResistant().rarity('rare')
+
     event.create('alpha_dust').fireResistant()
     event.create('beta_dust').fireResistant().rarity('rare')
     event.create('gamma_dust').fireResistant().rarity('rare')
@@ -9,5 +13,6 @@ StartupEvents.registry('item', event => {
     event.create('epsilon_dust').fireResistant().rarity('epic')
     
     event.create('garden_lighter').fireResistant().rarity('rare')
+    event.create('bedrock_breaker').fireResistant().rarity('rare').maxStackSize(16)
 
 })

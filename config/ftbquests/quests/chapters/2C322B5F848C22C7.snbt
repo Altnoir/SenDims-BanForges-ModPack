@@ -7,18 +7,31 @@
 	id: "2C322B5F848C22C7"
 	order_index: 5
 	quest_links: [ ]
-	quests: [{
-		id: "3F43656AE6F116CB"
-		size: 2.0d
-		tasks: [{
-			dimension: "ad_astra:mars"
-			icon: "ad_astra:mars_globe"
-			id: "4C66D70D7484D266"
-			title: "火星"
-			type: "dimension"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "3F43656AE6F116CB"
+			size: 2.0d
+			tasks: [{
+				dimension: "ad_astra:mars"
+				icon: "ad_astra:mars_globe"
+				id: "4C66D70D7484D266"
+				title: "火星"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F43656AE6F116CB"]
+			id: "5252B3E3137F1957"
+			tasks: [{
+				id: "58E6CBE56BCE9C2B"
+				item: "ad_astra:mars_sand"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+	]
 	title: "火星"
 }

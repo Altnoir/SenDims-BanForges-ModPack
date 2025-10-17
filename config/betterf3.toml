@@ -6,7 +6,7 @@
 	shadow_text = false
 	animations = false
 	animationSpeed = 1.0
-	fontScale = 1.0
+	fontScale = 0.8
 	background_color = 1867534416
 	hide_debug_crosshair = false
 	hide_sidebar = true
@@ -131,6 +131,10 @@
 		water_creature = true
 		water_ambient = true
 		misc = true
+		aether_surface_monster = true
+		aether_darkness_monster = true
+		aether_sky_monster = true
+		aether_aerwhale = true
 
 [[modules_left]]
 	name = "sound"
@@ -173,6 +177,14 @@
 
 	[modules_left.lines]
 		misc_left = true
+
+[[modules_left]]
+	name = "empty"
+	empty_lines = 1
+	enabled = true
+
+	[modules_left.lines]
+		nothing = true
 
 [[modules_right]]
 	name = "system"

@@ -12,7 +12,11 @@
         "tetra:metal/",
         "tetra:gem/",
         "tetra:bone/",
-        "tetra:wood/"
+        "tetra:wood/",
+        "tetra:fabric/",
+        "tetra:fibre/",
+        "tetra:skin/",
+        "tetra:scale/"
       ],
       "aspects": {
         "slashblade": 2

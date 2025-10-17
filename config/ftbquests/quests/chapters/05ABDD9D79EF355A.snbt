@@ -55,19 +55,23 @@
 				item: "ad_astra:moon_globe"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 7.5d
+			x: 2.5d
+			y: 5.0d
 		}
 		{
-			dependencies: ["5BD21261CD9F446E"]
+			dependencies: [
+				"5BD21261CD9F446E"
+				"6EA2DE0DEBD7A693"
+			]
+			description: ["月球仪不会消耗"]
 			id: "36E8BDF00D6B600E"
 			tasks: [{
 				id: "0F0EAD3EF14C170F"
 				item: "confluence:obsidian_rose"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 10.0d
+			x: 2.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5D5BA71C5348297D"]
@@ -82,6 +86,105 @@
 			title: "月球村民"
 			x: -2.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["5D5BA71C5348297D"]
+			id: "6EA2DE0DEBD7A693"
+			tasks: [{
+				id: "3EDAFBC3B4F41AAE"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6EA2DE0DEBD7A693"]
+			description: ["发现结构：远古遗迹"]
+			id: "12DB2506A51D2B05"
+			tasks: [{
+				advancement: "tetra:spelunking/ancient_ruins"
+				criterion: ""
+				id: "57A08899CDCAE7AD"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D5BA71C5348297D"]
+			id: "74262FD23FBE1CF8"
+			tasks: [{
+				id: "2D1994E38ECB9335"
+				item: "ad_astra:moon_sand"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["74262FD23FBE1CF8"]
+			id: "762D77442C0B2116"
+			tasks: [{
+				id: "58999B392F388593"
+				type: "checkmark"
+			}]
+			title: "月面战斗塔"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0936AB2DCC0172A8"]
+			icon: "minecraft:bedrock"
+			id: "3C83ED0BBD919A31"
+			tasks: [{
+				id: "1CFCA310372C33E1"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:bedrock"
+				type: "observation"
+			}]
+			title: "深入月心"
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["12DB2506A51D2B05"]
+			id: "4BBDBE99D484D70B"
+			tasks: [{
+				id: "421A279F41116BBA"
+				item: "tetra:metal_scrap"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4BBDBE99D484D70B"
+				"36E8BDF00D6B600E"
+			]
+			id: "0936AB2DCC0172A8"
+			tasks: [{
+				id: "10B39805EEEBF4FC"
+				item: "kubejs:bedrock_breaker"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3C83ED0BBD919A31"]
+			icon: "minecraft:netherrack"
+			id: "0AC8512136285C3E"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "620E444F142EC951"
+				type: "dimension"
+			}]
+			title: "下界"
+			x: 5.0d
+			y: 10.0d
 		}
 	]
 	title: "月球"

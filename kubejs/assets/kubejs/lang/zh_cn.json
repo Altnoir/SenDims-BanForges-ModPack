@@ -1,4 +1,10 @@
 {
+    "item.kubejs.neptune_ingot": "海皇锭",
+    "item.kubejs.valkyrie_ingot": "武神锭",
+    "item.kubejs.phoenix_ingot": "凤凰锭",
+    "item.deep_aether.squall_plate": "风锻板",
+    "item.deep_aether.metal_mixture": "天晶混合锭",
+
     "item.kubejs.alpha_dust": "§aα 尘",
     "item.kubejs.beta_dust": "§bβ 尘",
     "item.kubejs.gamma_dust": "§cγ 尘",
@@ -6,6 +12,7 @@
     "item.kubejs.epsilon_dust": "§eε 尘",
 
     "item.kubejs.garden_lighter": "花园火石",
+    "item.kubejs.bedrock_breaker": "基岩破坏者",
 
     "block.nuclearcraft.sulfuric_acid_fluid_block": "硫酸",
 
@@ -23,6 +30,13 @@
     "info.kubejs.faill_spawn_structure": "结构召唤失败！",
     
     "sidebar_button.ftblibrary.home": "回家",
-    "sidebar_button.ftblibrary.back": "返回上个传送点"
+    "sidebar_button.ftblibrary.back": "返回上个传送点",
+
+    "adv.slashblade.proudsoul_tiny": "强化限制=5\n幽微闪烁的灵魂之炎",
+    "adv.slashblade.proudsoul": "强化限制=10\n利刃易折\n断刃之中高傲的灵魂之火",
+    "adv.slashblade.proudsoul_ingot": "强化限制=25\n以高傲紫色之炎锻造的灵铁",
+    "adv.slashblade.proudsoul_sphere": "强化限制=50\n锻造灵铁\n缭绕着虚幻灵魂之炎的宝珠",
+    "adv.slashblade.proudsoul_crystal": "强化限制=100\n锻造宝珠\n灵魂钢铁的核心\n可用于获取刀之特性",
+    "adv.slashblade.proudsoul_trapezohedron": "无限制强化\n锻造核心\n摇曳的高傲之结晶\n此乃千锤百炼之终末"
 
 }

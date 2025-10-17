@@ -10,7 +10,10 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["36E8BDF00D6B600E"]
+			dependencies: [
+				"36E8BDF00D6B600E"
+				"0AC8512136285C3E"
+			]
 			id: "5251AFEDB9C97974"
 			size: 2.0d
 			tasks: [{
@@ -33,6 +36,40 @@
 			}]
 			x: 0.0d
 			y: 2.5d
+		}
+		{
+			dependencies: ["5251AFEDB9C97974"]
+			id: "477A42CD53645E08"
+			tasks: [{
+				id: "2CB6B32510D0BFAC"
+				item: "cataclysm:monstrous_eye"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["477A42CD53645E08"]
+			id: "1BFFE0DF9A447A4A"
+			tasks: [{
+				id: "525575C9079CC106"
+				structure: "cataclysm:soul_black_smith"
+				type: "structure"
+			}]
+			title: "灵魂锻造厂"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BFFE0DF9A447A4A"]
+			id: "74CCF300B72CB6EE"
+			tasks: [{
+				id: "0848DCCC260DA074"
+				item: "cataclysm:monstrous_horn"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
 		}
 	]
 	title: "下界"

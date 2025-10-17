@@ -94,7 +94,7 @@
 				id: "47531649AEE8B3D9"
 				type: "advancement"
 			}]
-			x: 2.5d
+			x: 5.0d
 			y: 7.5d
 		}
 		{
@@ -106,7 +106,7 @@
 				id: "15EA1C2B0855EF75"
 				type: "advancement"
 			}]
-			x: -2.5d
+			x: -5.0d
 			y: 7.5d
 		}
 		{
@@ -130,7 +130,7 @@
 				id: "13695AD53F7708EA"
 				type: "advancement"
 			}]
-			x: 5.0d
+			x: 7.5d
 			y: 7.5d
 		}
 		{
@@ -143,7 +143,7 @@
 				type: "advancement"
 			}]
 			x: -5.0d
-			y: 7.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["46D7551ADB56C59D"]
@@ -656,6 +656,76 @@
 			}]
 			x: -2.5d
 			y: 2.5d
+		}
+		{
+			dependencies: ["3C1CB82ADF4FBBC1"]
+			id: "5B48DD82CE048231"
+			tasks: [{
+				id: "0E013267F59847D9"
+				item: "twilightforest:raw_ironwood"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3C1CB82ADF4FBBC1"
+				"5B48DD82CE048231"
+			]
+			dependency_requirement: "one_completed"
+			id: "1E82AFA5EC50F0AC"
+			tasks: [{
+				id: "3DA0B365DC61112D"
+				item: "twilightforest:ironwood_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3C1CB82ADF4FBBC1"]
+			id: "064234E17AB63222"
+			tasks: [{
+				id: "6FA07963B61D3892"
+				item: "twilightforest:steeleaf_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3AA758300110DA33"]
+			id: "5EE32379CAE405FF"
+			tasks: [{
+				id: "5B37F23AAD649948"
+				item: "twilightforest:arctic_fur"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6FC69F6C86DA91E0"]
+			id: "09A44500DF32E36D"
+			tasks: [{
+				id: "0E2DB69E5CE333E6"
+				item: "twilightforest:carminite"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3AA758300110DA33"]
+			id: "56228FA091A53E5A"
+			tasks: [{
+				id: "027FCE49FD875B88"
+				item: "twilightforest:knightmetal_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.5d
 		}
 	]
 	title: "暮色森林"

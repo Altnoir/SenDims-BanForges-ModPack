@@ -13,7 +13,8 @@
       "durability": 7,
       "integrity": 1,
       "attributes": {
-        "**minecraft:generic.movement_speed": -0.1
+        "**minecraft:generic.movement_speed": -0.1,
+        "slashblade_sendims:ap_reduce_amount": -15
       },
       "extract": {
         "tertiaryAttributes": {

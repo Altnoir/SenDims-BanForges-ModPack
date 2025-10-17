@@ -57,6 +57,9 @@
   "jadeaddons.mcjtylib": {
     "jadeaddons": true
   },
+  "bonsaitrees3": {
+    "bonsaipot": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,

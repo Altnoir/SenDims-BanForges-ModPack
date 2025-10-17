@@ -132,6 +132,7 @@ EntityEvents.spawned(event => {
     let mobType = mobTypes[name];
     if (!mobType) mobType = type0;
     let mobValues = mobType[dimStage];
+    if (!mobValues) mobValues = mobType["0_1"];
 
     /**
      * @type {Internal.Player}
