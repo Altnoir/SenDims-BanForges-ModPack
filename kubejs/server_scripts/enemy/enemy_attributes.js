@@ -1,116 +1,7 @@
-const $TargetingConditions = Java.loadClass('net.minecraft.world.entity.ai.targeting.TargetingConditions')
-
-const diffLevelPrefix = "dl_";
-const health = "minecraft:generic.max_health"
-const attack = "minecraft:generic.attack_damage"
-const armor = "minecraft:generic.armor"
-
-// 攻击， 生命， 护甲
+// priority: 100
 /**
- * 均衡模板
+ * 实装层
  */
-const typeA = {
-    "0_1": [6, 20, 2],
-    "1_1": [12, 55, 4]
-};
-/**
- * 脆皮模板
- */
-const typeB = {
-    "0_1": [8, 18, 0],
-    "1_1": [16, 35, 2]
-};
-/**
- * 血牛模板
- */
-const typeC = {
-    "0_1": [4, 50, 1],
-    "1_1": [10, 120, 3]
-};
-/**
- * 重甲模板
- */
-const typeD = {
-    "0_1": [4, 20, 3],
-    "1_1": [10, 55, 7]
-};
-/**
- * 中立/默认模板
- */
-const type0 = {
-    "0_1": [4, 18, 0],
-    "1_1": [10, 35, 2]
-};
-
-const hpFloat = 0.3;
-const atkFloat = 0.1;
-const armorFloat = 0.1;
-/**
- * 维度对应的难度等级
- */
-const dimensionStages = {
-    "thermal_shock:loqendia": "0_1",
-
-    "kubejs:deeprealm_1": "1_1",
-
-    "twilightforest:twilight_forest": "1_2",
-    "ad_astra:moon": "1_2",
-
-    "minecraft:the_nether": "1_3",
-
-    "ad_astra:mars": "1_4",
-
-    "kubejs:deeprealm_2": "2_1",
-    "ad_astra:venus": "2_1",
-    "ad_astra:mercury": "2_1",
-
-    "kubejs:deeprealm_3": "2_2",
-    "undergarden:undergarden": "2_2",
-
-    "minecraft:the_end": "2_3",
-
-    "kubejs:asteroid_belt": "3_1",
-
-    "kubejs:saturn": "3_2",
-
-    "kubejs:saturn_orbit": "3_3",
-
-    "kubejs:pluto": "4_1",
-    "ad_astra:glacio": "4_1",
-
-    "kubejs:deeprealm_4": "4_2"
-
-};
-/**
- * 生物对应的模板
- */
-const mobTypes = {
-    "thermal_shock:willograde": typeD,
-    "thermal_shock:trilobite": typeB,
-    "thermal_shock:graver": typeA,
-    "thermal_shock:skullscor": typeB,
-    "thermal_shock:skeletitan": typeC,
-    "thermal_shock:mantletitan": typeD,
-    "thermal_shock:frost_titan": typeD,
-    "thermal_shock:errant": typeB,
-    "thermal_shock:gore_flayer": typeB,
-    "thermal_shock:magnetite": typeD,
-    "thermal_shock:bonerahna": type0,
-    "thermal_shock:frostilyte": typeA,
-    "thermal_shock:frostilyte_soldier": typeA,
-    "thermal_shock:icidrone": typeB,
-    "thermal_shock:icidrogrunt": typeB,
-    "thermal_shock:icidrozerk": typeC,
-    "thermal_shock:galvanite": typeA,
-    "thermal_shock:infestophage_seed": type0,
-    "thermal_shock:dormant_monolith": typeC,
-
-};
-/**
- * 黑名单
- */
-const entityBlackList = new Set();
-
 EntityEvents.spawned(event => {
     /**
      * @type {Internal.LivingEntity}
@@ -133,6 +24,8 @@ EntityEvents.spawned(event => {
     if (!mobType) mobType = type0;
     let mobValues = mobType[dimStage];
     if (!mobValues) mobValues = mobType["0_1"];
+    let additionalScale = additionalStageScale[dimStage];
+    if (!additionalScale) additionalScale = additionalStageScale["0_1"];
 
     /**
      * @type {Internal.Player}
@@ -160,6 +53,7 @@ EntityEvents.spawned(event => {
     if (entity.attributes.hasAttribute(attack)) {
         let val = mobValues[0];
         val *= 1 + (Math.random() * atkFloat);
+        val *= additionalScale[0];
         val = Math.floor(val);
         entity.setAttributeBaseValue(attack, val);
         // console.log(val);
@@ -168,6 +62,7 @@ EntityEvents.spawned(event => {
     if (entity.attributes.hasAttribute(health)) {
         let val = mobValues[1];
         val *= 1 + (Math.random() * hpFloat);
+        val *= additionalScale[1];
         val = Math.floor(val);
         entity.setAttributeBaseValue(health, val);
         entity.setHealth(entity.getMaxHealth());
@@ -177,9 +72,12 @@ EntityEvents.spawned(event => {
     if (entity.attributes.hasAttribute(armor)) {
         let val = mobValues[2];
         val *= 1 + (Math.random() * armorFloat);
+        val *= additionalScale[2];
         val = Math.floor(val);
         entity.setAttributeBaseValue(armor, val);
         // console.log(val);
     }
+
+    console.log(`[EA] Spawned ${name} in ${dim}.`)
 
 })

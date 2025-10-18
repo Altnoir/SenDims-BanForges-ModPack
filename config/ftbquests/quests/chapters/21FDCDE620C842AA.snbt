@@ -71,6 +71,67 @@
 			x: -7.5d
 			y: 0.0d
 		}
+		{
+			dependencies: ["188D639DFD113F3D"]
+			id: "1F9B9C1CBB5B9659"
+			tasks: [{
+				id: "3B860CD72D903B14"
+				item: "minecraft:nether_bricks"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"5251AFEDB9C97974"
+				"1F9B9C1CBB5B9659"
+			]
+			dependency_requirement: "one_completed"
+			id: "43F1C6E6DEF9378A"
+			tasks: [{
+				id: "418F13DB0A172EA3"
+				structure: "minecraft:fortress"
+				type: "structure"
+			}]
+			title: "下界堡垒"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5251AFEDB9C97974"]
+			id: "3BE7D32A56D6FB44"
+			tasks: [{
+				advancement: "minecraft:nether/explore_nether"
+				criterion: ""
+				id: "01FA29D215FC0CF7"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5251AFEDB9C97974"]
+			id: "0F5A08067624B75C"
+			tasks: [{
+				id: "56A28843DDDCD135"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F5A08067624B75C"]
+			id: "0809F64B7A3864AC"
+			tasks: [{
+				id: "1CE2DD3E1A345971"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
 	]
 	title: "下界"
 }

@@ -35,18 +35,8 @@
 			"item": "twilightforest:arctic_boots"
 		}
 	}],
-	"leggings": [{
-		"weight": 1,
-		"stack": {
-			"item": "twilightforest:arctic_leggings"
-		}
-	}],
-	"chestplates": [{
-		"weight": 1,
-		"stack": {
-			"item": "twilightforest:arctic_chestplate"
-		}
-	}],
+	"leggings": [],
+	"chestplates": [],
 	"helmets": [{
 		"weight": 9,
 		"stack": {

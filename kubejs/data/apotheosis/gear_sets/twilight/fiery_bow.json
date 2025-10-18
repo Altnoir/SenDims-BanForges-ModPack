@@ -29,37 +29,17 @@
 			}
 		}
 	],
-	"offhands": [{
-		"weight": 1,
-		"stack": {
-			"item": "minecraft:shield"
-		}
-	}],
-	"boots": [{
-		"weight": 1,
-		"stack": {
-			"item": "twilightforest:fiery_boots"
-		}
-	}],
-	"leggings": [{
-		"weight": 1,
-		"stack": {
-			"item": "twilightforest:fiery_leggings"
-		}
-	}],
+	"offhands": [],
+	"boots": [],
+	"leggings": [],
 	"chestplates": [{
 		"weight": 1,
 		"stack": {
 			"item": "twilightforest:fiery_chestplate"
 		}
 	}],
-	"helmets": [{
-		"weight": 1,
-		"stack": {
-			"item": "twilightforest:fiery_helmet"
-		}
-	}],
+	"helmets": [],
 	"tags": [
-		"twilight_bow"
+		"twilight_2_bow"
 	]
 }

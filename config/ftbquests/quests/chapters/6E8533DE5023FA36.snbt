@@ -71,6 +71,17 @@
 			x: 2.5d
 			y: 0.0d
 		}
+		{
+			dependencies: ["6130B752208314B7"]
+			id: "2C5FD8E929D9EFE2"
+			tasks: [{
+				id: "524BB7E9FB2B6DD3"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
 	]
 	title: "库存管理"
 }

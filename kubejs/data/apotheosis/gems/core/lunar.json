@@ -29,7 +29,8 @@
 			"gem_class": {
 				"key": "core_armor",
 				"types": [
-					"chestplate", "leggings"
+					"chestplate", 
+					"leggings"
 				]
 			},
 			"attribute": "forge:entity_gravity",

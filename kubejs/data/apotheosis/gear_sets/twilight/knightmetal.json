@@ -23,30 +23,10 @@
 			}
 		}
 	],
-	"offhands": [{
-		"weight": 1,
-		"stack": {
-			"item": "twilightforest:knightmetal_shield"
-		}
-	}],
-	"boots": [{
-		"weight": 1,
-		"stack": {
-			"item": "twilightforest:knightmetal_boots"
-		}
-	}],
-	"leggings": [{
-		"weight": 1,
-		"stack": {
-			"item": "twilightforest:knightmetal_leggings"
-		}
-	}],
-	"chestplates": [{
-		"weight": 1,
-		"stack": {
-			"item": "twilightforest:knightmetal_chestplate"
-		}
-	}],
+	"offhands": [],
+	"boots": [],
+	"leggings": [],
+	"chestplates": [],
 	"helmets": [{
 		"weight": 9,
 		"stack": {

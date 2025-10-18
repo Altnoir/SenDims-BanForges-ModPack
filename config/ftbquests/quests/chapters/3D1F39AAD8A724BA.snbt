@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "3D1F39AAD8A724BA"
 	group: "49FC4157519361C1"
+	icon: "minecraft:deepslate"
 	id: "3D1F39AAD8A724BA"
 	order_index: 0
 	quest_links: [ ]

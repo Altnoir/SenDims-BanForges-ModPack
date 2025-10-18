@@ -41,24 +41,9 @@
 			"item": "twilightforest:steeleaf_boots"
 		}
 	}],
-	"leggings": [{
-		"weight": 1,
-		"stack": {
-			"item": "twilightforest:steeleaf_leggings"
-		}
-	}],
-	"chestplates": [{
-		"weight": 1,
-		"stack": {
-			"item": "twilightforest:steeleaf_chestplate"
-		}
-	}],
-	"helmets": [{
-		"weight": 1,
-		"stack": {
-			"item": "twilightforest:steeleaf_helmet"
-		}
-	}],
+	"leggings": [],
+	"chestplates": [],
+	"helmets": [],
 	"tags": [
 		"twilight"
 	]

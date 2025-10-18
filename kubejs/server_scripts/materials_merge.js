@@ -46,7 +46,12 @@ global.materialReplaceRules.set('blue_skies:azulfo_horn', [
 global.materialReplaceRules.set('minecraft:iron_ingot', [
     'aether:iron_ring',
     'aether:ice_ring',
-    'aether:skyroot_poison_bucket'
+    'aether:skyroot_poison_bucket',
+
+    'ad_astra:space_helmet',
+    'ad_astra:space_suit',
+    'ad_astra:space_pants',
+    'ad_astra:space_boots'
 ]);
 
 global.materialReplaceRules.set('minecraft:gold_ingot', [
@@ -73,11 +78,13 @@ global.materialReplaceRules.set('aether:ambrosium_shard', [
     'aether_redux:enchanted_ring'
 ]);
 
-global.materialRemoveRule = ItemFilter.or(
-    ItemFilter.TOOL, ItemFilter.or(
-        ItemFilter.ARMOR, ItemFilter.or(
-            ItemFilter.WEAPON, 'minecraft:shield'
-        )))
+// global.materialRemoveRule = ItemFilter.or(
+//     ItemFilter.TOOL, ItemFilter.or(
+//         ItemFilter.ARMOR, ItemFilter.or(
+//             ItemFilter.WEAPON, 'minecraft:shield'
+//         )));
+
+global.materialRemoveRule = ItemFilter.and(ItemFilter.DAMAGEABLE, ItemFilter.not("slashblade:slashblade"));
 
 
 LootJS.modifiers((event) => {

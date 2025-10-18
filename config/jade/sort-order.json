@@ -74,6 +74,10 @@
   "minecraft:villager_profession": null,
   "minecraft:waxed": null,
   "minecraft:zombie_villager": null,
+  "productivebees:canvas_beehive": null,
+  "productivebees:jar": null,
+  "productivebees:productive_bee": null,
+  "productivebees:solitary_nest": null,
   "storagedrawers:main": null,
   "twilightforest:quest_ram_wool": null
 }

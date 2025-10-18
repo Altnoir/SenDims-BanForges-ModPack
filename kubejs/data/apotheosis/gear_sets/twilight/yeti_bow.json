@@ -35,24 +35,9 @@
 			"item": "twilightforest:knightmetal_shield"
 		}
 	}],
-	"boots": [{
-		"weight": 1,
-		"stack": {
-			"item": "twilightforest:yeti_boots"
-		}
-	}],
-	"leggings": [{
-		"weight": 1,
-		"stack": {
-			"item": "twilightforest:yeti_leggings"
-		}
-	}],
-	"chestplates": [{
-		"weight": 1,
-		"stack": {
-			"item": "twilightforest:yeti_chestplate"
-		}
-	}],
+	"boots": [],
+	"leggings": [],
+	"chestplates": [],
 	"helmets": [{
 		"weight": 6,
 		"stack": {
@@ -66,6 +51,6 @@
 		}
 	}],
 	"tags": [
-		"twilight_bow"
+		"twilight_2_bow"
 	]
 }

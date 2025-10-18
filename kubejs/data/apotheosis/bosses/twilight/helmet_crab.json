@@ -16,57 +16,129 @@
 	"dimensions": [
 		"twilightforest:twilight_forest"
 	],
-	"min_rarity": "mythic",
-	"max_rarity": "mythic",
+	"min_rarity": "uncommon",
+	"max_rarity": "epic",
 	"stats": {
-		"mythic": {
-			"enchant_chance": 0.85,
-			"enchantment_levels": [30, 25, 60, 35],
+		"uncommon": {
+			"enchant_chance": 0.35,
+			"enchantment_levels": [4, 2, 2, 4],
 			"effects": [{
 				"effect": "minecraft:fire_resistance",
 				"chance": 1.0
 			}],
 			"attribute_modifiers": [{
 					"attribute": "minecraft:generic.max_health",
-					"operation": "ADDITION",
+					"operation": "MULTIPLY_TOTAL",
 					"value": {
-						"min": 100,
-						"steps": 20,
-						"step": 2
-					}
-				},
-				{
-					"attribute": "minecraft:generic.movement_speed",
-					"operation": "MULTIPLY_BASE",
-					"value": {
-						"min": 0.35,
-						"steps": 35,
-						"step": 0.01
+						"min": 0.1,
+						"steps": 10,
+						"step": 0.05
 					}
 				},
 				{
 					"attribute": "minecraft:generic.attack_damage",
-					"operation": "MULTIPLY_BASE",
+					"operation": "ADDITION",
 					"value": {
-						"min": 0.32,
-						"steps": 35,
+						"min": 1,
+						"steps": 10,
+						"step": 0.1
+					}
+				},
+				{
+					"attribute": "minecraft:generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": {
+						"min": 0.1,
+						"steps": 10,
 						"step": 0.01
 					}
 				},
 				{
 					"attribute": "minecraft:generic.knockback_resistance",
 					"operation": "ADDITION",
-					"value": 0.65
+					"value": 0.7
+				}
+			]
+		},
+		"rare": {
+			"enchant_chance": 0.45,
+			"enchantment_levels": [8, 4, 4, 8],
+			"effects": [{
+				"effect": "minecraft:fire_resistance",
+				"chance": 1.0
+			}],
+			"attribute_modifiers": [{
+					"attribute": "minecraft:generic.max_health",
+					"operation": "MULTIPLY_TOTAL",
+					"value": {
+						"min": 0.2,
+						"steps": 10,
+						"step": 0.05
+					}
 				},
 				{
-					"attribute": "minecraft:generic.armor",
+					"attribute": "minecraft:generic.attack_damage",
 					"operation": "ADDITION",
-					"value": 8
+					"value": {
+						"min": 2,
+						"steps": 10,
+						"step": 0.1
+					}
 				},
 				{
-					"attribute": "minecraft:generic.armor_toughness",
+					"attribute": "minecraft:generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": {
+						"min": 0.15,
+						"steps": 10,
+						"step": 0.01
+					}
+				},
+				{
+					"attribute": "minecraft:generic.knockback_resistance",
 					"operation": "ADDITION",
-					"value": 6
+					"value": 0.8
+				}
+			]
+		},
+		"epic": {
+			"enchant_chance": 0.65,
+			"enchantment_levels": [12, 6, 6, 12],
+			"effects": [{
+				"effect": "minecraft:fire_resistance",
+				"chance": 1.0
+			}],
+			"attribute_modifiers": [{
+					"attribute": "minecraft:generic.max_health",
+					"operation": "MULTIPLY_TOTAL",
+					"value": {
+						"min": 0.3,
+						"steps": 10,
+						"step": 0.1
+					}
+				},
+				{
+					"attribute": "minecraft:generic.attack_damage",
+					"operation": "ADDITION",
+					"value": {
+						"min": 3,
+						"steps": 10,
+						"step": 0.15
+					}
+				},
+				{
+					"attribute": "minecraft:generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": {
+						"min": 0.2,
+						"steps": 10,
+						"step": 0.015
+					}
+				},
+				{
+					"attribute": "minecraft:generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 0.85
 				}
 			]
 		}
