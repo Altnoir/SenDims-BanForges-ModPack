@@ -2,7 +2,7 @@
 	autofocus_id: "62C0631125654B3D"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "1"
+	filename: "begin"
 	group: "6900D4BA6E5FB142"
 	icon: "minecraft:flowering_azalea"
 	id: "4A8CA01794599D76"

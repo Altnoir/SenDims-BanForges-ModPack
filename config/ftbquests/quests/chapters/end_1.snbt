@@ -1,11 +1,12 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "390334BC229FB9D8"
+	filename: "end_1"
 	group: "35DD57C332D61BB0"
-	id: "390334BC229FB9D8"
-	order_index: 2
+	icon: "minecraft:end_crystal"
+	id: "1518056494B23302"
+	order_index: 4
 	quest_links: [ ]
 	quests: [ ]
-	title: "土星环"
+	title: "末地"
 }
