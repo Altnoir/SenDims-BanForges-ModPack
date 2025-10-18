@@ -43,8 +43,32 @@ ServerEvents.highPriorityData(event => {
 
     twilightBoss("twilightforest:death_tome", "#twilight");
     twilightBoss("minecraft:zombie", "#twilight");
+    twilightBoss("minecraft:skeleton", "#twilight");
+    twilightBoss("minecraft:spider", "#twilight");
     twilightBoss("twilightforest:minotaur", "#twilight");
     twilightBoss("twilightforest:yeti", "#twilight");
+    twilightBoss("twilightforest:towerwood_borer", "#twilight");
+    twilightBoss("twilightforest:carminite_broodling", "#twilight");
+    twilightBoss("twilightforest:fire_beetle", "#twilight");
+    twilightBoss("twilightforest:slime_beetle", "#twilight");
+    twilightBoss("twilightforest:pinch_beetle", "#twilight");
+    twilightBoss("twilightforest:redcap", "#twilight");
+    twilightBoss("twilightforest:hostile_wolf", "#twilight");
+    twilightBoss("twilightforest:hedge_spider", "#twilight");
+    twilightBoss("twilightforest:death_tome", "#twilight");
+    twilightBoss("twilightforest:wraith", "#twilight");
+    twilightBoss("twilightforest:swarm_spider", "#twilight");
+    twilightBoss("twilightforest:mist_wolf", "#twilight");
+
+    twilightBoss("twilightforest:minotaur", "#twilight_2");
+    twilightBoss("twilightforest:maze_slime", "#twilight_2");
+    twilightBoss("twilightforest:giant_miner", "#twilight_2");
+    twilightBoss("twilightforest:armored_giant", "#twilight_2");
+    twilightBoss("twilightforest:winter_wolf", "#twilight_2");
+    twilightBoss("twilightforest:troll", "#twilight_2");
+    twilightBoss("twilightforest:adherent", "#twilight_2");
+    twilightBoss("twilightforest:harbinger_cube", "#twilight_2");
+
     twilightBoss("twilightforest:ice_crystal", "#twilight_2");
     twilightBoss("twilightforest:snow_guardian", "#twilight_2");
     twilightBoss("twilightforest:stable_ice_core", "#twilight_2_bow");
