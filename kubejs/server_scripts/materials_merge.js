@@ -84,7 +84,9 @@ global.materialReplaceRules.set('aether:ambrosium_shard', [
 //             ItemFilter.WEAPON, 'minecraft:shield'
 //         )));
 
-global.materialRemoveRule = ItemFilter.and(ItemFilter.DAMAGEABLE, ItemFilter.not("slashblade:slashblade"));
+global.materialRemoveRule = ItemFilter.or(
+    ItemFilter.and(ItemFilter.or(ItemFilter.ENCHANTABLE, ItemFilter.DAMAGEABLE), ItemFilter.not("slashblade:slashblade"))
+);
 
 
 LootJS.modifiers((event) => {

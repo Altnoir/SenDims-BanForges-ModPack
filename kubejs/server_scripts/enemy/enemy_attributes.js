@@ -78,6 +78,6 @@ EntityEvents.spawned(event => {
         // console.log(val);
     }
 
-    console.log(`[EA] Spawned ${name} in ${dim}.`)
+    // console.log(`[EA] Spawned ${name} in ${dim}.`)
 
 })

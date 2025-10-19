@@ -12,66 +12,106 @@
 	"dimensions": [
 		"minecraft:the_nether"
 	],
-	"min_rarity": "epic",
+	"min_rarity": "rare",
 	"max_rarity": "epic",
 	"stats": {
-		"epic": {
-			"enchant_chance": 0.75,
-			"enchantment_levels": [26, 22, 40, 30],
+		"rare": {
+			"enchant_chance": 0.45,
+			"enchantment_levels": [8, 4, 4, 8],
 			"effects": [{
 				"effect": "minecraft:fire_resistance",
 				"chance": 1.0
 			}],
 			"attribute_modifiers": [{
 					"attribute": "minecraft:generic.max_health",
-					"operation": "ADDITION",
-					"value": {
-						"min": 60,
-						"steps": 40,
-						"step": 2
-					}
-				},
-				{
-					"attribute": "minecraft:generic.movement_speed",
-					"operation": "MULTIPLY_BASE",
-					"value": {
-						"min": 0.20,
-						"steps": 25,
-						"step": 0.01
-					}
-				},
-				{
-					"attribute": "minecraft:generic.flying_speed",
-					"operation": "MULTIPLY_BASE",
+					"operation": "MULTIPLY_TOTAL",
 					"value": {
 						"min": 0.25,
-						"steps": 20,
+						"steps": 10,
 						"step": 0.01
 					}
 				},
 				{
 					"attribute": "minecraft:generic.attack_damage",
-					"operation": "MULTIPLY_BASE",
+					"operation": "ADDITION",
 					"value": {
-						"min": 0.32,
-						"steps": 35,
+						"min": 3,
+						"steps": 10,
+						"step": 0.5
+					}
+				},
+				{
+					"attribute": "minecraft:generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": {
+						"min": 0.15,
+						"steps": 10,
 						"step": 0.01
 					}
 				},
 				{
 					"attribute": "minecraft:generic.knockback_resistance",
 					"operation": "ADDITION",
-					"value": 0.55
+					"value": 0.9
 				},
 				{
-					"attribute": "minecraft:generic.armor",
-					"operation": "ADDITION",
-					"value": 4
+					"attribute": "minecraft:generic.flying_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": {
+						"min": 0.2,
+						"steps": 10,
+						"step": 0.01
+					}
+				}
+			]
+		},
+		"epic": {
+			"enchant_chance": 0.65,
+			"enchantment_levels": [12, 6, 6, 12],
+			"effects": [{
+				"effect": "minecraft:fire_resistance",
+				"chance": 1.0
+			}],
+			"attribute_modifiers": [{
+					"attribute": "minecraft:generic.max_health",
+					"operation": "MULTIPLY_TOTAL",
+					"value": {
+						"min": 0.35,
+						"steps": 10,
+						"step": 0.01
+					}
 				},
 				{
-					"attribute": "minecraft:generic.armor_toughness",
+					"attribute": "minecraft:generic.attack_damage",
 					"operation": "ADDITION",
-					"value": 2
+					"value": {
+						"min": 5,
+						"steps": 10,
+						"step": 0.5
+					}
+				},
+				{
+					"attribute": "minecraft:generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": {
+						"min": 0.2,
+						"steps": 10,
+						"step": 0.015
+					}
+				},
+				{
+					"attribute": "minecraft:generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 0.9
+				},
+				{
+					"attribute": "minecraft:generic.flying_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": {
+						"min": 0.25,
+						"steps": 10,
+						"step": 0.02
+					}
 				}
 			]
 		}

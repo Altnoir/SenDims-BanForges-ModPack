@@ -290,6 +290,7 @@ const dimensionStages = {
     "kubejs:asteroid_belt": "3_1",
 
     "kubejs:saturn": "3_2",
+    "the_bumblezone:the_bumblezone": "3_2",
 
     "kubejs:saturn_orbit": "3_3",
 

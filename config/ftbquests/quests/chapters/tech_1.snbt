@@ -22,6 +22,7 @@
 		}
 		{
 			dependencies: ["15D102DE2394A495"]
+			icon: "thermal:steel_ingot"
 			id: "2F9AAEA563550E3F"
 			tasks: [{
 				id: "55B23C823EC66270"
@@ -100,6 +101,120 @@
 			}]
 			x: 0.0d
 			y: 7.5d
+		}
+		{
+			dependencies: ["1D74838411B96ABC"]
+			id: "792DE983634FBDAD"
+			tasks: [{
+				id: "32476A20069F04A8"
+				item: "ad_astra:desh_engine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["792DE983634FBDAD"]
+			id: "40B4C6CD28E7DF19"
+			tasks: [{
+				id: "5AF66CE1A9D0682E"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["750B557031EFBBEE"]
+			id: "1D74838411B96ABC"
+			tasks: [{
+				id: "6BA3F9E458075B8D"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1D74838411B96ABC"]
+			id: "03405BC60C3EFA99"
+			tasks: [{
+				id: "124E52EE0ACCEC94"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["03405BC60C3EFA99"]
+			id: "6CF1E5C2D33B8465"
+			tasks: [{
+				id: "62C65DFD12A1E703"
+				item: "thermal:machine_pulverizer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["03405BC60C3EFA99"]
+			id: "50E8B79E8ED41183"
+			tasks: [{
+				id: "3EC998CC24F10715"
+				item: "thermal:machine_furnace"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["4A2D947949B03EB5"]
+			id: "7AE21FD78902B494"
+			tasks: [{
+				id: "64C17D2D47D19296"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6CF1E5C2D33B8465"]
+			id: "4A2D947949B03EB5"
+			tasks: [{
+				id: "5E05A8682D8FEC5E"
+				item: "thermal:invar_dust"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7AE21FD78902B494"]
+			id: "7F97EF10FCEAA6D0"
+			tasks: [{
+				id: "202AF6C63DC6C071"
+				item: "thermal:constantan_ingot"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7F97EF10FCEAA6D0"]
+			id: "34173BFDB4914CA8"
+			tasks: [{
+				id: "1F6C5892E54D9D6A"
+				item: "thermal:machine_press"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 10.0d
 		}
 	]
 	title: "原始工业"

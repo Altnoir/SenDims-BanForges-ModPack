@@ -36,10 +36,24 @@ const toRemoveID = new Set([
     "enderio:smelting/slashblade/material/sphere_smelting",
     "slashblade:material/crystal_blasting",
     "slashblade:material/trapezohedron_blasting",
+    "thermal:fire_charge/signalum_glass_2",
+    "thermal:fire_charge/obsidian_glass_2",
+    "thermal:fire_charge/lumium_ingot_4",
+    "thermal:fire_charge/enderium_ingot_2",
+    "thermal:fire_charge/electrum_ingot_2",
+    "thermal:fire_charge/constantan_ingot_2",
+    "thermal:fire_charge/bronze_ingot_4",
+    "thermal:fire_charge/enderium_glass_2",
+    "thermal:fire_charge/signalum_ingot_4",
+    "thermal:fire_charge/lumium_glass_2",
+    "thermal:fire_charge/invar_ingot_3",
 ]);
 
 ServerEvents.recipes(event => {
     for (const id of toRemoveID) {
         event.remove({ id: id });
     }
+
+    event.remove({ output: '#forge:gears', type: 'minecraft:crafting_shaped', mod: "thermal" });
+
 })
