@@ -41,7 +41,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["2F9AAEA563550E3F"]
+			dependencies: ["3FA025D25ADB8411"]
 			id: "47C442362B73368D"
 			tasks: [{
 				id: "4C9F346FB46259B1"
@@ -49,10 +49,10 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 5.0d
+			y: 7.5d
 		}
 		{
-			dependencies: ["2F9AAEA563550E3F"]
+			dependencies: ["3FA025D25ADB8411"]
 			id: "606961105725FF7C"
 			tasks: [{
 				id: "17D328BF95540F6A"
@@ -60,11 +60,12 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 5.0d
+			y: 7.5d
 		}
 		{
-			dependencies: ["2F9AAEA563550E3F"]
+			dependencies: ["3FA025D25ADB8411"]
 			id: "293BC8386BEEE985"
+			subtitle: "附魔：太空呼吸"
 			tasks: [{
 				id: "381B68006962F21D"
 				item: {
@@ -80,7 +81,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 5.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -100,7 +101,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 7.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["1D74838411B96ABC"]
@@ -111,7 +112,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 12.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["792DE983634FBDAD"]
@@ -126,7 +127,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 15.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["750B557031EFBBEE"]
@@ -137,18 +138,18 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 10.0d
+			y: 12.5d
 		}
 		{
-			dependencies: ["1D74838411B96ABC"]
+			dependencies: ["66C1156C17F399C9"]
 			id: "03405BC60C3EFA99"
 			tasks: [{
 				id: "124E52EE0ACCEC94"
 				item: "thermal:machine_frame"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 10.0d
+			x: 5.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["03405BC60C3EFA99"]
@@ -158,8 +159,8 @@
 				item: "thermal:machine_pulverizer"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 10.0d
+			x: 7.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["03405BC60C3EFA99"]
@@ -169,8 +170,8 @@
 				item: "thermal:machine_furnace"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 12.5d
+			x: 7.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["4A2D947949B03EB5"]
@@ -180,8 +181,8 @@
 				item: "thermal:machine_smelter"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 10.0d
+			x: 12.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["6CF1E5C2D33B8465"]
@@ -191,8 +192,8 @@
 				item: "thermal:invar_dust"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 10.0d
+			x: 10.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["7AE21FD78902B494"]
@@ -202,8 +203,8 @@
 				item: "thermal:constantan_ingot"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 10.0d
+			x: 15.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["7F97EF10FCEAA6D0"]
@@ -213,8 +214,102 @@
 				item: "thermal:machine_press"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 17.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["1D74838411B96ABC"]
+			id: "66C1156C17F399C9"
+			tasks: [{
+				id: "21654119FFD673EC"
+				item: "ad_astra:photovoltaic_etrium_cell"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["34173BFDB4914CA8"]
+			id: "0E09FA650560F98B"
+			tasks: [{
+				id: "11D029226C5169F3"
+				item: "thermal:gold_gear"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["0E09FA650560F98B"]
+			id: "58D42F6EFD6EA130"
+			tasks: [{
+				id: "4B2660F4712E6F55"
+				item: "thermal:upgrade_augment_1"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["7AE21FD78902B494"]
+			id: "57C913F77C42AA19"
+			tasks: [{
+				id: "298DF6FED5560C2C"
+				item: "thermal:signalum_ingot"
+				type: "item"
+			}]
+			x: 12.5d
 			y: 10.0d
+		}
+		{
+			dependencies: [
+				"34173BFDB4914CA8"
+				"57C913F77C42AA19"
+			]
+			id: "06FC1F440DF26A19"
+			tasks: [{
+				id: "0253FCF6E3B2DD81"
+				item: "thermal:signalum_gear"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"06FC1F440DF26A19"
+				"58D42F6EFD6EA130"
+			]
+			id: "2C45C6D02F8E450C"
+			tasks: [{
+				id: "213791FA80D58C24"
+				item: "thermal:upgrade_augment_2"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2F9AAEA563550E3F"]
+			id: "3FA025D25ADB8411"
+			tasks: [{
+				id: "16088E4EA1B2A84C"
+				item: "ad_astra:compressor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["40B4C6CD28E7DF19"]
+			id: "7A770E44047C47F7"
+			tasks: [{
+				id: "4BDB60C1A2716D03"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 20.0d
 		}
 	]
 	title: "原始工业"

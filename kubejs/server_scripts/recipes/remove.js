@@ -47,6 +47,8 @@ const toRemoveID = new Set([
     "thermal:fire_charge/signalum_ingot_4",
     "thermal:fire_charge/lumium_glass_2",
     "thermal:fire_charge/invar_ingot_3",
+    "thermal:machine_frame",
+    "thermal:rf_coil"
 ]);
 
 ServerEvents.recipes(event => {

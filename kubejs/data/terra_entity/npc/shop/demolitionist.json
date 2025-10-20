@@ -1,0 +1,99 @@
+{
+  "trades": [
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:gunpowder"
+          },
+          "count": 2
+        },
+        {
+          "ingredient": {
+            "item": "minecraft:iron_ingot"
+          },
+          "count": 1
+        }
+      ],
+      "result": [
+        {
+          "id": "minecraft:tnt",
+          "Count": 1
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:gunpowder"
+          },
+          "count": 1
+        }
+      ],
+      "result": [
+        {
+          "id": "minecraft:firework_rocket",
+          "Count": 1,
+          "tag": {
+            "Fireworks": {
+              "Flight": 1
+            }
+          }
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:gunpowder"
+          },
+          "count": 2
+        }
+      ],
+      "result": [
+        {
+          "id": "minecraft:firework_rocket",
+          "Count": 1,
+          "tag": {
+            "Fireworks": {
+              "Flight": 2
+            }
+          }
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:gunpowder"
+          },
+          "count": 2
+        },
+        {
+          "ingredient": {
+            "item": "minecraft:coal"
+          },
+          "count": 1
+        }
+      ],
+      "result": [
+        {
+          "id": "minecraft:firework_rocket",
+          "Count": 1,
+          "tag": {
+            "Fireworks": {
+              "Flight": 3
+            }
+          }
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    }
+  ]
+}

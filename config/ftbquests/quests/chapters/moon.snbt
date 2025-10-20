@@ -186,6 +186,63 @@
 			x: 5.0d
 			y: 10.0d
 		}
+		{
+			dependencies: ["5D5BA71C5348297D"]
+			icon: "terra_entity:demon_eye_spawn_egg"
+			id: "07353FCC58BFF967"
+			tasks: [{
+				entity: "terra_entity:demon_eye"
+				id: "4FB7BBDF618AB180"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["07353FCC58BFF967"]
+			id: "1FB3D934BD1CBA55"
+			tasks: [{
+				id: "3FCAE47EC5D4B816"
+				item: "terra_entity:cthulhu_eye_spawn_egg"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1FB3D934BD1CBA55"]
+			id: "3CA10D95C27A594B"
+			tasks: [{
+				id: "303BF753A5B24686"
+				item: "terra_entity:summon_wooden_sword_staff"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1FB3D934BD1CBA55"]
+			id: "3CF816E3E0B2977A"
+			tasks: [{
+				id: "72FF249DA096FDD6"
+				item: "terra_entity:brain_of_cthulhu_spawn_egg"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1FB3D934BD1CBA55"]
+			id: "6A37B43AC63E9375"
+			tasks: [{
+				id: "744C5CC9553E1F89"
+				item: "terra_entity:eater_of_world_spawn_egg"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.5d
+		}
 	]
 	title: "月球"
 }

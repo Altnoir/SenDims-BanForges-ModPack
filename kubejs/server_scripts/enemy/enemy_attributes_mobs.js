@@ -55,7 +55,7 @@ const mobTypes = {
     "twilightforest:mist_wolf": typeB,
 
     "twilightforest:minotaur": typeAEX2,
-    "twilightforest:maze_slime": typeC,
+    "twilightforest:maze_slime": typeSlime,
     "twilightforest:carminite_golem": typeCEX2,
     "twilightforest:carminite_ghastling": typeB,
     "twilightforest:carminite_ghastguard": typeB,
@@ -84,16 +84,16 @@ const mobTypes = {
     "ad_astra:corrupted_lunarian": typeC,
 
     "aether:aechor_plant": typeB,
-    "aether:blue_swet": typeA,
+    "aether:blue_swet": typeSlime,
     "aether:cockatrice": typeB,
     "aether:fire_minion": typeD,
-    "aether:golden_swet": typeA,
+    "aether:golden_swet": typeSlime,
     "aether:mimic": typeA,
     "aether:sentry": typeD,
     "aether:valkyrie": typeC,
     "aether:zephyr": typeC,
     "deep_aether:venomite": typeB,
-    "aether_redux:vanilla_swet": typeA,
+    "aether_redux:vanilla_swet": typeSlime,
 
     "aether:valkyrie_queen": bossType1,
     "aether:slider": bossType2,
@@ -107,4 +107,14 @@ const mobTypes = {
 /**
  * 黑名单
  */
-const entityBlackList = new Set();
+const entityBlackList = new Set([
+    "powerful_dummy:test_dummy",
+    "terra_entity:summon_diamond_sword",
+    "terra_entity:summon_golden_sword",
+    "terra_entity:summon_imp",
+    "terra_entity:summon_iron_sword",
+    "terra_entity:summon_netherite_sword",
+    "terra_entity:summon_snow_flinx",
+    "terra_entity:summon_stone_sword",
+    "terra_entity:summon_wooden_sword"
+]);

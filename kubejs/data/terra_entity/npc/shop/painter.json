@@ -1,0 +1,284 @@
+{
+  "trades": [
+    {
+      "trade_task": {
+        "trades": [
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:red_dye"
+                },
+                "count": 3
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:emerald",
+                "Count": 1
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:light_blue_dye"
+                },
+                "count": 3
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:emerald",
+                "Count": 1
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:magenta_dye"
+                },
+                "count": 3
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:emerald",
+                "Count": 1
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:orange_dye"
+                },
+                "count": 3
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:emerald",
+                "Count": 1
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:blue_dye"
+                },
+                "count": 3
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:emerald",
+                "Count": 1
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:brown_dye"
+                },
+                "count": 3
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:emerald",
+                "Count": 1
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:black_dye"
+                },
+                "count": 3
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:emerald",
+                "Count": 1
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:white_dye"
+                },
+                "count": 3
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:emerald",
+                "Count": 1
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:green_dye"
+                },
+                "count": 3
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:emerald",
+                "Count": 1
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:purple_dye"
+                },
+                "count": 3
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:emerald",
+                "Count": 1
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:cyan_dye"
+                },
+                "count": 3
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:emerald",
+                "Count": 1
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:light_gray_dye"
+                },
+                "count": 3
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:emerald",
+                "Count": 1
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:gray_dye"
+                },
+                "count": 3
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:emerald",
+                "Count": 1
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:pink_dye"
+                },
+                "count": 3
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:emerald",
+                "Count": 1
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:lime_dye"
+                },
+                "count": 3
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:emerald",
+                "Count": 1
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:yellow_dye"
+                },
+                "count": 3
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:emerald",
+                "Count": 1
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          }
+        ],
+        "type": "terra_entity:random_trade_task"
+      },
+      "type": "terra_entity:trade_task"
+    }
+  ]
+}

@@ -474,7 +474,7 @@
 				type: "advancement"
 			}]
 			x: 0.0d
-			y: 24.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["0631080913A35DC4"]
@@ -486,7 +486,7 @@
 				type: "advancement"
 			}]
 			x: 0.0d
-			y: 28.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["2B54682ADC820C2A"]
@@ -499,7 +499,7 @@
 				type: "advancement"
 			}]
 			x: 0.0d
-			y: 32.0d
+			y: 20.0d
 		}
 		{
 			dependencies: ["3AA758300110DA33"]

@@ -1,0 +1,78 @@
+{
+  "trades": [
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:emerald"
+          },
+          "count": 1
+        }
+      ],
+      "result": [
+        {
+          "id": "minecraft:honey_bottle",
+          "Count": 8
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:emerald"
+          },
+          "count": 1
+        }
+      ],
+      "result": [
+        {
+          "id": "minecraft:splash_potion",
+          "Count": 1,
+          "tag": {
+            "Potion": "minecraft:healing"
+          }
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:emerald"
+          },
+          "count": 1
+        }
+      ],
+      "result": [
+        {
+          "id": "minecraft:splash_potion",
+          "Count": 1,
+          "tag": {
+            "Potion": "minecraft:harming"
+          }
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:emerald"
+          },
+          "count": 64
+        }
+      ],
+      "result": [
+        {
+          "id": "terra_entity:summon_iron_sword_staff",
+          "Count": 1
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    }
+  ]
+}

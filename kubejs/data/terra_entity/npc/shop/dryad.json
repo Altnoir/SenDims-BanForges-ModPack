@@ -1,0 +1,159 @@
+{
+  "trades": [
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:oak_sapling"
+          },
+          "count": 2
+        },
+        {
+          "ingredient": {
+            "item": "minecraft:coal"
+          },
+          "count": 1
+        }
+      ],
+      "result": [
+        {
+          "id": "minecraft:emerald",
+          "Count": 1
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:spruce_sapling"
+          },
+          "count": 2
+        },
+        {
+          "ingredient": {
+            "item": "minecraft:coal"
+          },
+          "count": 1
+        }
+      ],
+      "result": [
+        {
+          "id": "minecraft:emerald",
+          "Count": 1
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:birch_sapling"
+          },
+          "count": 2
+        },
+        {
+          "ingredient": {
+            "item": "minecraft:coal"
+          },
+          "count": 1
+        }
+      ],
+      "result": [
+        {
+          "id": "minecraft:emerald",
+          "Count": 1
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:jungle_sapling"
+          },
+          "count": 2
+        },
+        {
+          "ingredient": {
+            "item": "minecraft:coal"
+          },
+          "count": 1
+        }
+      ],
+      "result": [
+        {
+          "id": "minecraft:emerald",
+          "Count": 1
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:acacia_sapling"
+          },
+          "count": 2
+        },
+        {
+          "ingredient": {
+            "item": "minecraft:coal"
+          },
+          "count": 1
+        }
+      ],
+      "result": [
+        {
+          "id": "minecraft:emerald",
+          "Count": 1
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:dark_oak_sapling"
+          },
+          "count": 2
+        },
+        {
+          "ingredient": {
+            "item": "minecraft:coal"
+          },
+          "count": 1
+        }
+      ],
+      "result": [
+        {
+          "id": "minecraft:emerald",
+          "Count": 1
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:emerald"
+          },
+          "count": 24
+        }
+      ],
+      "result": [
+        {
+          "id": "terra_entity:summon_wooden_sword_staff",
+          "Count": 1
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    }
+  ]
+}

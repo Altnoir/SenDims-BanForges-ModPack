@@ -1,0 +1,151 @@
+{
+  "trades": [
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:rotten_flesh"
+          },
+          "count": 1
+        },
+        {
+          "ingredient": {
+            "item": "minecraft:string"
+          },
+          "count": 2
+        }
+      ],
+      "result": [
+        {
+          "id": "minecraft:bow",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:bone"
+          },
+          "count": 3
+        },
+        {
+          "ingredient": {
+            "item": "minecraft:string"
+          },
+          "count": 2
+        }
+      ],
+      "result": [
+        {
+          "id": "minecraft:crossbow",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:arrow"
+          },
+          "count": 4
+        },
+        {
+          "ingredient": {
+            "item": "minecraft:spider_eye"
+          },
+          "count": 1
+        }
+      ],
+      "result": [
+        {
+          "id": "minecraft:tipped_arrow",
+          "Count": 4,
+          "tag": {
+            "Potion": "minecraft:poison"
+          }
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:arrow"
+          },
+          "count": 4
+        },
+        {
+          "ingredient": {
+            "item": "minecraft:spider_eye"
+          },
+          "count": 1
+        }
+      ],
+      "result": [
+        {
+          "id": "minecraft:tipped_arrow",
+          "Count": 4,
+          "tag": {
+            "Potion": "minecraft:slowness"
+          }
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:arrow"
+          },
+          "count": 4
+        },
+        {
+          "ingredient": {
+            "item": "minecraft:phantom_membrane"
+          },
+          "count": 1
+        }
+      ],
+      "result": [
+        {
+          "id": "minecraft:tipped_arrow",
+          "Count": 4,
+          "tag": {
+            "Potion": "minecraft:slow_falling"
+          }
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:emerald"
+          },
+          "count": 48
+        }
+      ],
+      "result": [
+        {
+          "id": "terra_entity:summon_stone_sword_staff",
+          "Count": 1
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    }
+  ]
+}

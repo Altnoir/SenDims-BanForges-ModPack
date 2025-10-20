@@ -30,6 +30,6 @@ ServerEvents.highPriorityData(event => {
         boss.build();
     };
 
-    netherBoss("terra_entity:hell_bat");
+    // netherBoss("terra_entity:hell_bat");
 
 })

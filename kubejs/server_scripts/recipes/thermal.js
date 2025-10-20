@@ -36,4 +36,24 @@ ServerEvents.recipes(event => {
         B: '#forge:storage_blocks/diamond'
     }).id('sdbf:copper_diamond')
 
+    event.shaped('thermal:machine_frame', [
+        'CAC',
+        'ABA',
+        'CAC'
+    ], {
+        A: '#forge:glass',
+        B: 'ad_astra:photovoltaic_etrium_cell',
+        C: '#forge:ingots/steel'
+    }).id('sdbf:thermal_machine_frame')
+
+    event.shaped('thermal:rf_coil', [
+        ' AB',
+        'ACA',
+        'BA '
+    ], {
+        A: 'ad_astra:desh_cable',
+        B: '#forge:storage_blocks/redstone',
+        C: '#forge:ingots/gold'
+    }).id('sdbf:thermal_rf_coil')
+
 })

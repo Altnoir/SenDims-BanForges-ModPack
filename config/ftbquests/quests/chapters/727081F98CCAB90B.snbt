@@ -1,0 +1,27 @@
+{
+	autofocus_id: "3C14A2F8BA3C3DA6"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "727081F98CCAB90B"
+	group: "0937198EE94F2B97"
+	id: "727081F98CCAB90B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "3C14A2F8BA3C3DA6"
+		tasks: [{
+			id: "1789B5E3997B3795"
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:strong_healing"
+				}
+			}
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "战斗辅助"
+}

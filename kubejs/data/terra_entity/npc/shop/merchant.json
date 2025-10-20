@@ -1,0 +1,220 @@
+{
+  "trades": [
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:iron_ingot"
+          },
+          "count": 1
+        }
+      ],
+      "result": [
+        {
+          "id": "minecraft:coal",
+          "Count": 2
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:gold_ingot"
+          },
+          "count": 1
+        }
+      ],
+      "result": [
+        {
+          "id": "minecraft:iron_ingot",
+          "Count": 2
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:diamond"
+          },
+          "count": 1
+        }
+      ],
+      "result": [
+        {
+          "id": "minecraft:gold_ingot",
+          "Count": 2
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:emerald"
+          },
+          "count": 1
+        }
+      ],
+      "result": [
+        {
+          "id": "minecraft:diamond",
+          "Count": 2
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:netherite_ingot"
+          },
+          "count": 1
+        }
+      ],
+      "result": [
+        {
+          "id": "minecraft:emerald",
+          "Count": 4
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:coal"
+          },
+          "count": 3
+        }
+      ],
+      "result": [
+        {
+          "id": "minecraft:iron_ingot",
+          "Count": 1
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:iron_ingot"
+          },
+          "count": 3
+        }
+      ],
+      "result": [
+        {
+          "id": "minecraft:gold_ingot",
+          "Count": 1
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:gold_ingot"
+          },
+          "count": 3
+        }
+      ],
+      "result": [
+        {
+          "id": "minecraft:diamond",
+          "Count": 1
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:diamond"
+          },
+          "count": 3
+        }
+      ],
+      "result": [
+        {
+          "id": "minecraft:emerald",
+          "Count": 1
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:emerald"
+          },
+          "count": 5
+        }
+      ],
+      "result": [
+        {
+          "id": "minecraft:netherite_ingot",
+          "Count": 1
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:diamond"
+          },
+          "count": 5
+        },
+        {
+          "ingredient": {
+            "item": "minecraft:egg"
+          },
+          "count": 1
+        }
+      ],
+      "result": [
+        {
+          "id": "terra_entity:king_slime_spawn_egg",
+          "Count": 1
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:redstone"
+          },
+          "count": 20
+        },
+        {
+          "ingredient": {
+            "item": "minecraft:egg"
+          },
+          "count": 1
+        }
+      ],
+      "result": [
+        {
+          "id": "terra_entity:cthulhu_eye_spawn_egg",
+          "Count": 1
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    }
+  ]
+}

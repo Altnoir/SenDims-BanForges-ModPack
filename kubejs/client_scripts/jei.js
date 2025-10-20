@@ -29,5 +29,7 @@ JEIEvents.hideItems(event => {
     event.hide("apotheosis:sightshelf_t2");
     event.hide("apotheosis:filtering_shelf");
     event.hide("apotheosis:treasure_shelf");
+    event.hide('artifacts:vampiric_glove');
+    event.hide('confluence:brain_of_confusion');
     
 })

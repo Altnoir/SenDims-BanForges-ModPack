@@ -51,7 +51,10 @@ global.materialReplaceRules.set('minecraft:iron_ingot', [
     'ad_astra:space_helmet',
     'ad_astra:space_suit',
     'ad_astra:space_pants',
-    'ad_astra:space_boots'
+    'ad_astra:space_boots',
+
+    'artifacts:vampiric_glove',
+    'confluence:brain_of_confusion'
 ]);
 
 global.materialReplaceRules.set('minecraft:gold_ingot', [

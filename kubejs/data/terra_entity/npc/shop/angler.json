@@ -1,0 +1,208 @@
+{
+  "trades": [
+    {
+      "trade_task": {
+        "cost_pool": [
+          {
+            "id": "minecraft:cod",
+            "Count": 1
+          },
+          {
+            "id": "minecraft:pufferfish",
+            "Count": 1
+          },
+          {
+            "id": "minecraft:tropical_fish",
+            "Count": 1
+          },
+          {
+            "id": "minecraft:salmon",
+            "Count": 1
+          },
+          {
+            "id": "minecraft:ink_sac",
+            "Count": 1
+          },
+          {
+            "id": "minecraft:glow_ink_sac",
+            "Count": 1
+          }
+        ],
+        "default_trade": {
+          "sprite": "terra_entity:random_gift",
+          "costs": [
+            {
+              "ingredient": {
+                "item": "minecraft:cod"
+              },
+              "count": 1
+            }
+          ],
+          "loot_table": "terra_entity:npc/angler"
+        },
+        "result_pool": {
+          "55": [
+            {
+              "id": "minecraft:netherite_ingot",
+              "Count": 5
+            }
+          ],
+          "1": [
+            {
+              "id": "minecraft:fishing_rod",
+              "Count": 1,
+              "tag": {
+                "Damage": 0
+              }
+            }
+          ],
+          "45": [
+            {
+              "id": "minecraft:emerald",
+              "Count": 20
+            }
+          ],
+          "35": [
+            {
+              "id": "minecraft:diamond",
+              "Count": 20
+            }
+          ],
+          "25": [
+            {
+              "id": "minecraft:gold_ingot",
+              "Count": 20
+            }
+          ],
+          "15": [
+            {
+              "id": "minecraft:iron_ingot",
+              "Count": 20
+            }
+          ],
+          "5": [
+            {
+              "id": "minecraft:bucket",
+              "Count": 1
+            }
+          ],
+          "50": [
+            {
+              "id": "minecraft:netherite_ingot",
+              "Count": 5
+            },
+            {
+              "id": "terra_entity:flamarang",
+              "Count": 1,
+              "tag": {
+                "Enchantments": [
+                  {
+                    "lvl": 1,
+                    "id": "terra_entity:multi_boomerang"
+                  }
+                ],
+                "Damage": 0,
+                "cafelib:boolean": "true",
+                "terra_entity:effect_strategy": "[{\"amplifier_min\":0,\"amplifier_max\":0,\"possibility\":1.0,\"name\":\"hell_fire_5_sec\",\"effect\":\"terra_entity:hellfire\",\"duration\":100,\"type\":\"terra_entity:time_possibility_amplifier_effect\"},{\"name\":\"set_fire_5_sec\",\"effect\":\"terra_entity:set_fire_5_sec\",\"type\":\"terra_entity:prefab_effect\"}]"
+              }
+            }
+          ],
+          "40": [
+            {
+              "id": "minecraft:enchanted_book",
+              "Count": 1,
+              "tag": {
+                "Enchantments": [
+                  {
+                    "lvl": 1,
+                    "id": "minecraft:mending"
+                  }
+                ]
+              }
+            }
+          ],
+          "30": [
+            {
+              "id": "minecraft:enchanted_book",
+              "Count": 1,
+              "tag": {
+                "Enchantments": [
+                  {
+                    "lvl": 3,
+                    "id": "minecraft:luck_of_the_sea"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "minecraft:enchanted_book",
+              "Count": 1,
+              "tag": {
+                "Enchantments": [
+                  {
+                    "lvl": 3,
+                    "id": "minecraft:lure"
+                  }
+                ]
+              }
+            }
+          ],
+          "20": [
+            {
+              "id": "minecraft:enchanted_book",
+              "Count": 1,
+              "tag": {
+                "Enchantments": [
+                  {
+                    "lvl": 2,
+                    "id": "minecraft:luck_of_the_sea"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "minecraft:enchanted_book",
+              "Count": 1,
+              "tag": {
+                "Enchantments": [
+                  {
+                    "lvl": 2,
+                    "id": "minecraft:lure"
+                  }
+                ]
+              }
+            }
+          ],
+          "10": [
+            {
+              "id": "minecraft:enchanted_book",
+              "Count": 1,
+              "tag": {
+                "Enchantments": [
+                  {
+                    "lvl": 1,
+                    "id": "minecraft:luck_of_the_sea"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "minecraft:enchanted_book",
+              "Count": 1,
+              "tag": {
+                "Enchantments": [
+                  {
+                    "lvl": 1,
+                    "id": "minecraft:lure"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "type": "terra_entity:dynamic_angler_trade_task"
+      },
+      "type": "terra_entity:trade_task"
+    }
+  ]
+}

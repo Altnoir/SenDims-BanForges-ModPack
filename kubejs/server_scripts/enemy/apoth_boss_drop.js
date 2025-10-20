@@ -20,13 +20,13 @@ const jadeMap = {
 
 EntityEvents.drops(event => {
     if (event.entity.isPlayer()) return;
-    console.log(event.entity)
-    console.log(event.getDrops())
+    // console.log(event.entity)
+    // console.log(event.getDrops())
     let extraDrops = [];
     for (const i of event.getDrops()) {
         console.log(i)
         if (global.materialRemoveRule.test(i.getItem())) {
-            console.log(global.materialRemoveRule.test(i.getItem()))
+            // console.log(global.materialRemoveRule.test(i.getItem()))
             let nbt = i.getItem().getNbt();
             let item = "minecraft:air";
             if (nbt && nbt.contains("affix_data")) {
