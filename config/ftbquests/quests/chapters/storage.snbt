@@ -351,6 +351,83 @@
 			x: 0.0d
 			y: 15.0d
 		}
+		{
+			dependencies: ["49F9A5BA316F6A3B"]
+			id: "38C6CD1288226FCA"
+			tasks: [{
+				id: "6EA269649035B50C"
+				item: "ae2:cell_component_64k"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["2E0180CC89BF8F88"]
+			id: "5681E5CE0D0BB140"
+			tasks: [{
+				id: "60593E8AF3E5AD34"
+				item: "storagedrawers:copper_storage_upgrade"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5681E5CE0D0BB140"]
+			id: "133CE8FEBF15EEF4"
+			tasks: [{
+				id: "51A4B173D68137E4"
+				item: "storagedrawers:iron_storage_upgrade"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["133CE8FEBF15EEF4"]
+			id: "32C0A5F8FAB3FAC3"
+			tasks: [{
+				id: "53C0B5C11072412B"
+				item: "storagedrawers:gold_storage_upgrade"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["32C0A5F8FAB3FAC3"]
+			id: "7BA0AF6DF7E200AC"
+			tasks: [{
+				id: "43318EA7545EF0F3"
+				item: "storagedrawers:emerald_storage_upgrade"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7BA0AF6DF7E200AC"]
+			id: "157D35363AF91770"
+			tasks: [{
+				id: "79EFAAD42D03DE23"
+				item: "storagedrawers:diamond_storage_upgrade"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["157D35363AF91770"]
+			id: "658A36445071F1D2"
+			tasks: [{
+				id: "56B71801584256BB"
+				item: "storagedrawers:netherite_storage_upgrade"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -2.5d
+		}
 	]
 	title: "库存管理"
 }

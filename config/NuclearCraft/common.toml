@@ -10,9 +10,9 @@
 	#Allow rtg registration: uranium_rtg, americium_rtg, plutonium_rtg, californium_rtg
 	register_rtg = [true, true, true, true]
 	#rtg generation: uranium_rtg, americium_rtg, plutonium_rtg, californium_rtg
-	rtg_power = [112, 448, 1792, 4096]
+	rtg_power = [40, 400, 2000, 5000]
 	#rtg radiation: uranium_rtg, americium_rtg, plutonium_rtg, californium_rtg
-	rtg_radiation = [560, 57800, 200000, 1900000]
+	rtg_radiation = [0, 0, 100000, 500000]
 	#Steam turbine (one block) base power gen
 	steam_turbine_power_gen = 80
 	#Decay Generator base power gen

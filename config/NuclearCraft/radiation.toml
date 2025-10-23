@@ -9,10 +9,10 @@
 	background_radiation = 20
 	#How fast contamination decays (pRad/s).
 	#Range: 1000 ~ 10000
-	decay_speed = 2000
+	decay_speed = 10000
 	#How fast contamination decays in player's body (uRad/s).
 	#Range: 1 ~ 5000
-	decay_speed_for_player = 50
+	decay_speed_for_player = 500
 	#Rate at which player gets radiation dose.
 	#Range: 0.0 ~ 5.0
 	gain_speed_for_player = 0.1

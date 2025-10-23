@@ -39,6 +39,23 @@
 	#- ENABLED: Meshes that is going to be accelerated will be uploaded immediately after the draw command. It is less efficient and only have about 2GB mesh cache (generally enough) but will follow the original draw order to get the most compatibility.
 	#Allowed Values: DISABLED, ENABLED
 	upload_mesh_immediately = "DISABLED"
+	#Resolution of UV scrolling in caching dynamic render types.
+	#Changing this value may affects your visual effects and VRAM usage. Smaller value means lower resolution in UV scrolling and less cached render types, while larger means higher resolution and more cached render types. Higher resolution means smoother animations on charged creepers and breezes but more VRAM usage.
+	#Range: > 1
+	dynamic_uv_resolution = 64
+	#- IGNORED: Meshes with identical vertices will not be merged, which will use less RAM but more VRAM in storing duplicated meshes.
+	#- MERGED: Meshes with identical vertices will be merged together, which will use less VRAM more RAM in storing the data of meshes used in merging.
+	#Allowed Values: IGNORED, MERGED
+	mesh_merge_type = "MERGED"
+	#- DISABLED: Dynamic render types like lightning on charged creepers and winds on breezes will not be accelerated for less VRAM usage and smoother animations, but may exceptionally skip acceleration in modded geometries using these render types.
+	#- ENABLED: Dynamic render types like lightning on charged creepers and winds on breezes will be accelerated to accelerate modded geometries using these render types, but may have more VRAM usage and less smooth animations based on resolution settings.
+	#Allowed Values: DISABLED, ENABLED
+	cache_dynamic_render_type = "ENABLED"
+	#- IGNORED: Viewport settings that will be modified by other mods will not be restored after the acceleration, which is faster but reduces compatibility with them.
+	#- MOJANG: Viewport settings that will be modified by other mods will be recorded and restored using Mojang's GLStateManager to work correctly with them.
+	#- OPENGL: Viewport settings that will be modified by other mods will be recorded and restored using OpenGL to work correctly with them even if they don't set viewport using Mojang's GLStateManager, which is slower but has most compatibility.
+	#Allowed Values: IGNORED, MOJANG, OPENGL
+	viewport_binding_state = "IGNORED"
 
 	#Block Buffer Restoring Settings
 	#A few mods and shader packs will use their on block buffers when rendering, which may introduce conflicts when working with Accelerated Rendering that also uses block buffers.
@@ -53,12 +70,12 @@
 		#- UNSAFE: Fastest implementation of cache using unsafe memory operations that skip multiple safety checks to read/write.
 		#Allowed Values: SIMPLE, UNSAFE, HANDLE
 		binding_cache_type = "HANDLE"
-		#- IGNORE: Shader storage buffers will not be restored which improves FPS but reduces compatibility with mods and shaders that ues shader storage buffers.
-		#- ENABLED: Shader storage buffers will be restored, which is slight slower but has better compatibility with mods and shaders that ues shader storage buffers.
+		#- IGNORED: Shader storage buffers will not be restored which improves FPS but reduces compatibility with mods and shaders that ues shader storage buffers.
+		#- RESTORED: Shader storage buffers will be restored, which is slight slower but has better compatibility with mods and shaders that ues shader storage buffers.
 		#Allowed Values: IGNORED, RESTORED
 		shader_storage_type = "RESTORED"
-		#- IGNORE: Atomic counter buffers will not be restored which improves FPS but reduces compatibility with mods and shaders that ues atomic counter buffers.
-		#- ENABLED: Atomic counter buffers will be restored, which is slight slower but has better compatibility with mods and shaders that ues atomic counter buffers.
+		#- IGNORED: Atomic counter buffers will not be restored which improves FPS but reduces compatibility with mods and shaders that ues atomic counter buffers.
+		#- RESTORED: Atomic counter buffers will be restored, which is slight slower but has better compatibility with mods and shaders that ues atomic counter buffers.
 		#Allowed Values: IGNORED, RESTORED
 		atomic_counter_type = "RESTORED"
 		#Range of shader storage buffer bindings that will be restored.
@@ -194,6 +211,18 @@
 	#You can configure the item filter by this list.
 	#Item filter will use this list and the filter type to determine if an item can pass the filter.
 	item_filter_values = []
+	#- DISABLED: Custom rendering stage filter will be disabled and geometries in all custom rendering stages will be accelerated.
+	#- ENABLED: Custom rendering stage filter will test if geometries in specific custom rendering stage should be accelerated when rendering based on the filter values and the filter type.
+	#Allowed Values: DISABLED, ENABLED
+	stage_filter = "ENABLED"
+	#- BLACKLIST: Custom rendering stages that are not in the filter values can pass the filter and be accelerated when rendering.
+	#- WHITELIST: Custom rendering stages that are in the filter values can pass the filter and be accelerated when rendering.
+	#Allowed Values: BLACKLIST, WHITELIST
+	stage_filter_type = "WHITELIST"
+	#You can configure the custom rendering stage filter by this list.
+	#Custom rendering stage filter will use this list and the filter type to determine if a custom rendering stage can pass the filter.
+	#It's not recommend to modify this list unless other mods adds their own custom rendering stages.
+	stage_filter_values = ["after_entities", "after_block_entities"]
 
 #Iris Compatibility Settings
 #Iris Compatibility Settings allows Accelerated Rendering to work correctly with Iris.

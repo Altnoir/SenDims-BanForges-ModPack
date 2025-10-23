@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["40B4C6CD28E7DF19"]
 			id: "3F43656AE6F116CB"
 			size: 2.0d
 			tasks: [{
@@ -31,6 +32,17 @@
 			}]
 			x: 0.0d
 			y: 2.5d
+		}
+		{
+			dependencies: ["5252B3E3137F1957"]
+			id: "37CFBBB29EFC0389"
+			tasks: [{
+				id: "46DEDCD7EDCF3BFE"
+				type: "checkmark"
+			}]
+			title: "火星地牢"
+			x: 0.0d
+			y: 5.0d
 		}
 	]
 	title: "火星"

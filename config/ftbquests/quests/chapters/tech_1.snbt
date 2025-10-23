@@ -12,6 +12,7 @@
 		{
 			dependencies: ["73531FB69122489F"]
 			id: "15D102DE2394A495"
+			size: 2.0d
 			tasks: [{
 				id: "72BA5656AD674175"
 				item: "ad_astra:etrionic_blast_furnace"
@@ -104,7 +105,11 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["1D74838411B96ABC"]
+			dependencies: [
+				"1D74838411B96ABC"
+				"23DF5636575FFAE2"
+			]
+			dependency_requirement: "one_completed"
 			id: "792DE983634FBDAD"
 			tasks: [{
 				id: "32476A20069F04A8"
@@ -112,7 +117,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 15.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["792DE983634FBDAD"]
@@ -127,7 +132,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 17.5d
+			y: 20.0d
 		}
 		{
 			dependencies: ["750B557031EFBBEE"]
@@ -309,7 +314,32 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 20.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["7AE21FD78902B494"]
+			id: "23DF5636575FFAE2"
+			tasks: [{
+				id: "7F2FE4F55867FC83"
+				item: "thermal:enderium_ingot"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"23DF5636575FFAE2"
+				"2C45C6D02F8E450C"
+			]
+			id: "0030D7D64773B6CF"
+			tasks: [{
+				id: "0CFF8060C1E815D5"
+				item: "thermal:upgrade_augment_3"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 17.5d
 		}
 	]
 	title: "原始工业"

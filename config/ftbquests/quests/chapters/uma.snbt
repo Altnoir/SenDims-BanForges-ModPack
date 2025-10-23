@@ -80,6 +80,7 @@
 				}
 				type: "item"
 			}]
+			title: "支援卡"
 			x: 2.5d
 			y: -7.5d
 		}

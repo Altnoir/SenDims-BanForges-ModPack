@@ -3,32 +3,21 @@
 	default_quest_shape: ""
 	filename: "garden"
 	group: "6900D4BA6E5FB142"
+	icon: "thermal_shock:keystone"
 	id: "5EBAE200287C397B"
 	order_index: 1
 	quest_links: [ ]
-	quests: [
-		{
-			dependencies: ["0B0F1D8BE89F8980"]
-			id: "6140B0BCEB7F9D64"
-			tasks: [{
-				dimension: "thermal_shock:loqendia"
-				id: "603D3E735EDE35F5"
-				type: "dimension"
-			}]
-			title: "永恒花园"
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			id: "1525C465363807AE"
-			tasks: [{
-				id: "02F16B5C53EAEB97"
-				item: "terra_entity:skeletron_spawn_egg"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 2.5d
-		}
-	]
+	quests: [{
+		dependencies: ["0B0F1D8BE89F8980"]
+		id: "6140B0BCEB7F9D64"
+		tasks: [{
+			dimension: "thermal_shock:loqendia"
+			id: "603D3E735EDE35F5"
+			type: "dimension"
+		}]
+		title: "永恒花园"
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "花园"
 }

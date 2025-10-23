@@ -22,6 +22,28 @@ ServerEvents.recipes(event => {
         C: 'confluence:obsidian_rose'
     }).id('sdbf:bedrock_breaker_s2')
 
+    event.shaped('ad_astra:desh_engine', [
+        'AEA',
+        'ABA',
+        ' C '
+    ], {
+        A: '#forge:storage_blocks/desh',
+        B: 'ad_astra:steel_engine',
+        C: 'ad_astra:fan',
+        E: '#ad_astra:desh_plates'
+    }).id('sdbf:desh_engine_1_s2')
+
+    event.shaped('ad_astra:desh_engine', [
+        'AEA',
+        'ABA',
+        ' C '
+    ], {
+        A: '#ad_astra:desh_plates',
+        B: 'ad_astra:steel_engine',
+        C: 'ad_astra:fan',
+        E: 'thermal:enderium_gear'
+    }).id('sdbf:desh_engine_2_s2')
+
     event.shaped($StructureQuill.forStructure("ad_astra:moon_dungeon"), [
         'AAA',
         'ABA',

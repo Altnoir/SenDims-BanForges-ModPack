@@ -167,6 +167,28 @@
 			x: -2.5d
 			y: 5.0d
 		}
+		{
+			dependencies: ["5251AFEDB9C97974"]
+			id: "18E165437CBA9864"
+			tasks: [{
+				id: "2FDDDF14AA3C66D0"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["18E165437CBA9864"]
+			id: "59D5F0F6374C1433"
+			tasks: [{
+				id: "2C899E96C690C9D9"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
 	]
 	title: "下界"
 }

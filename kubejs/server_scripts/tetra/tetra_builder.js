@@ -2,7 +2,7 @@
 // By Tonywww, 原始用途：千界万锻整合包
 
 const tetraMaterialBuilder = (event, id) => {
-    const key = id;
+    let key = id;
     let category = "metal";
     let primary = 0;
     let secondary = 0;
@@ -18,22 +18,22 @@ const tetraMaterialBuilder = (event, id) => {
     let hidden = false;
     let hiddenOutcomes = false;
 
-    const tints = {
+    let tints = {
         "glyph": "",
         "texture": ""
     };
-    const textures = [];
-    const material = {
+    let textures = [];
+    let material = {
         "items": [],
         "count": 1
     };
-    const requiredTools = {};
-    const effects = {};
-    const attributes = {};
-    const improvements = {};
+    let requiredTools = {};
+    let effects = {};
+    let attributes = {};
+    let improvements = {};
     let tags = undefined;
     let features = undefined;
-    const builder = {
+    let builder = {
         setCategory(str) { category = str; return builder; },
         setPrimary(num) { primary = num; return builder; },
         setSecondary(num) { secondary = num; return builder; },
@@ -62,7 +62,7 @@ const tetraMaterialBuilder = (event, id) => {
         setFeatures(lst) { features = lst; return builder; },
 
         build() {
-            const json = {
+            let json = {
                 key: key,
                 category: category,
                 primary: primary,
