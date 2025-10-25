@@ -5,6 +5,10 @@ ServerEvents.tags("item", event => {
         'minecraft:nether_star'
     )
 
+    event.add('forge:gems/ruby',
+        'thermal_shock:ruby'
+    )
+
     event.add("slashblade_sendims:drc_health_material_0", [
         'twilightforest:steeleaf_ingot',
         'deep_aether:skyjade',

@@ -836,6 +836,7 @@ sakura:maple_red
 sakura:maple_yellow
 sakura:patch_bambooshoot
 sakura:sakura
+sdbf:hydrogen_lake
 slashblade_useful_addon:deep_proud_soul_ore
 slashblade_useful_addon:proud_soul_ore
 slashblade_useful_addon:proud_soul_tree

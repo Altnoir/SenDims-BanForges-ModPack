@@ -17,6 +17,9 @@
       ],
       "key": "vanilla_feet_left/",
       "aspects": {
+        "armor": 2,
+        "armor_feet": 2,
+        "wearable": 2,
         "breakable": 2
       },
       "durability": 100,

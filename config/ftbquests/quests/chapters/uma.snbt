@@ -10,6 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["5748351A76910019"]
 			icon: "umapyoi:jewel"
 			id: "2C21F5DDCC8B3890"
 			size: 2.0d

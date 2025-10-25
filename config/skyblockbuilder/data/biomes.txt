@@ -173,6 +173,11 @@ regions_unexplored:towering_cliffs
 regions_unexplored:tropical_river
 regions_unexplored:tropics
 regions_unexplored:willow_forest
+sdbf:dune_sea
+sdbf:eroded_plains
+sdbf:hydrogen_basin
+sdbf:storm_basin
+sdbf:yardang_ridges
 terrablender:deferred_placeholder
 the_bumblezone:bumbling_beepartments
 the_bumblezone:crystal_canyon

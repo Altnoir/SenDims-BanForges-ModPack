@@ -11,7 +11,7 @@ enableForgeEnergyUpgrade = true
 #Enable pollinating upgrades?
 enablePollinatingUpgrade = true
 #Auto-cutting does damage to the used axe upgrade
-autoCuttingDamagesItems = false
+autoCuttingDamagesItems = true
 #How likely is it that the axe upgrade takes damage for each tree it cuts?
 #Range: 0.0 ~ 1.0
 autoCuttingDamageChance = 0.07500000298023224
@@ -41,7 +41,7 @@ cuttingCooldown = 60
 minimumRequiredTicks = 10
 #Can be changed to affect the growth time of all trees by a multiplier
 #Range: 0.0 ~ 2.147483647E9
-requiredTicksModifier = 1.0
+requiredTicksModifier = 2.0
 #Maximum extracted Forge Energy from upgrade items per tick
 #Range: > 0
 maximumExtractedEnergyPerTick = 60

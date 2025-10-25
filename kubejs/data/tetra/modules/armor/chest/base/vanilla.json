@@ -17,6 +17,9 @@
       ],
       "key": "vanilla_chest_base/",
       "aspects": {
+        "armor": 2,
+        "armor_chest": 2,
+        "wearable": 2,
         "breakable": 2
       },
       "durability": 100,

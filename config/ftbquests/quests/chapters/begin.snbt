@@ -444,6 +444,54 @@
 			x: -12.5d
 			y: -7.5d
 		}
+		{
+			dependencies: ["62C0631125654B3D"]
+			id: "240E3007179A90BC"
+			tasks: [{
+				id: "419C639053BC1D79"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"240E3007179A90BC"
+				"02003846DA642A0D"
+			]
+			id: "4563BE3E3110A2C9"
+			tasks: [{
+				id: "2886EA7D968B09D5"
+				item: "minecraft:brick"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4563BE3E3110A2C9"]
+			id: "291CCB69D170B168"
+			tasks: [{
+				id: "54191DED99AAB54B"
+				item: "bonsaitrees3:bonsaipot"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["421132E2C3F4644D"]
+			id: "047BB42636510BA1"
+			tasks: [{
+				id: "44587C197CF4592F"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "阶级-1-突破材料"
+			x: -15.0d
+			y: -5.0d
+		}
 	]
 	title: "空岛"
 }

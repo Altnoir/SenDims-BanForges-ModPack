@@ -10,7 +10,9 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["73531FB69122489F"]
 			id: "3C14A2F8BA3C3DA6"
+			size: 2.0d
 			tasks: [{
 				id: "4FF7F8A5BE4D1636"
 				item: "minecraft:anvil"

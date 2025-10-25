@@ -28,5 +28,10 @@ ServerEvents.recipes(event => {
         'storagedrawers:upgrade_template',
         'storagedrawers:diamond_storage_upgrade'
     );
+    
+    event.replaceInput({}, 
+        'thermal_shock:ruby',
+        '#forge:gems/ruby'
+    );
 
 })

@@ -1,0 +1,28 @@
+{
+  "category": "plains",
+  "has_precipitation": false,
+  "temperature": 0.8,
+  "downfall": 0.0,
+  "depth": 0.125,
+  "scale": 0.05,
+  "effects": {
+    "sky_color": 15641088,
+    "foliage_color": 13369344,
+    "grass_color": 14286848,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "fog_color": 16238016
+  },
+  "carvers": { "air": [], "liquid": [] },
+  "features": [],
+  "spawners": {},
+  "spawn_costs": {},
+  "surface_builder": {
+    "type": "minecraft:default",
+    "config": {
+      "top_material": { "Name": "minecraft:sand" },
+      "under_material": { "Name": "minecraft:sandstone" },
+      "underwater_material": { "Name": "minecraft:gravel" }
+    }
+  }
+}

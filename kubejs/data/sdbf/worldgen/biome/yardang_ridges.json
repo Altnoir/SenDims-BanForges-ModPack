@@ -1,0 +1,28 @@
+{
+  "category": "mesa",
+  "has_precipitation": false,
+  "temperature": 0.6,
+  "downfall": 0.0,
+  "depth": 0.8,
+  "scale": 0.6,
+  "effects": {
+    "sky_color": 15852060,
+    "foliage_color": 13369344,
+    "grass_color": 14078912,
+    "water_color": 3949738,
+    "water_fog_color": 329011,
+    "fog_color": 14745599
+  },
+  "carvers": { "air": [], "liquid": [] },
+  "features": [],
+  "spawners": {},
+  "spawn_costs": {},
+  "surface_builder": {
+    "type": "minecraft:default",
+    "config": {
+      "top_material": { "Name": "minecraft:orange_terracotta" },
+      "under_material": { "Name": "minecraft:cut_sandstone" },
+      "underwater_material": { "Name": "minecraft:gravel" }
+    }
+  }
+}

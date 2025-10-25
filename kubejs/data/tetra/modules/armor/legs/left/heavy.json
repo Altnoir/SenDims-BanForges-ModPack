@@ -8,6 +8,9 @@
       "materials": [ "tetra:wood/","tetra:gem/", "tetra:metal/", "tetra:bone/" ],
       "key": "heavy_legs_left/",
       "aspects": {
+        "armor": 2,
+        "armor_legs": 2,
+        "wearable": 2,
         "breakable": 2
       },
       "durability": 7,
