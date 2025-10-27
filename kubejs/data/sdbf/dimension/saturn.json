@@ -2,17 +2,71 @@
   "type": "sdbf:saturn_type",
   "generator": {
     "type": "minecraft:noise",
-    "seed": 0,
-    "settings": "sdbf:saturn_noise",
     "biome_source": {
       "type": "minecraft:multi_noise",
       "biomes": [
-        { "biome": "sdbf:eroded_plains", "parameters": { "temperature": 0.8, "humidity": 0.0, "continentalness": 0.0, "erosion": 0.0, "depth": 0.125, "weirdness": 0.0, "offset": 0.0 } },
-        { "biome": "sdbf:yardang_ridges", "parameters": { "temperature": 0.6, "humidity": 0.0, "continentalness": 0.2, "erosion": -0.2, "depth": 0.8, "weirdness": 0.0, "offset": 0.0 } },
-        { "biome": "sdbf:dune_sea", "parameters": { "temperature": 0.85, "humidity": 0.0, "continentalness": -0.1, "erosion": 0.1, "depth": 0.12, "weirdness": 0.0, "offset": 0.0 } },
-        { "biome": "sdbf:hydrogen_basin", "parameters": { "temperature": 0.2, "humidity": 0.0, "continentalness": -0.2, "erosion": 0.3, "depth": -0.1, "weirdness": 0.0, "offset": 0.0 } },
-        { "biome": "sdbf:storm_basin", "parameters": { "temperature": 0.3, "humidity": 0.0, "continentalness": 0.4, "erosion": -0.4, "depth": 1.0, "weirdness": 0.0, "offset": 0.0 } }
+        {
+          "biome": "sdbf:eroded_plains",
+          "parameters": {
+            "continentalness": [-1.0, 1.0],
+            "depth": [-1.0, 1.0],
+            "erosion": [-1.0, 1.0],
+            "humidity": [-1.0, 1.0],
+            "offset": 0.0,
+            "temperature": [0.7, 0.9],
+            "weirdness": [0.0, 0.25]
+          }
+        },
+        {
+          "biome": "sdbf:yardang_ridges",
+          "parameters": {
+            "continentalness": [-1.0, 1.0],
+            "depth": [-1.0, 1.0],
+            "erosion": [-1.0, 1.0],
+            "humidity": [-1.0, 0.1],
+            "offset": 0.0,
+            "temperature": [0.5, 0.7],
+            "weirdness": [0.6, 1.0]
+          }
+        },
+        {
+          "biome": "sdbf:dune_sea",
+          "parameters": {
+            "continentalness": [-1.0, 1.0],
+            "depth": [-1.0, 1.0],
+            "erosion": [-1.0, 1.0],
+            "humidity": [0.0, 1.0],
+            "offset": 0.0,
+            "temperature": [0.75, 0.95],
+            "weirdness": [0.0, 0.2]
+          }
+        },
+        {
+          "biome": "sdbf:hydrogen_basin",
+          "parameters": {
+            "continentalness": [-1.0, 1.0],
+            "depth": [-1.0, 1.0],
+            "erosion": [-1.0, 1.0],
+            "humidity": [-1.0, 0.1],
+            "offset": 0.0,
+            "temperature": [0.1, 0.3],
+            "weirdness": [-0.2, 0.0]
+          }
+        },
+        {
+          "biome": "sdbf:storm_basin",
+          "parameters": {
+            "continentalness": [-1.0, 1.0],
+            "depth": [-1.0, 1.0],
+            "erosion": [-1.0, 1.0],
+            "humidity": [0.3, 0.5],
+            "offset": 0.0,
+            "temperature": [0.2, 0.4],
+            "weirdness": [0.8, 1.0]
+          }
+        }
       ]
-    }
+    },
+    "settings": "sdbf:saturn_noise"
   }
 }

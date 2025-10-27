@@ -230,7 +230,7 @@
 				type: "checkmark"
 			}]
 			title: "连击B"
-			x: -5.0d
+			x: -7.5d
 			y: 2.5d
 		}
 		{
@@ -283,7 +283,7 @@
 				type: "checkmark"
 			}]
 			title: "特殊行动与幻影剑"
-			x: -2.5d
+			x: -5.0d
 			y: 2.5d
 		}
 		{
@@ -698,7 +698,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 12.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["128DAE63591990BF"]
@@ -760,8 +760,8 @@
 				item: "last_smith:scroll_blade"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 10.0d
+			x: 2.5d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -904,7 +904,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 10.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["41AAF1E0C28F6B57"]
@@ -916,6 +916,572 @@
 			}]
 			x: 15.0d
 			y: 5.0d
+		}
+		{
+			dependencies: [
+				"77180F6F6B90B852"
+				"6F98D4EDA2697EC1"
+			]
+			id: "635DD69063FA1058"
+			tasks: [{
+				id: "07D14994B2A3911C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/named/yamato.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:void_slash"
+							StandbyRenderType: 1b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "last_smith:model/named/bamboolight/bamboo_top.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 6.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 75
+							proudSoul: 0
+							translationKey: "item.last_smith.bamboo_hermit"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						Enchantments: [
+							{
+								id: "minecraft:unbreaking"
+								lvl: 2s
+							}
+							{
+								id: "minecraft:power"
+								lvl: 1s
+							}
+							{
+								id: "minecraft:smite"
+								lvl: 2s
+							}
+						]
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/named/yamato.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:void_slash"
+							StandbyRenderType: 1b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "last_smith:model/named/bamboolight/bamboo_top.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 6.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 75
+							proudSoul: 0
+							translationKey: "item.last_smith.bamboo_hermit"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["635DD69063FA1058"]
+			id: "675F33EF4E067029"
+			tasks: [{
+				id: "72873B68A5D01392"
+				item: "last_smith:scroll_wood_kiwami"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"675F33EF4E067029"
+				"39D12DC4BDAF5AB7"
+			]
+			id: "7A59A895D1D7B608"
+			tasks: [{
+				id: "08BC32E7B1DBBD5F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "last_smith:model/named/sagequoia/model.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:wave_edge"
+							StandbyRenderType: 1b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "last_smith:model/named/sagequoia/texture.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 6.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 113
+							proudSoul: 0
+							translationKey: "item.last_smith.sagequoia"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						Enchantments: [
+							{
+								id: "minecraft:smite"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:sharpness"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+						]
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "last_smith:model/named/sagequoia/model.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:wave_edge"
+							StandbyRenderType: 1b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "last_smith:model/named/sagequoia/texture.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 6.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 113
+							proudSoul: 0
+							translationKey: "item.last_smith.sagequoia"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["4A57E4499E188BD7"]
+			hide_dependency_lines: true
+			id: "39D12DC4BDAF5AB7"
+			tasks: [{
+				id: "15E3D4A18B8B3D6C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/blade.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:drive_vertical"
+							StandbyRenderType: 4b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/named/tagayasan.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 5.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 70
+							proudSoul: 0
+							translationKey: "item.slashblade.tagayasan"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						Enchantments: [
+							{
+								id: "minecraft:smite"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+						]
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/blade.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:drive_vertical"
+							StandbyRenderType: 4b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/named/tagayasan.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 5.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 70
+							proudSoul: 0
+							translationKey: "item.slashblade.tagayasan"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["6E207921B1E85F6A"]
+			id: "0116E47ADFC319C3"
+			tasks: [{
+				id: "0789309975FB54B3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "last_smith:model/named/eievui/model.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "last_smith:model/named/eievui/texture.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 5.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 113
+							proudSoul: 0
+							translationKey: "item.last_smith.eievui"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "last_smith:model/named/eievui/model.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "last_smith:model/named/eievui/texture.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 5.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 113
+							proudSoul: 0
+							translationKey: "item.last_smith.eievui"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6E207921B1E85F6A"]
+			id: "7DC441AFE269F697"
+			tasks: [{
+				id: "4AC6A2E1CCD972CC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade_addon:model/tboen/model.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:sakura_end"
+							StandbyRenderType: 4b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade_addon:model/tboen/texture.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 6.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 70
+							proudSoul: 0
+							translationKey: "item.slashblade_addon.tboen"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade_addon:model/tboen/model.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:sakura_end"
+							StandbyRenderType: 4b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade_addon:model/tboen/texture.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 6.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 70
+							proudSoul: 0
+							translationKey: "item.slashblade_addon.tboen"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4A57E4499E188BD7"]
+			hide_dependency_lines: true
+			id: "1379B8D98C84F257"
+			tasks: [{
+				id: "245523A0A191D2F2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "pseudoedge_break_dawn:model/pseudo/named/pseudosword/kumasakura/kumasakura.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:wave_edge"
+							StandbyRenderType: 1b
+							SummonedSwordColor: -1114368
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "pseudoedge_break_dawn:model/pseudo/named/pseudosword/kumasakura/kumasakura.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 19.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 300
+							proudSoul: 0
+							translationKey: "item.pseudoedge_break_dawn.kumasakura"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						Enchantments: [
+							{
+								id: "minecraft:sharpness"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+						]
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "pseudoedge_break_dawn:model/pseudo/named/pseudosword/kumasakura/kumasakura.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:wave_edge"
+							StandbyRenderType: 1b
+							SummonedSwordColor: -1114368
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "pseudoedge_break_dawn:model/pseudo/named/pseudosword/kumasakura/kumasakura.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 19.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 300
+							proudSoul: 0
+							translationKey: "item.pseudoedge_break_dawn.kumasakura"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["6FD736B74327F2AF"]
+			description: [
+				"与原版&m那抽象&r的减伤算法不同，这个世界使用一种“减法公式”作为护甲减伤的基础："
+				"&c最终受伤&r=&d原始受伤&r-(&a护甲&r*(1+(&b韧性&r*0.02)))"
+				""
+				"最小的&c最终受伤&r值为0.5。"
+				""
+				"保护系列附魔的减伤在护甲减伤计算之前计算，每级保护会提供1%的伤害减免（如果你全身有20级保护，就意味着你有25%的减伤）。"
+				""
+				"这意味着，当你面对不同护甲的敌人时，不同的连击的输出效率也不同："
+				"·面对低护甲敌人时，哪怕是低伤害倍率的攻击也可以打出较完整的伤害；"
+				"·面对高护甲的敌人时，低伤害的攻击可能会被大量减免，这时使用高伤害倍率的攻击会是更好的选择；"
+				"·当然，你也可以使用幻影剑或者部分SA造成魔法伤害，面对没有魔法抗性的敌人时，这将会是一个比较通用的选择；"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "16583AEF17DC8460"
+			tasks: [{
+				id: "61781893C311D4E6"
+				type: "checkmark"
+			}]
+			title: "护甲与减伤"
+			x: -2.5d
+			y: 2.5d
 		}
 	]
 	title: "拔刀剑"

@@ -1,28 +1,26 @@
 {
-  "category": "river",
   "has_precipitation": false,
   "temperature": 0.2,
   "downfall": 0.0,
-  "depth": -0.1,
-  "scale": 0.05,
   "effects": {
     "sky_color": 12255200,
     "foliage_color": 13369344,
     "grass_color": 11010048,
     "water_color": 2617999,
     "water_fog_color": 1298881,
-    "fog_color": 12386304
+    "fog_color": 12386304,
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    }
   },
-  "carvers": { "air": [], "liquid": [] },
+  "carvers": {
+    "air": [],
+    "liquid": []
+  },
   "features": [],
   "spawners": {},
-  "spawn_costs": {},
-  "surface_builder": {
-    "type": "minecraft:default",
-    "config": {
-      "top_material": { "Name": "minecraft:calcite" },
-      "under_material": { "Name": "minecraft:sand" },
-      "underwater_material": { "Name": "minecraft:gravel" }
-    }
-  }
+  "spawn_costs": {}
 }

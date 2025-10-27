@@ -1,28 +1,26 @@
 {
-  "category": "extreme_hills",
   "has_precipitation": false,
   "temperature": 0.3,
   "downfall": 0.0,
-  "depth": 1.0,
-  "scale": 0.7,
   "effects": {
     "sky_color": 9211020,
     "foliage_color": 10053120,
     "grass_color": 8126464,
     "water_color": 2763300,
     "water_fog_color": 1500000,
-    "fog_color": 4300000
+    "fog_color": 4300000,
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    }
   },
-  "carvers": { "air": [], "liquid": [] },
+  "carvers": {
+    "air": [],
+    "liquid": []
+  },
   "features": [],
   "spawners": {},
-  "spawn_costs": {},
-  "surface_builder": {
-    "type": "minecraft:default",
-    "config": {
-      "top_material": { "Name": "minecraft:blackstone" },
-      "under_material": { "Name": "minecraft:basalt" },
-      "underwater_material": { "Name": "minecraft:gravel" }
-    }
-  }
+  "spawn_costs": {}
 }
