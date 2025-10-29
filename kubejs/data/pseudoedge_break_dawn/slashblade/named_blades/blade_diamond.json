@@ -1,0 +1,17 @@
+{
+  "creativeGroup": "pseudoedge_break_dawn:pseudoedge_break_dawn_slashblade",
+  "name": "pseudoedge_break_dawn:blade_diamond",
+  "properties": {
+    "attack_base": 7.0,
+    "max_damage": 300,
+    "slash_art": "slashblade:drive_vertical",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "pseudoedge_break_dawn:model/pseudo/named/pseudosword/blade/blade.obj",
+    "texture": "pseudoedge_break_dawn:model/pseudo/named/pseudosword/blade/blade1.png"
+  }
+}

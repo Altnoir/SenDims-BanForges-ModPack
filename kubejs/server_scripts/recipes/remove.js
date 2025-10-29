@@ -49,7 +49,25 @@ const toRemoveID = new Set([
     "thermal:fire_charge/invar_ingot_3",
     "thermal:machine_frame",
     "thermal:rf_coil",
-    "ad_astra:desh_engine"
+    "ad_astra:desh_engine",
+    "slashblade_addon:wanderer",
+    "cialloblade:ciallo",
+    "slashblade:muramasa",
+    "last_smith:kataware_exorcism_sakura",
+    "last_smith:kataware_exorcism_yuki",
+    "last_smith:kataware_exorcism_ginkgo",
+    "slashblade_addon:frosty_cherry",
+    "slashblade:ruby",
+    "pseudoedge_break_dawn:purplesblade",
+    "last_smith:exorcism_yuki",
+    "last_smith:exorcism_sakura",
+    "blades_derby:uma_black",
+    "pseudoedge_break_dawn:kingblade",
+    "slashblade_addon:nihil",
+    "pseudoedge_break_dawn:kumasakura",
+    "foxextra:foxex_black",
+    "foxextra:foxex_white",
+    "pseudoedge_break_dawn:vitex",
 ]);
 
 ServerEvents.recipes(event => {

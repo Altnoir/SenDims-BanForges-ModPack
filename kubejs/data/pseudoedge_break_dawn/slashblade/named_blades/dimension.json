@@ -1,0 +1,32 @@
+{
+  "creativeGroup": "pseudoedge_break_dawn:pseudoedge_break_dawn_slashblade",
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:fire_aspect",
+      "lvl": 5
+    }
+  ],
+  "name": "pseudoedge_break_dawn:dimension",
+  "properties": {
+    "attack_base": 29.0,
+    "max_damage": 300,
+    "slash_art": "pseudoedge_break_dawn:thrust_eex",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "pseudoedge_break_dawn:model/pseudo/named/pseudosword/dimension/dimension.obj",
+    "summon_sword_color": 14156031,
+    "texture": "pseudoedge_break_dawn:model/pseudo/named/pseudosword/dimension/dimension.png"
+  }
+}

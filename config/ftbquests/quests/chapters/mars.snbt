@@ -430,6 +430,17 @@
 			x: 5.0d
 			y: -7.5d
 		}
+		{
+			dependencies: ["20C5B7CCF681A814"]
+			id: "549AFEC23C09BA81"
+			tasks: [{
+				id: "10244535320ECABC"
+				item: "last_smith:scroll_muramasa"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
 	]
 	title: "火星"
 }

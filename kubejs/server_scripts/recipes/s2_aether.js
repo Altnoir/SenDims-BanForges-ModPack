@@ -1,4 +1,116 @@
 ServerEvents.recipes(event => {
+
+    event.recipes.slashblade.slashblade_shaped_recipe("slashblade:slashblade", [
+        "ABC",
+        "BC ",
+        "DE "
+    ], {
+        "A": "minecraft:obsidian",
+        "B": "slashblade:proudsoul_sphere",
+        "C": "slashblade:proudsoul_ingot",
+        "D": SlashBladeIngredient.of(
+            SlashBladeRequestDefinition.name("slashblade:fox_black")
+                .refineCount(10)
+                .build()
+        ),
+        "E": "minecraft:string"
+    }, "pseudoedge_break_dawn:purplesblade")
+        .id("sdbf:purplesblade_s2")
+
+
+    event.recipes.slashblade.slashblade_shaped_recipe("slashblade:slashblade", [
+        "ABA",
+        "CDC",
+        "ACA"
+    ], {
+        "A": "minecraft:glowstone",
+        "B": ["minecraft:nether_star", 'deep_aether:stratus_ingot'],
+        "C": "minecraft:diamond_block",
+        "D": SlashBladeIngredient.of(
+            SlashBladeRequestDefinition.name("slashblade:fox_black")
+                .killCount(1500)
+                .proudSoul(12000)
+                .refineCount(6)
+                .build()
+        )
+    }, "foxextra:foxex_black")
+        .id("sdbf:foxex_black_s2")
+
+    event.recipes.slashblade.slashblade_shaped_recipe("slashblade:slashblade", [
+        "ABA",
+        "CDC",
+        "ACA"
+    ], {
+        "A": "minecraft:glowstone",
+        "B": ["minecraft:nether_star", 'deep_aether:stratus_ingot'],
+        "C": "minecraft:diamond_block",
+        "D": SlashBladeIngredient.of(
+            SlashBladeRequestDefinition.name("slashblade:fox_white")
+                .killCount(1500)
+                .proudSoul(12000)
+                .refineCount(6)
+                .build()
+        )
+    }, "foxextra:foxex_white")
+        .id("sdbf:foxex_white_s2")
+
+    event.recipes.slashblade.slashblade_shaped_recipe("slashblade:slashblade", [
+        "ABC",
+        "BDB",
+        "CBC"
+    ], {
+        "A": "minecraft:obsidian",
+        "B": "minecraft:cactus",
+        "C": ["minecraft:nether_star", 'deep_aether:stratus_ingot'],
+        "D": SlashBladeIngredient.of(
+            SlashBladeRequestDefinition.name("pseudoedge_break_dawn:purplesblade")
+                .killCount(300)
+                .proudSoul(20000)
+                .refineCount(10)
+                .build()
+        )
+    }, "pseudoedge_break_dawn:vitex")
+        .id("sdbf:vitex_s2")
+
+    event.custom({
+        "type": "slashblade:slashblade_smithing",
+        "addition": {
+            "item": 'aether_redux:gravitite_ingot'
+        },
+        "base": {
+            "type": "slashblade:blade",
+            "item": "slashblade:slashblade",
+            "request": {}
+        },
+        "blade": "slashblade:ruby",
+        "template": {
+            "item": "last_smith:scroll_katana"
+        }
+    }).id("sdbf:blade_ruby_s2")
+
+    event.custom({
+        "type": "slashblade:slashblade_smithing",
+        "addition": {
+            "item": 'deep_aether:metal_mixture'
+        },
+        "base": {
+            "type": "slashblade:blade",
+            "item": "slashblade:slashblade",
+            "request": {
+                "enchantments": [
+                    {
+                        "id": "minecraft:smite"
+                    }
+                ],
+                "name": "last_smith:nagasada"
+            }
+        },
+        "blade": "last_smith:exorcism_yuki",
+        "template": {
+            "item": "last_smith:scroll_named"
+        }
+    }).id("sdbf:exorcism_yuki_s2")
+
     event.shaped($StructureQuill.forStructure("aether:bronze_dungeon"), [
         'AAA',
         'ABA',

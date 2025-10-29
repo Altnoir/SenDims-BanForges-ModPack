@@ -44,6 +44,22 @@ ServerEvents.recipes(event => {
         E: 'thermal:enderium_gear'
     }).id('sdbf:desh_engine_2_s2')
 
+    event.recipes.slashblade.slashblade_shaped_recipe("slashblade:slashblade", [
+        "  I",
+        "QI ",
+        "BC "
+    ], {
+        "B": SlashBladeIngredient.of(
+            SlashBladeRequestDefinition
+                .name("slashblade:doutanuki")
+                .build()
+        ),
+        "C": "minecraft:clock",
+        "I": "slashblade:proudsoul_ingot",
+        "Q": '#forge:ingots/desh'
+    }, "slashblade_addon:wanderer")
+    .id('sdbf:wanderer_s2')
+
     event.shaped($StructureQuill.forStructure("ad_astra:moon_dungeon"), [
         'AAA',
         'ABA',
