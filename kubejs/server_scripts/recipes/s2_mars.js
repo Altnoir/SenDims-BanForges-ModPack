@@ -44,14 +44,16 @@ ServerEvents.recipes(event => {
         " D "
     ], {
         "A": SlashBladeIngredient.of(
-            SlashBladeRequestDefinition.name("last_smith:exorcism_ginkgo")
+            SlashBladeRequestDefinition
+                .name("last_smith:exorcism_ginkgo")
                 .proudSoul(1000)
                 .killCount(100)
                 .refineCount(10)
                 .build()
         ),
         "B": SlashBladeIngredient.of(
-            SlashBladeRequestDefinition.name("last_smith:exorcism_sakura")
+            SlashBladeRequestDefinition
+                .name("last_smith:exorcism_sakura")
                 .proudSoul(1000)
                 .killCount(100)
                 .refineCount(10)

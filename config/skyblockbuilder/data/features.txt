@@ -917,6 +917,15 @@ thermal:silver_ore
 thermal:sulfur_ore
 thermal:tin_ore
 thermal:trees_rubberwood
+thermal_and_space:space_apatite
+thermal_and_space:space_cinnabar
+thermal_and_space:space_lead
+thermal_and_space:space_nickel
+thermal_and_space:space_niter
+thermal_and_space:space_oil_sand
+thermal_and_space:space_silver
+thermal_and_space:space_sulfur
+thermal_and_space:space_tin
 thermal_shock:angler_bulb_feature
 thermal_shock:barbubble
 thermal_shock:blazerock_gen

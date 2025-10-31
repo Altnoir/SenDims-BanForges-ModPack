@@ -33,5 +33,10 @@ ServerEvents.recipes(event => {
         'thermal_shock:ruby',
         '#forge:gems/ruby'
     );
+    
+    event.replaceInput({}, 
+        'minecraft:enchanting_table',
+        'ad_astra:moon_globe'
+    );
 
 })

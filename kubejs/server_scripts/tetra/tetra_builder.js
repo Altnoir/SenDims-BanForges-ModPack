@@ -24,9 +24,9 @@ const tetraMaterialBuilder = (event, id) => {
     };
     let textures = [];
     let material = {
-        "items": [],
         "count": 1
     };
+    let materialItems = [];
     let requiredTools = {};
     let effects = {};
     let attributes = {};
@@ -46,10 +46,10 @@ const tetraMaterialBuilder = (event, id) => {
         setToolEfficiency(int) { toolEfficiency = int; return builder; },
         setTints(glyph, texture) { tints.glyph = glyph; tints.texture = texture; return builder; },
         addTexture(texture) { textures.push(texture); return builder; },
-        addItemMaterial(item) { material.items.push(item); return builder; },
+        addItemMaterial(item) { materialItems.push(item); return builder; },
         setTagMaterial(tag) { material["tag"] = tag; return builder; },
-        setMaterialNBT(any) { material[nbt] = any; return builder; },
-        addMaterialCount(num) { material.count = num; return builder; },
+        setMaterialNBT(any) { material["nbt"] = any; return builder; },
+        addMaterialCount(num) { material["count"] = num; return builder; },
         setRequiredTool(tool, level) { requiredTools[tool] = level; return builder; },
         setReplace(bool) { replace = bool; return builder; },
         setHidden(bool) { hidden = bool; return builder; },
@@ -62,6 +62,7 @@ const tetraMaterialBuilder = (event, id) => {
         setFeatures(lst) { features = lst; return builder; },
 
         build() {
+            
             let json = {
                 key: key,
                 category: category,
@@ -83,10 +84,11 @@ const tetraMaterialBuilder = (event, id) => {
                 material: material,
                 requiredTools: requiredTools,
                 effects: effects,
-                attributes: attributes,
-                improvements: improvements
+                attributes: attributes                
             };
             if (features) json["features"] = features;
+            if (materialItems.length > 0) json["material"]["items"] = materialItems;
+            if (improvements != {}) json["improvements"] = improvements;
             if (tags) json["tags"] = tags;
             event.addJson(`tetra:materials/${category}/${key}.json`, json);
             console.log(`[Tetra Wheel Chair] Material "${key}" Build-ed. `);

@@ -13,20 +13,20 @@
 	#
 	# Allow Bumblezone mod to handle teleporting into the Bumblezone dimension.
 	#
-	enableEntranceTeleportation = true
+	enableEntranceTeleportation = false
 	# 
 	#-----------------------------------------------------
 	#
 	# Allow Bumblezone mod to handle teleporting out of the Bumblezone dimension.
 	#
-	enableExitTeleportation = true
+	enableExitTeleportation = false
 	# 
 	#-----------------------------------------------------
 	#
 	# If this is enabled, mobs that originally spawned in Bumblezone will be teleported
 	# to 0, 0 center of the Overworld when exiting Bumblezone dimension.
 	#
-	forceBumblezoneOriginMobToOverworldCenter = true
+	forceBumblezoneOriginMobToOverworldCenter = false
 	# 
 	#-----------------------------------------------------
 	#

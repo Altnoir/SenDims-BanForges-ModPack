@@ -7,7 +7,12 @@ ItemEvents.tooltip(event => {
     event.add('umapyoi:speed_mid_item', Text.translatable('info.kubejs.material.midbook').color(Color.LIME_DYE));
     event.add('umapyoi:speed_high_item', Text.translatable('info.kubejs.material.highbook').color(Color.LIME_DYE));
 
-    event.addAdvanced(['slashblade:slashblade', 'slashbladetetra:slashblade'], (item, advanced, text) => {
+    event.addAdvanced([
+        'slashblade:slashblade',
+        'energyblade:forge_energy_blade',
+        'slashbladetetra:slashblade',
+        'slashbladetetra:hf'
+    ], (item, advanced, text) => {
         if (item.nbt && item.nbt.bladeState && item.nbt.bladeState.translationKey) {
             text.add(Text.of(String(item.nbt.bladeState.translationKey).substring(5).replace(".", ":")).color(Color.LIME_DYE));
         }
