@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
         C: 'minecraft:netherite_ingot'
     }).id('sdbf:apotheosis_library_s1')
 
-        event.shaped('kubejs:garden_lighter', [
+    event.shaped('kubejs:garden_lighter', [
         'A  ',
         ' B ',
         ' CD'

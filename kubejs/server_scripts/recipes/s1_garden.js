@@ -9,6 +9,16 @@ ServerEvents.recipes(event => {
         'minecraft:stripped_birch_log'
     )
 
+    event.shaped('slashblade_sendims:deeprealm_certificate', [
+        ' AA',
+        'ABA',
+        'CA '
+    ], {
+        A: 'thermal_shock:phobotite',
+        B: 'thermal_shock:phobotite',
+        C: '#minecraft:dirt'
+    }).id('sdbf:deeprealm_certificate_s1')
+
     event.recipes.slashblade.slashblade_shaped_recipe("slashblade:slashblade", [
         "ABC",
         "DEF",

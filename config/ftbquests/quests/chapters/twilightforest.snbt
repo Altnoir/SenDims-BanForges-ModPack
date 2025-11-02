@@ -14,7 +14,11 @@
 				"6AE2EFEC0F3BE4BE"
 				"5BDFD8CB35D8AFC6"
 			]
-			description: ["注：原始风格的暮色森林传送门需要在原始的门框中投入下界之星"]
+			description: [
+				"用黑曜石砖块构筑池塘，填充清水，并投入钻石......"
+				""
+				"注：原始风格的暮色森林传送门需要在原始的门框中投入下界之星"
+			]
 			icon: "twilightforest:twilight_portal_miniature_structure"
 			id: "3C1CB82ADF4FBBC1"
 			rewards: [{

@@ -1,0 +1,653 @@
+{
+    "pools": [
+      {
+        "rolls": {
+          "min": 4,
+          "max": 8
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:glow_lichen",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 2,
+                  "max": 4
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 6,
+            "name": "minecraft:glass_bottle",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 5,
+                  "max": 10
+                }
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:armor_stand",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:1,ic:light_emblem,EntityTag:{Marker:1b,Invisible:1b,Tags:[\"ic.light_emblem\"]}}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Light Emblem",
+                    "color": "light_purple",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "When placed mobs will spawn ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "per player in the area for ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "60 seconds.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": " ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Only works below -y56. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.004
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:scute",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 2,
+                  "max": 4
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 4,
+            "name": "minecraft:glow_berries",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:tall_grass",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 2,
+                  "max": 4
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:suspicious_stew",
+            "functions": [
+              {
+                "function": "minecraft:set_stew_effect",
+                "effects": [
+                  {
+                    "type": "minecraft:regeneration",
+                    "duration": {
+                      "min": 80,
+                      "max": 800
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:suspicious_stew",
+            "functions": [
+              {
+                "function": "minecraft:set_stew_effect",
+                "effects": [
+                  {
+                    "type": "minecraft:absorption",
+                    "duration": {
+                      "min": 80,
+                      "max": 800
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:suspicious_stew",
+            "functions": [
+              {
+                "function": "minecraft:set_stew_effect",
+                "effects": [
+                  {
+                    "type": "minecraft:poison",
+                    "duration": {
+                      "min": 80,
+                      "max": 160
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:suspicious_stew",
+            "functions": [
+              {
+                "function": "minecraft:set_stew_effect",
+                "effects": [
+                  {
+                    "type": "minecraft:strength",
+                    "duration": {
+                      "min": 80,
+                      "max": 800
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:suspicious_stew",
+            "functions": [
+              {
+                "function": "minecraft:set_stew_effect",
+                "effects": [
+                  {
+                    "type": "minecraft:speed",
+                    "duration": {
+                      "min": 80,
+                      "max": 800
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:suspicious_stew",
+            "functions": [
+              {
+                "function": "minecraft:set_stew_effect",
+                "effects": [
+                  {
+                    "type": "minecraft:health_boost",
+                    "duration": {
+                      "min": 20,
+                      "max": 40
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:suspicious_stew",
+            "functions": [
+              {
+                "function": "minecraft:set_stew_effect",
+                "effects": [
+                  {
+                    "type": "minecraft:instant_health",
+                    "duration": {
+                      "min": 80,
+                      "max": 800
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:suspicious_stew",
+            "functions": [
+              {
+                "function": "minecraft:set_stew_effect",
+                "effects": [
+                  {
+                    "type": "minecraft:water_breathing",
+                    "duration": {
+                      "min": 80,
+                      "max": 800
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:suspicious_stew",
+            "functions": [
+              {
+                "function": "minecraft:set_stew_effect",
+                "effects": [
+                  {
+                    "type": "minecraft:invisibility",
+                    "duration": {
+                      "min": 80,
+                      "max": 800
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:suspicious_stew",
+            "functions": [
+              {
+                "function": "minecraft:set_stew_effect",
+                "effects": [
+                  {
+                    "type": "minecraft:haste",
+                    "duration": {
+                      "min": 80,
+                      "max": 800
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:suspicious_stew",
+            "functions": [
+              {
+                "function": "minecraft:set_stew_effect",
+                "effects": [
+                  {
+                    "type": "minecraft:poison",
+                    "duration": {
+                      "min": 80,
+                      "max": 160
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:suspicious_stew",
+            "functions": [
+              {
+                "function": "minecraft:set_stew_effect",
+                "effects": [
+                  {
+                    "type": "minecraft:poison",
+                    "duration": {
+                      "min": 80,
+                      "max": 160
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:suspicious_stew",
+            "functions": [
+              {
+                "function": "minecraft:set_stew_effect",
+                "effects": [
+                  {
+                    "type": "minecraft:poison",
+                    "duration": {
+                      "min": 80,
+                      "max": 160
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:ender_eye",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 1
+                }
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:5,ic:rc,rc:enchant,ec:5}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Enchantlet Tier V",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "Right click to enchant an ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "item in your offhand. ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": " ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Costs 30 levels. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.06125
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:ender_eye",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 1
+                }
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:4,ic:rc,rc:enchant,ec:4}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Enchantlet Tier IV",
+                    "color": "light_purple",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "Right click to enchant an ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "item in your offhand. ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": " ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Costs 22 levels. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_hoe",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{HideFlags:2,CustomModelData:1,ic:bastion_piercer,AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-3,Operation:0,UUID:[I;232069848,20531297,-1339166817,1330268803],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:11,Operation:0,UUID:[I;319156707,1453736356,-1572244117,1901841866],Slot:\"mainhand\"}]}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": [
+                  {
+                    "text": "Bastion Piercer",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Deals more damage when enemy ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "is 2.75+ blocks away from ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "the user. ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "When in Main Hand:",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": " 12 Attack Damage ",
+                    "color": "dark_green",
+                    "italic": false
+                  },
+                  {
+                    "text": " 1 Attack Speed",
+                    "color": "dark_green",
+                    "italic": false
+                  }
+                ]
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.025
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:shield",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{HideFlags:2,CustomModelData:2,ic:acid_shield,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;232069848,40531297,-1339166817,1330268803],Slot:\"offhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:2,Operation:0,UUID:[I;319156707,1453736356,-1572244117,1901841866],Slot:\"offhand\"}]}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": [
+                  {
+                    "text": "Acid Shield",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Blocking attacks yield a 25% ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "chance to release a toxic gas ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "in the direction of the user. ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Poison immunity in offhand. ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "When in Off Hand:",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": " +4 Armor ",
+                    "color": "blue",
+                    "italic": false
+                  },
+                  {
+                    "text": " +2 Armor Toughness",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ]
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.025
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

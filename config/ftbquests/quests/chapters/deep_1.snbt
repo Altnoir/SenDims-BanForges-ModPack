@@ -11,13 +11,17 @@
 	quests: [
 		{
 			dependencies: ["71F1943E6E3FCA17"]
+			description: ["用星银钢块构筑门槛，并使用深境证章点亮......"]
 			id: "5BB642BD0BE40541"
 			size: 2.0d
 			tasks: [{
-				id: "62D876A06AF2AE60"
-				type: "checkmark"
+				dimension: "infinity_cave:deep_realm_level_1"
+				icon: "minecraft:deepslate"
+				id: "68FCAFE4D18A139C"
+				title: "深境一层"
+				type: "dimension"
 			}]
-			title: "深境1层[DUMMY]"
+			title: "深境一层"
 			x: 0.0d
 			y: 0.0d
 		}

@@ -49,7 +49,7 @@ ServerEvents.highPriorityData(event => {
         .setRequiredTool("hammer_dig", 1)
         .build();
 
-    tetraMaterialBuilder(event, "zanite_gemstone").setCategory("gem")
+    tetraMaterialBuilder(event, "zanite_gemstone").setCategory("germ")
         .setPrimary(2.5).setSecondary(2.5).setTertiary(2.0)
         .setDurability(220).setIntegrityCost(2).setIntegrityGain(5)
         .setMagicCapacity(130).setToolLevel(2).setToolEfficiency(4)
@@ -57,7 +57,7 @@ ServerEvents.highPriorityData(event => {
         .setTints("bd94f9", "5b1cb7").addTexture("heavy").addTexture("metal")
         .addItemMaterial('aether:zanite_gemstone')
         .setRequiredTool("hammer_dig", 1)
-        .build();
+        .build();   
 
     tetraMaterialBuilder(event, "arctic_fur").setCategory("fibre")
         .setPrimary(2.8).setSecondary(2.8).setTertiary(2.0)
@@ -67,9 +67,9 @@ ServerEvents.highPriorityData(event => {
         .setTints("919ca1", "cbcfd2").addTexture("vent").addTexture("metal")
         .addItemMaterial('twilightforest:arctic_fur')
         .setRequiredTool("hammer_dig", 1)
-        .build();
+        .build(); 
 
-    tetraMaterialBuilder(event, "blightbunny_fang").setCategory("bone")
+    tetraMaterialBuilder(event, "blightbunny_fang").setCategory("metal")
         .setPrimary(2.8).setSecondary(2.9).setTertiary(2.0)
         .setDurability(220).setIntegrityCost(2).setIntegrityGain(4)
         .setMagicCapacity(50).setToolLevel(2).setToolEfficiency(4)
@@ -77,7 +77,7 @@ ServerEvents.highPriorityData(event => {
         .setTints("f7f7f7", "a8a8a8").addTexture("vent").addTexture("metal")
         .addItemMaterial('aether_redux:blightbunny_fang')
         .setRequiredTool("hammer_dig", 1)
-        .build();
+        .build();   
 
     tetraMaterialBuilder(event, "sentry_chip").setCategory("metal")
         .setPrimary(3.0).setSecondary(2.5).setTertiary(2.1)
@@ -86,9 +86,9 @@ ServerEvents.highPriorityData(event => {
         .setTints("f7f7f7", "a8a8a8").addTexture("heavy").addTexture("metal")
         .addItemMaterial('aether_redux:sentry_chip')
         .setRequiredTool("hammer_dig", 1)
-        .build();
-
-    tetraMaterialBuilder(event, "lightroot_clump").setCategory("fibre")
+        .build();      
+      
+    tetraMaterialBuilder(event, "lightroot_clump").setCategory("metal")
         .setPrimary(3.0).setSecondary(3.0).setTertiary(2.0)
         .setDurability(220).setIntegrityCost(3).setIntegrityGain(3)
         .setMagicCapacity(100).setToolLevel(3).setToolEfficiency(4)
@@ -97,8 +97,8 @@ ServerEvents.highPriorityData(event => {
         .addItemMaterial('aether_redux:lightroot_clump')
         .setRequiredTool("hammer_dig", 1)
         .build();
-
-    tetraMaterialBuilder(event, "refined_sentrite").setCategory("stone")
+   
+    tetraMaterialBuilder(event, "refined_sentrite").setCategory("fibre")
         .setPrimary(3.2).setSecondary(2.9).setTertiary(2.0)
         .setDurability(200).setIntegrityCost(4).setIntegrityGain(6)
         .setMagicCapacity(160).setToolLevel(3).setToolEfficiency(5)
@@ -107,18 +107,18 @@ ServerEvents.highPriorityData(event => {
         .addItemMaterial('aether_redux:refined_sentrite')
         .setRequiredTool("hammer_dig", 1)
         .build();
-
-    tetraMaterialBuilder(event, "naga_scale").setCategory("scale")
+     
+   tetraMaterialBuilder(event, "naga_scale").setCategory("metal")
         .setPrimary(3.3).setSecondary(3.3).setTertiary(2.2)
         .setDurability(240).setIntegrityCost(3).setIntegrityGain(3)
         .setMagicCapacity(110).setToolLevel(3).setToolEfficiency(5)
         .addAttributes("attributeslib:crit_damage", 0.025)
-        .setTints("172b0f", "426737").addTexture("heavy").addTexture("scale")
+        .setTints("172b0f", "426737").addTexture("heavy").addTexture("metal")
         .addItemMaterial('twilightforest:naga_scale')
         .setRequiredTool("hammer_dig", 1)
         .build();
 
-    tetraMaterialBuilder(event, "veridium_ingot").setCategory("metal")
+    tetraMaterialBuilder(event, "veridium").setCategory("metal")
         .setPrimary(3.4).setSecondary(3.4).setTertiary(2.2)
         .setDurability(250).setIntegrityCost(4).setIntegrityGain(4)
         .setMagicCapacity(110).setToolLevel(3).setToolEfficiency(5)
@@ -126,6 +126,77 @@ ServerEvents.highPriorityData(event => {
         .addItemMaterial('aether_redux:veridium_ingot')
         .setRequiredTool("hammer_dig", 1)
         .build();
+
+     tetraMaterialBuilder(event, "mykapod_shell").setCategory("metal")
+        .setPrimary(3.6).setSecondary(3.3).setTertiary(2.2)
+        .setDurability(240).setIntegrityCost(4).setIntegrityGain(4)
+        .setMagicCapacity(120).setToolLevel(3).setToolEfficiency(5)
+        .addAttributes("minecreaft:generic.armor", 0.25)
+        .setTints("91582f", "f3d296").addTexture("heavy").addTexture("metal")
+        .addItemMaterial('aether_redux:mykapod_shell_chunk')
+        .setRequiredTool("hammer_dig", 1)
+        .build();
+
+    tetraMaterialBuilder(event, "metal_mixture").setCategory("metal")
+        .setPrimary(3.5).setSecondary(3.5).setTertiary(2.3)
+        .setDurability(250).setIntegrityCost(3).setIntegrityGain(3)
+        .setMagicCapacity(130).setToolLevel(3).setToolEfficiency(5)
+        .addAttributes("attributeslib:experience_gained", 0.1)
+        .setTints("e5d944", "bda43b").addTexture("heavy").addTexture("metal")
+        .addItemMaterial('deep_aether:metal_mixture')
+        .setRequiredTool("hammer_dig", 1)
+        .build();
+
+    tetraMaterialBuilder(event, "skyjade").setCategory("metal")
+        .setPrimary(4.0).setSecondary(3.7).setTertiary(2.4)
+        .setDurability(240).setIntegrityCost(2).setIntegrityGain(4)
+        .setMagicCapacity(160).setToolLevel(3).setToolEfficiency(5)
+        .setTints("b0e564", "759a51").addTexture("heavy").addTexture("metal")
+        .addItemMaterial('deep_aether:skyjade')
+        .setRequiredTool("hammer_dig", 1)
+        .build();
+     
+    tetraMaterialBuilder(event, "gravitite").setCategory("metal")
+        .setPrimary(4.1).setSecondary(4.3).setTertiary(2.5)
+        .setDurability(260).setIntegrityCost(4).setIntegrityGain(4)
+        .setMagicCapacity(150).setToolLevel(3).setToolEfficiency(6)
+        .addAttributes("**forge:entity_gravity", -0.05)
+        .addAttributes("**minecraft:generic.movementg_speed", 0.05)
+        .setTints("c041b6", "93318b").addTexture("heavy").addTexture("metal")
+        .addItemMaterial('aether_redux:gravitite_ingot')
+        .setRequiredTool("hammer_dig", 1)
+        .build();
+
+    tetraMaterialBuilder(event, "carminite").setCategory("metal")
+        .setPrimary(4.2).setSecondary(4.5).setTertiary(2.5)
+        .setDurability(250).setIntegrityCost(3).setIntegrityGain(5)
+        .setMagicCapacity(155).setToolLevel(3).setToolEfficiency(6)
+        .addAttributes("**slashblade_sendims:ap_gain_percentage", 0.1)
+        .addAttributes("slashblade_sendims:ap_reduce_amount", 5)
+        .setTints("ff0000", "9a0000").addTexture("heavy").addTexture("metal")
+        .addItemMaterial('twilightforest:carminite')
+        .setRequiredTool("hammer_dig", 1)
+        .build();    
+    
+    tetraMaterialBuilder(event, "knightmetal").setCategory("metal")
+        .setPrimary(4.6).setSecondary(4.5).setTertiary(2.5)
+        .setDurability(280).setIntegrityCost(4).setIntegrityGain(4)
+        .setMagicCapacity(160).setToolLevel(3).setToolEfficiency(6)
+        .addAttributes("minecreaft:generic.armor", 0.5)
+        .setTints("7b8771", "7b8677").addTexture("heavy").addTexture("metal")
+        .addItemMaterial('twilightforest:knightmetal_ingot')
+        .setRequiredTool("hammer_dig", 1)
+        .build();   
+
+    tetraMaterialBuilder(event, "squall_plate").setCategory("metal")
+        .setPrimary(4.6).setSecondary(4.5).setTertiary(2.5)
+        .setDurability(280).setIntegrityCost(4).setIntegrityGain(5)
+        .setMagicCapacity(170).setToolLevel(3).setToolEfficiency(6)
+        .addAttributes("minecreaft:generic.armor_toughness", 0.4)
+        .setTints("dbfcfc", "c6d0db").addTexture("heavy").addTexture("metal")
+        .addItemMaterial('deep_aether:squall_plate')
+        .setRequiredTool("hammer_dig", 1)
+        .build();   
 
     // 海皇锭材料
     tetraMaterialBuilder(event, "neptune_ingot").setCategory("metal")
