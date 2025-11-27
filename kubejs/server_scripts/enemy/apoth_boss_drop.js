@@ -24,7 +24,7 @@ EntityEvents.drops(event => {
     // console.log(event.getDrops())
     let extraDrops = [];
     for (const i of event.getDrops()) {
-        console.log(i)
+        // console.log(i);
         if (global.materialRemoveRule.test(i.getItem())) {
             // console.log(global.materialRemoveRule.test(i.getItem()))
             let nbt = i.getItem().getNbt();

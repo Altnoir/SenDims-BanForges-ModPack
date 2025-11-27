@@ -171,6 +171,9 @@ feur_dimensional_skyland:small_villager_airship
 feur_dimensional_skyland:small_villager_airship_2
 feur_dimensional_skyland:villager_airship
 feur_dimensional_skyland:villager_balloon
+gods_ember:ae_lab
+gods_ember:apron_1
+gods_ember:broken_wither
 infinity_cave:amethyst_altar
 infinity_cave:amethyst_geode
 infinity_cave:deep_dark_temple

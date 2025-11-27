@@ -1,9 +1,9 @@
 ServerEvents.tags("block", event => {
-    event.removeAll('aether:aether_portal_blocks')
+    // event.removeAll('aether:aether_portal_blocks')
 
-    event.add('aether:aether_portal_blocks',
-        'aether:ambrosium_block'
-    )
+    // event.add('aether:aether_portal_blocks',
+    //     'aether:ambrosium_block'
+    // )
 
     event.remove('minecraft:needs_stone_tool', 
         'aether:carved_stone'

@@ -18,6 +18,17 @@
 		{
 			dependencies: ["5748351A76910019"]
 			id: "6FD736B74327F2AF"
+			rewards: [{
+				id: "36C11E4A8BDAEDC7"
+				item: {
+					Count: 1
+					id: "minecraft:leather_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			size: 2.0d
 			subtitle: "重要"
 			tasks: [{
@@ -312,6 +323,12 @@
 		{
 			dependencies: ["6FD736B74327F2AF"]
 			id: "4A57E4499E188BD7"
+			rewards: [{
+				count: 4
+				id: "3A24C30968E85C75"
+				item: "minecraft:bamboo"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1A8F2A07FC34EBC5"
 				item: {
@@ -1482,6 +1499,88 @@
 			title: "护甲与减伤"
 			x: -2.5d
 			y: 2.5d
+		}
+		{
+			dependencies: ["4A57E4499E188BD7"]
+			id: "4D2B780AFDAB523E"
+			rewards: [{
+				count: 2
+				id: "661C7827C460434F"
+				item: "slashblade:proudsoul_tiny"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BEDE2630FB6FEE9"
+				item: "slashblade:proudsoul_tiny"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4D2B780AFDAB523E"]
+			id: "418F8A9D369B522C"
+			rewards: [{
+				count: 2
+				id: "6C32F6CEECC5F628"
+				item: "slashblade:proudsoul"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4078BAF11FE973CD"
+				item: "slashblade:proudsoul"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["418F8A9D369B522C"]
+			id: "41B8D629DFAC4BB8"
+			rewards: [{
+				id: "5FAFFC3EFEC061EF"
+				item: "slashblade:proudsoul_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "21B799F1CCBA951E"
+				item: "slashblade:proudsoul_ingot"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["41B8D629DFAC4BB8"]
+			id: "11728C2FAEFCBBAD"
+			rewards: [{
+				id: "6210970389302787"
+				item: "slashblade:proudsoul_sphere"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FED27BB080A82FA"
+				item: "slashblade:proudsoul_sphere"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["11728C2FAEFCBBAD"]
+			id: "4D0F49CE2720FBCD"
+			rewards: [{
+				id: "2D281A74E45E5EB6"
+				item: "slashblade:proudsoul_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "78C0B6A182DC1C74"
+				item: "slashblade:proudsoul_crystal"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 5.0d
 		}
 	]
 	title: "拔刀剑"

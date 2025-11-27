@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "dimension": "thermal_shock:loqendia",
+    "mincount": {
+      "amount": 150
+    },
+    "result": "deny"
+  }
+]

@@ -11,7 +11,12 @@
 	quests: [
 		{
 			dependencies: ["71F1943E6E3FCA17"]
-			description: ["用星银钢块构筑门槛，并使用深境证章点亮......"]
+			description: [
+				"IMMPT：用红砖块构筑门槛，并使用深境证章点亮......"
+				""
+				"原始：用裂纹砖块构筑门槛，并使用深境证章点亮......"
+			]
+			hide_until_deps_complete: true
 			id: "5BB642BD0BE40541"
 			size: 2.0d
 			tasks: [{
@@ -37,6 +42,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["5BB642BD0BE40541"]
 			id: "1525C465363807AE"
 			tasks: [{
 				id: "02F16B5C53EAEB97"
@@ -439,6 +445,71 @@
 			x: 10.0d
 			y: -2.5d
 		}
+		{
+			dependencies: ["5BB642BD0BE40541"]
+			description: [
+				"深境的第一层是一套复杂的洞穴系统："
+				"·y>0：高密度的岩石层，夹杂着一部分小型洞穴，安全又贫瘠；"
+				"·y<0：更加多样化的岩石层，拥有着大量的大型洞穴，各种前文明的结构，以及一些在此定居的主世界土著，充满着冒险与机遇；"
+				"·y<？：在最底层，洞穴......；"
+				""
+				"由于深境一层是一个地底世界，长距离的远征并不容易。使用传送设备记录坐标点，然后分批次探索会是更好的选择。"
+			]
+			icon: "minecraft:map"
+			id: "2EADF063117EE157"
+			subtitle: "信息"
+			tasks: [{
+				id: "7C2857CCF82C28A2"
+				type: "checkmark"
+			}]
+			title: "深境一层的结构"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5BB642BD0BE40541"]
+			id: "33F75375A067D418"
+			tasks: [{
+				id: "2F6FA4D3DC893C82"
+				item: "yungscavebiomes:frost_lily"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BB642BD0BE40541"]
+			id: "6005126CA254EC52"
+			tasks: [{
+				id: "7FEEEE88ECBC5795"
+				item: "minecraft:pitcher_plant"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5BB642BD0BE40541"]
+			id: "377759DBC15115C1"
+			tasks: [{
+				id: "22B60CC9AABD204F"
+				item: "minecraft:torchflower"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5BB642BD0BE40541"]
+			id: "3C8A6884B30E7AE7"
+			tasks: [{
+				id: "33FEE8AA231C94B7"
+				item: "minecraft:sculk_catalyst"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
 	]
-	title: "深境一层"
+	title: "深境：深邃洞穴"
 }

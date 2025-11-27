@@ -13,6 +13,12 @@
 			dependencies: ["5748351A76910019"]
 			icon: "umapyoi:jewel"
 			id: "2C21F5DDCC8B3890"
+			rewards: [{
+				count: 2
+				id: "0EE83D8DDDC5C2C6"
+				item: "quark:carrot_crate"
+				type: "item"
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "59C9B5F9F034211B"
@@ -270,6 +276,19 @@
 			}]
 			x: -2.5d
 			y: -2.5d
+		}
+		{
+			dependencies: ["2C21F5DDCC8B3890"]
+			description: ["如果你能寻找一些村民，将他们培养成训练员的话，或许可以更轻松的发展......"]
+			icon: "minecraft:map"
+			id: "78FB3FF91E3368AA"
+			tasks: [{
+				id: "700F5474546355D3"
+				type: "checkmark"
+			}]
+			title: "提示"
+			x: 0.0d
+			y: 2.5d
 		}
 	]
 	title: "马娘之魂"

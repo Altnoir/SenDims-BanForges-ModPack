@@ -10,6 +10,16 @@ ServerEvents.recipes(event => {
         B: 'cataclysm:monstrous_horn',
         C: 'minecraft:netherite_ingot'
     }).id('sdbf:apotheosis_library_s1')
+    
+    event.shaped('slashblade_sendims:deeprealm_certificate', [
+        ' BB',
+        'BAB',
+        'CB '
+    ], {
+        A: 'kubejs:garden_lighter',
+        B: 'slashblade:proudsoul_tiny',
+        C: '#minecraft:dirt'
+    }).id('sdbf:deeprealm_certificate_s1')
 
     event.shaped('kubejs:garden_lighter', [
         'A  ',

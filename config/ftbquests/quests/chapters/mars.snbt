@@ -5,11 +5,12 @@
 	group: "49FC4157519361C1"
 	icon: "ad_astra:mars_globe"
 	id: "2C322B5F848C22C7"
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["40B4C6CD28E7DF19"]
+			hide_until_deps_complete: true
 			id: "3F43656AE6F116CB"
 			size: 2.0d
 			tasks: [{
@@ -24,6 +25,7 @@
 		}
 		{
 			dependencies: ["3F43656AE6F116CB"]
+			hide_until_deps_complete: true
 			id: "5252B3E3137F1957"
 			tasks: [{
 				id: "58E6CBE56BCE9C2B"
@@ -46,6 +48,7 @@
 		}
 		{
 			dependencies: ["3F43656AE6F116CB"]
+			hide_until_deps_complete: true
 			id: "2E0B8635A864C99E"
 			tasks: [{
 				id: "73997F672A50E944"
@@ -161,6 +164,7 @@
 		}
 		{
 			dependencies: ["3F43656AE6F116CB"]
+			hide_until_deps_complete: true
 			id: "61EE699FD8BD171A"
 			tasks: [{
 				id: "554FCC0B5CAFCC89"
@@ -442,5 +446,5 @@
 			y: -5.0d
 		}
 	]
-	title: "火星"
+	title: "赤红色的星球"
 }

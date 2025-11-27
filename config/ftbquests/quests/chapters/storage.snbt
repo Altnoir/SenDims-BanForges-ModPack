@@ -10,6 +10,8 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["5748351A76910019"]
+			hide_until_deps_complete: true
 			icon: "minecraft:chest"
 			id: "26B66FFB1E5C691C"
 			size: 2.0d

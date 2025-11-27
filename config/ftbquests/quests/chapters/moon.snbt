@@ -6,11 +6,12 @@
 	group: "49FC4157519361C1"
 	icon: "ad_astra:cheese"
 	id: "05ABDD9D79EF355A"
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["750B557031EFBBEE"]
+			hide_until_deps_complete: true
 			icon: "ad_astra:moon_globe"
 			id: "5D5BA71C5348297D"
 			size: 2.0d
@@ -26,6 +27,7 @@
 		}
 		{
 			dependencies: ["5D5BA71C5348297D"]
+			hide_until_deps_complete: true
 			id: "1650B4334A8E0786"
 			tasks: [{
 				id: "793E23A76711FB39"
@@ -37,6 +39,7 @@
 		}
 		{
 			dependencies: ["1650B4334A8E0786"]
+			hide_until_deps_complete: true
 			id: "5D98E7EA6A1E56FC"
 			tasks: [{
 				id: "00AEC72C1C356703"
@@ -75,6 +78,7 @@
 		}
 		{
 			dependencies: ["5D5BA71C5348297D"]
+			hide_until_deps_complete: true
 			id: "1C5BA781B3774E75"
 			tasks: [{
 				id: "099CD6B012FFCFA6"
@@ -89,6 +93,7 @@
 		}
 		{
 			dependencies: ["5D5BA71C5348297D"]
+			hide_until_deps_complete: true
 			id: "6EA2DE0DEBD7A693"
 			tasks: [{
 				id: "3EDAFBC3B4F41AAE"
@@ -113,6 +118,7 @@
 		}
 		{
 			dependencies: ["5D5BA71C5348297D"]
+			hide_until_deps_complete: true
 			id: "74262FD23FBE1CF8"
 			tasks: [{
 				id: "2D1994E38ECB9335"
@@ -188,6 +194,7 @@
 		}
 		{
 			dependencies: ["5D5BA71C5348297D"]
+			hide_until_deps_complete: true
 			icon: "terra_entity:demon_eye_spawn_egg"
 			id: "07353FCC58BFF967"
 			tasks: [{
@@ -245,7 +252,11 @@
 		}
 		{
 			dependencies: ["0936AB2DCC0172A8"]
-			description: ["如果在破坏基岩之后，月球的基岩层下没有出现下界的话，可以通过完成（创造模式/编辑模式）该任务修复这个问题（一般不会发生）。"]
+			description: [
+				"如果你没有启用沉浸式传送门，请无视这个任务！"
+				""
+				"如果在破坏基岩之后，月球的基岩层下没有出现下界的话，可以通过完成（创造模式/编辑模式）该任务修复这个问题（一般不会发生）。"
+			]
 			icon: "minecraft:structure_void"
 			id: "27E4EB6E9AA5BAD2"
 			rewards: [
@@ -281,6 +292,7 @@
 				"6EA2DE0DEBD7A693"
 				"5D3B1F040BBB2AF2"
 			]
+			hide_until_deps_complete: true
 			id: "44DD7148C7185A28"
 			tasks: [{
 				id: "475BED26ED75FA3C"
@@ -446,5 +458,5 @@
 			y: -2.5d
 		}
 	]
-	title: "月球"
+	title: "畸变的月球"
 }

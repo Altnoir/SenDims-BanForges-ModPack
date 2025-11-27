@@ -1,12 +1,16 @@
 ServerEvents.tags("item", event => {
-    event.removeAll('twilightforest:portal/activator')
+    // event.removeAll('twilightforest:portal/activator')
 
-    event.add('twilightforest:portal/activator',
-        'minecraft:nether_star'
-    )
+    // event.add('twilightforest:portal/activator',
+    //     'minecraft:nether_star'
+    // )
 
     event.add('forge:gems/ruby',
         'thermal_shock:ruby'
+    )
+
+    event.add('quark:stone_tool_materials',
+        'thermal_shock:cobbled_shale'
     )
 
     event.add("slashblade_sendims:drc_health_material_0", [

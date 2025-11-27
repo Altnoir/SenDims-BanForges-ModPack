@@ -8,18 +8,121 @@
 	id: "20367AAD44F57688"
 	order_index: 5
 	quest_links: [ ]
-	quests: [{
-		id: "0A68F5EE8F25F036"
-		size: 2.0d
-		tasks: [{
-			dimension: "minecraft:the_end"
-			icon: "minecraft:end_stone"
-			id: "17A6BE0AC45FB95F"
-			title: "末地"
-			type: "dimension"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "0A68F5EE8F25F036"
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_stone"
+				id: "17A6BE0AC45FB95F"
+				title: "末地"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A68F5EE8F25F036"]
+			id: "5EEA2C8F11FB0470"
+			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				id: "035E1841E68EFF36"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5EEA2C8F11FB0470"]
+			id: "6120DF977C2DFEA2"
+			tasks: [{
+				id: "7A146CEADA3647B2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 39
+							ModelName: "slashblade:model/named/yamato.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 1b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: -1
+							TextureName: "slashblade:model/named/yamato.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 7.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 1b
+							isDefaultBewitched: 0b
+							isSealed: 1b
+							killCount: 0
+							lastActionTime: 6546025L
+							maxDamage: 40
+							proudSoul: 0
+							translationKey: "item.slashblade.yamato"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 39
+							ModelName: "slashblade:model/named/yamato.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 1b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: -1
+							TextureName: "slashblade:model/named/yamato.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 7.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 1b
+							isDefaultBewitched: 0b
+							isSealed: 1b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 40
+							proudSoul: 0
+							translationKey: "item.slashblade.yamato"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5EEA2C8F11FB0470"]
+			id: "76C5347D28B53D00"
+			tasks: [{
+				id: "41980B63B46A600E"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+	]
 	title: "末地"
 }

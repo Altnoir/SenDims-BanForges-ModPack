@@ -4,20 +4,14 @@ ServerEvents.recipes(event => {
     event.smelting('thermal_shock:bloodstone', ['thermal_shock:rough_bloodstone'])
         .id("sdbf:bloodstone_s1");
 
-    event.replaceInput({ id: "cialloblade:ciallo" },
-        'minecraft:cake',
-        'minecraft:stripped_birch_log'
-    )
+    event.smelting('slashblade_sendims:estus_flask_0', ['kubejs:garden_lighter'])
+        .id("sdbf:estus_flask_0_s1");
 
-    event.shaped('slashblade_sendims:deeprealm_certificate', [
-        ' AA',
-        'ABA',
-        'CA '
-    ], {
-        A: 'thermal_shock:phobotite',
-        B: 'thermal_shock:phobotite',
-        C: '#minecraft:dirt'
-    }).id('sdbf:deeprealm_certificate_s1')
+    event.shapeless('2x thermal_shock:phobotite', [
+        'thermal_shock:phobotite',
+         Ingredient.of(['thermal_shock:ferrum_ingot', 'thermal_shock:corrial_ingot']),
+          '2x thermal_shock:permafrost'])
+        .id("sdbf:phobotite_s1")
 
     event.recipes.slashblade.slashblade_shaped_recipe("slashblade:slashblade", [
         "ABC",

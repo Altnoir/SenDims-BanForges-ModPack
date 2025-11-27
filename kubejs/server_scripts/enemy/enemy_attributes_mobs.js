@@ -32,6 +32,9 @@ const mobTypes = {
     "minecraft:skeleton": typeA,
     "minecraft:spider": typeB,
     "minecraft:creeper": typeB,
+    "minecraft:enderman": typeC,
+    "minecraft:iron_golem": typeC,
+    "minecraft:warden": typeCEX2,
 
     "twilightforest:towerwood_borer": typeB,
     "twilightforest:carminite_broodling": typeB,
@@ -183,7 +186,17 @@ const mobTypes = {
     "terra_entity:dungeon_guardian": bossType2EX2, 
     "terra_entity:wall_of_flesh": bossType1EX1,
 
+    "minecraft:piglin": typeA,
+    "minecraft:zombified_piglin": typeA,
+    "minecraft:wither_skeleton": typeA,
+    "minecraft:blaze": typeA,
+    "minecraft:ghast": typeA,
+
+    "cataclysm:netherite_monstrosity": bossType2,
+
     "ad_astra:martian_raptor": typeC,
+
+    "minecraft:ender_dragon": bossType2
 
 };
 /**
