@@ -1,9 +1,9 @@
 #魂缚晶增加的杀敌数
 #Range: 0 ~ 214748364
-soul_crystal_add_killcount = 10
+soul_crystal_add_killcount = 100
 #魂缚晶增加的耀魂数
 #Range: 0 ~ 214748364
-soul_crystal_add_proud_soul = 500
+soul_crystal_add_proud_soul = 5000
 #魂缚晶增加的锻造数
 #Range: 0 ~ 214748364
 soul_crystal_add_refine = 0

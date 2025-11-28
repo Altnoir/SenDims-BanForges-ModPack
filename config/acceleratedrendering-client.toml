@@ -295,7 +295,7 @@
 	#- DISABLED: Accelerated Rendering will not compact with Immersive Portal.
 	#- ENABLED: Accelerated Rendering will try to compact with Immersive Portals.
 	#Allowed Values: DISABLED, ENABLED
-	feature_status = "ENABLED"
+	feature_status = "DISABLED"
 	#Allowed Values: DISABLED, ENABLED
 	compact_entity = "ENABLED"
 	#Allowed Values: DISABLED, ENABLED

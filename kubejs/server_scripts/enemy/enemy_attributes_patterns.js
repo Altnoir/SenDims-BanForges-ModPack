@@ -309,6 +309,7 @@ const dimensionStages = {
     "kubejs:deeprealm_1": "1_1",
 
     "twilightforest:twilight_forest": "1_2",
+    "aether:the_aether": "1_2",
     "ad_astra:moon": "1_2",
 
     "minecraft:the_nether": "1_3",

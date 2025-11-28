@@ -575,12 +575,12 @@
     "slashblade_sendims:sprint_cd": {
       "enabled": false,
       "min": {
-        "default": 0.5,
-        "value": 0.5
+        "default": -1,
+        "value": -1
       },
       "max": {
-        "default": 10,
-        "value": 10
+        "default": 0.6,
+        "value": 0.6
       }
     },
     "attributeslib:prot_pierce": {
@@ -751,8 +751,8 @@
     "slashblade_sendims:ap_reduce_amount": {
       "enabled": false,
       "min": {
-        "default": 0,
-        "value": 0
+        "default": -512,
+        "value": -512
       },
       "max": {
         "default": 512,

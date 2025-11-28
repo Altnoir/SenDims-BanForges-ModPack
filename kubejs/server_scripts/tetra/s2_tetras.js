@@ -29,7 +29,7 @@ ServerEvents.highPriorityData(event => {
         .setRequiredTool("hammer_dig", 1)
         .build();
 
-    tetraMaterialBuilder(event, "steeleaf_ingot").setCategory("metal")
+    tetraMaterialBuilder(event, "steeleaf").setCategory("metal")
         .setPrimary(2.3).setSecondary(2.3).setTertiary(1.8)
         .setDurability(280).setIntegrityCost(3).setIntegrityGain(5)
         .setMagicCapacity(80).setToolLevel(4).setToolEfficiency(4)

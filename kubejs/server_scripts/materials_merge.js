@@ -127,15 +127,15 @@ global.materialReplaceRules.set('aether:ambrosium_shard', {
     ]
 });
 
-// global.materialRemoveRule = ItemFilter.or(
-//     ItemFilter.TOOL, ItemFilter.or(
-//         ItemFilter.ARMOR, ItemFilter.or(
-//             ItemFilter.WEAPON, 'minecraft:shield'
-//         )));
-
 global.materialRemoveRule = ItemFilter.or(
-    ItemFilter.and(ItemFilter.or(ItemFilter.ENCHANTABLE, ItemFilter.DAMAGEABLE), ItemFilter.not("slashblade:slashblade"))
-);
+    ItemFilter.TOOL, ItemFilter.or(
+        ItemFilter.ARMOR, ItemFilter.or(
+            ItemFilter.WEAPON, 'minecraft:shield'
+        )));
+
+// global.materialRemoveRule = ItemFilter.or(
+//     ItemFilter.and(ItemFilter.or(ItemFilter.ENCHANTABLE, ItemFilter.DAMAGEABLE), ItemFilter.not("slashblade:slashblade"))
+// );
 
 
 LootJS.modifiers((event) => {

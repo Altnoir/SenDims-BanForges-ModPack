@@ -186,6 +186,8 @@ const mobTypes = {
     "terra_entity:dungeon_guardian": bossType2EX2, 
     "terra_entity:wall_of_flesh": bossType1EX1,
 
+    "minecraft:wither": bossType2,
+
     "minecraft:piglin": typeA,
     "minecraft:zombified_piglin": typeA,
     "minecraft:wither_skeleton": typeA,

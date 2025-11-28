@@ -58,7 +58,7 @@ ServerEvents.recipes(event => {
         "I": "slashblade:proudsoul_ingot",
         "Q": '#forge:ingots/desh'
     }, "slashblade_addon:wanderer")
-    .id('sdbf:wanderer_s2')
+        .id('sdbf:wanderer_s2')
 
     event.shaped($StructureQuill.forStructure("ad_astra:moon_dungeon"), [
         'AAA',
@@ -68,5 +68,18 @@ ServerEvents.recipes(event => {
         A: 'ad_astra:moon_stone',
         B: 'minecraft:map'
     }).id('sdbf:sq_moon_dungeon_s2')
+
+    event.custom({
+        "type": "ad_astra:compressing",
+        "cookingtime": 400,
+        "energy": 1000,
+        "ingredient": {
+            "item": 'minecraft:lava_bucket'
+        },
+        "result": {
+            "count": 1,
+            "id": 'ad_astra:oil_bucket'
+        }
+    }).id('sdbf:oil_bucket_s2')
 
 })

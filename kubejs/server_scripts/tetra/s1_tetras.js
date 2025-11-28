@@ -105,6 +105,29 @@ ServerEvents.highPriorityData(event => {
         .setRequiredTool("hammer_dig", 1)
         .build();
 
+    // bone
+    tetraMaterialBuilder(event, "bone").setCategory("bone")
+        .setPrimary(0.8).setSecondary(1.1).setTertiary(0.85)
+        .setDurability(120).setIntegrityCost(1).setIntegrityGain(5)
+        .setMagicCapacity(108).setToolLevel(2).setToolEfficiency(5)
+        .setTints("bone_glyph", "bone")
+        .addTexture("bone").addTexture("crude")
+        .addItemMaterial('minecraft:bone')
+        .setRequiredTool("hammer_dig", 1)
+        .build();
+    // obsidian
+    tetraMaterialBuilder(event, "obsidian").setCategory("stone")
+        .setPrimary(1.7).setSecondary(0.5).setTertiary(0.95)
+        .setDurability(350).setIntegrityCost(3).setIntegrityGain(1)
+        .setMagicCapacity(90).setToolLevel(4).setToolEfficiency(9)
+        .setTints("obsidian_glyph", "obsidian")
+        .addTexture("obsidian").addTexture("grainy").addTexture("crude").addTexture("default")
+        .setTagMaterial('forge:obsidian')
+        .setRequiredTool("hammer_dig", 3)
+        .addImprovements("arrested", 0)
+        .setFeatures(["crying"])
+        .build();
+
     // 锡材料
     tetraMaterialBuilder(event, "tin").setCategory("metal")
         .setPrimary(1.1).setSecondary(1.1).setTertiary(0.9)

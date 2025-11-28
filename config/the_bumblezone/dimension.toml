@@ -60,7 +60,7 @@
 	# Should teleporting to and from The Bumblezone work 
 	# with modded Bee Nests and modded Beehives as well. 
 	#
-	allowTeleportationWithModdedBeehives = true
+	allowTeleportationWithModdedBeehives = false
 	# 
 	#-----------------------------------------------------
 	#
