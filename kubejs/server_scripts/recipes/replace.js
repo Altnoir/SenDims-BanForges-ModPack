@@ -29,6 +29,11 @@ ServerEvents.recipes(event => {
         'storagedrawers:diamond_storage_upgrade'
     );
     
+    event.replaceInput({id : 'ae2:network/blocks/crystal_processing_charger'}, 
+        '#forge:ingots/copper',
+        '#forge:gems/certus_quartz'
+    );
+    
     event.replaceInput({}, 
         'thermal_shock:ruby',
         '#forge:gems/ruby'

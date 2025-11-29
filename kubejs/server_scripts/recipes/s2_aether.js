@@ -66,7 +66,6 @@ ServerEvents.recipes(event => {
     }, "pseudoedge_break_dawn:purplesblade")
         .id("sdbf:purplesblade_s2")
 
-
     event.recipes.slashblade.slashblade_shaped_recipe("slashblade:slashblade", [
         "ABA",
         "CDC",

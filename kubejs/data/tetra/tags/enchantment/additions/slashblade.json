@@ -5,6 +5,15 @@
     "minecraft:feather_falling",
     "minecraft:thorns",
     "minecraft:soul_speed",
-    "minecraft:power"
+    "minecraft:power",
+
+    "apotheosis:knowledge",
+    "apotheosis:life_mending",
+    "apotheosis:scavenger",
+    "apotheosis:bane_of_illagers",
+    "apotheosis:capturing",
+    "enderio:soulbound",
+    "enderio:xp_boost"
   ]
 }
+

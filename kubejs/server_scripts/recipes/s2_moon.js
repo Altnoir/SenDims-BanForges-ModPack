@@ -1,4 +1,7 @@
 ServerEvents.recipes(event => {
+
+    event.smelting('ad_astra:moon_cobblestone', ['dustandash:cobblestone_with_moss'], 0, 200).id("sdbf:moon_cobblestone_s2")
+
     event.shaped('confluence:obsidian_rose', [
         'ADA',
         'BEB',
@@ -71,8 +74,8 @@ ServerEvents.recipes(event => {
 
     event.custom({
         "type": "ad_astra:compressing",
-        "cookingtime": 400,
-        "energy": 1000,
+        "cookingtime": 4000,
+        "energy": 100,
         "ingredient": {
             "item": 'minecraft:lava_bucket'
         },

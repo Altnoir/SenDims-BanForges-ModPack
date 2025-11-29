@@ -10,10 +10,10 @@ const armor = "minecraft:generic.armor"
  * 均衡模板
  */
 const typeA = {
-    "0_1": [5, 20, 2],
+    "0_1": [4, 20, 2],
 
-    "1_1": [12, 55, 4],
-    "1_2": [23, 110, 6],
+    "1_1": [10, 55, 4],
+    "1_2": [21, 110, 6],
     "1_3": [38, 210, 8],
     "1_4": [58, 450, 10],
 
@@ -32,10 +32,10 @@ const typeA = {
  * 脆皮模板
  */
 const typeB = {
-    "0_1": [7, 18, 0],
+    "0_1": [5, 18, 0],
 
-    "1_1": [16, 35, 2],
-    "1_2": [32, 64, 3],
+    "1_1": [14, 35, 2],
+    "1_2": [29, 64, 3],
     "1_3": [58, 115, 4],
     "1_4": [95, 225, 5],
 
@@ -56,8 +56,8 @@ const typeB = {
 const typeC = {
     "0_1": [3, 50, 1],
 
-    "1_1": [10, 120, 3],
-    "1_2": [19, 240, 4],
+    "1_1": [9, 120, 3],
+    "1_2": [17, 240, 4],
     "1_3": [31, 420, 6],
     "1_4": [47, 860, 8],
 
@@ -78,8 +78,8 @@ const typeC = {
 const typeD = {
     "0_1": [3, 20, 3],
 
-    "1_1": [10, 55, 7],
-    "1_2": [19, 110, 12],
+    "1_1": [9, 55, 7],
+    "1_2": [17, 110, 12],
     "1_3": [31, 210, 20],
     "1_4": [47, 450, 35],
 
@@ -100,8 +100,8 @@ const typeD = {
 const typeSlime = {
     "0_1": [3, 20, 0],
 
-    "1_1": [10, 55, 2],
-    "1_2": [20, 110, 3],
+    "1_1": [9, 55, 2],
+    "1_2": [18, 110, 3],
     "1_3": [34, 210, 4],
     "1_4": [52, 450, 5],
 
@@ -122,8 +122,8 @@ const typeSlime = {
 const type0 = {
     "0_1": [3, 18, 0],
 
-    "1_1": [10, 35, 2],
-    "1_2": [19, 64, 3],
+    "1_1": [9, 35, 2],
+    "1_2": [17, 64, 3],
     "1_3": [31, 115, 4],
     "1_4": [47, 225, 5],
 
@@ -192,7 +192,7 @@ const bossType1 = {
     "0_1": [6, 120, 1],
 
     "1_1": [12, 350, 3],
-    "1_2": [23, 750, 4],
+    "1_2": [20, 600, 3],
     "1_3": [38, 1500, 6],
     "1_4": [58, 3000, 8],
 
@@ -306,7 +306,7 @@ const armorFloat = 0.1;
 const dimensionStages = {
     "thermal_shock:loqendia": "0_1",
 
-    "kubejs:deeprealm_1": "1_1",
+    "infinity_cave:deep_realm_level_1": "1_1",
 
     "twilightforest:twilight_forest": "1_2",
     "aether:the_aether": "1_2",
@@ -316,11 +316,11 @@ const dimensionStages = {
 
     "ad_astra:mars": "1_4",
 
-    "kubejs:deeprealm_2": "2_1",
+    "infinity_cave:deep_realm_level_3": "2_1",
     "ad_astra:venus": "2_1",
     "ad_astra:mercury": "2_1",
 
-    "kubejs:deeprealm_3": "2_2",
+    "infinity_cave:deep_realm_level_3": "2_2",
     "undergarden:undergarden": "2_2",
 
     "minecraft:the_end": "2_3",
@@ -335,7 +335,7 @@ const dimensionStages = {
     "kubejs:pluto": "4_1",
     "ad_astra:glacio": "4_1",
 
-    "kubejs:deeprealm_4": "4_2"
+    "infinity_cave:deep_realm_level_4": "4_2"
 
 };
 
