@@ -178,12 +178,12 @@ const mobTypes = {
     "terra_entity:cursed_skull": typeB,
 
     "terra_entity:king_slime": bossType1,
-    "terra_entity:cthulhu_eye": bossType1,
+    "terra_entity:eye_of_cthulhu": bossType1,
     "terra_entity:eater_of_world": bossType2,
     "terra_entity:brain_of_cthulhu": bossType1,
     "terra_entity:queen_bee": bossType1,
     "terra_entity:skeletron": bossType1,
-    "terra_entity:dungeon_guardian": bossType2EX2, 
+    "terra_entity:dungeon_guardian": bossType2EX2,
     "terra_entity:wall_of_flesh": bossType1EX1,
 
     "minecraft:wither": bossType2,
@@ -215,3 +215,16 @@ const entityBlackList = new Set([
     "terra_entity:summon_stone_sword",
     "terra_entity:summon_wooden_sword"
 ]);
+
+ServerEvents.tags("entity_type", event => {
+    for (let e in mobTypes) {
+        // console.log(e);
+        if (mobTypes[e].isBoss) {
+            event.add("enderio:soul_vial_blacklist", e);
+            // console.log(e);
+        }
+
+    }
+
+
+});

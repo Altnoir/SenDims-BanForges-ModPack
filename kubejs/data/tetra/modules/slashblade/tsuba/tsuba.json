@@ -32,7 +32,7 @@
         "primaryEffects": {
           "RefineStrengthening": 0.5
         },
-        "durability": 0.5,
+        "durability": 0.1,
         "magicCapacity": 4,
         "glyph": {
           "textureX": 48,

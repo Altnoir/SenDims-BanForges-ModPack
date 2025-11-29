@@ -14,6 +14,7 @@ EntityEvents.spawned(event => {
     if (entityBlackList.has(name)) return;
     if (!entity.forgePersistentData) return;
     if (entity.forgePersistentData.contains('dimension_difficulty')) return;
+    entity.forgePersistentData.putBoolean('dimension_difficulty', true);
 
     let dim = event.level.dimension.toString();
     let dimStage = dimensionStages[dim];

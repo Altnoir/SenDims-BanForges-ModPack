@@ -28,7 +28,7 @@
         "secondaryEffects":{
           "RefineStrengthening": -1
         },
-        "durability": 0.5,
+        "durability": 0.15,
         "magicCapacity": 4.5,
         "glyph": {
           "textureX": 0,

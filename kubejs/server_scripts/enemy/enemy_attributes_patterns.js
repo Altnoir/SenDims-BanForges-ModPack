@@ -10,6 +10,7 @@ const armor = "minecraft:generic.armor"
  * 均衡模板
  */
 const typeA = {
+    isBoss: false,
     "0_1": [4, 20, 2],
 
     "1_1": [10, 55, 4],
@@ -32,6 +33,7 @@ const typeA = {
  * 脆皮模板
  */
 const typeB = {
+    isBoss: false,
     "0_1": [5, 18, 0],
 
     "1_1": [14, 35, 2],
@@ -54,6 +56,7 @@ const typeB = {
  * 血牛模板
  */
 const typeC = {
+    isBoss: false,
     "0_1": [3, 50, 1],
 
     "1_1": [9, 120, 3],
@@ -76,6 +79,7 @@ const typeC = {
  * 重甲模板
  */
 const typeD = {
+    isBoss: false,
     "0_1": [3, 20, 3],
 
     "1_1": [9, 55, 7],
@@ -98,6 +102,7 @@ const typeD = {
  * 史莱姆模板
  */
 const typeSlime = {
+    isBoss: false,
     "0_1": [3, 20, 0],
 
     "1_1": [9, 55, 2],
@@ -120,6 +125,7 @@ const typeSlime = {
  * 中立/默认模板
  */
 const type0 = {
+    isBoss: false,
     "0_1": [3, 18, 0],
 
     "1_1": [9, 35, 2],
@@ -143,6 +149,7 @@ const type0 = {
  * 均衡模板 EX2
  */
 const typeAEX2 = {
+    isBoss: false,
     "0_1": [23, 110, 6],
 
     "1_1": [38, 210, 8],
@@ -166,6 +173,7 @@ const typeAEX2 = {
  * 血牛模板 EX2
  */
 const typeCEX2 = {
+    isBoss: false,
     "0_1": [19, 240, 4],
 
     "1_1": [31, 420, 6],
@@ -189,6 +197,7 @@ const typeCEX2 = {
  * 特殊模板：BOSS1
  */
 const bossType1 = {
+    isBoss: true,
     "0_1": [6, 120, 1],
 
     "1_1": [12, 350, 3],
@@ -212,6 +221,7 @@ const bossType1 = {
  * 特殊模板：BOSS2
  */
 const bossType2 = {
+    isBoss: true,
     "0_1": [6, 200, 2],
 
     "1_1": [12, 500, 4],
@@ -235,6 +245,7 @@ const bossType2 = {
  * 特殊模板：BOSS EX1
  */
 const bossType1EX1 = {
+    isBoss: true,
     "0_1": [12, 350, 3],
 
     "1_1": [23, 750, 4],
@@ -258,6 +269,7 @@ const bossType1EX1 = {
  * 特殊模板：BOSS EX2
  */
 const bossType2EX2 = {
+    isBoss: true,
     "0_1": [23, 1000, 6],
 
     "1_1": [38, 1800, 8],

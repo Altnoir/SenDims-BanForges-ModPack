@@ -5,5 +5,18 @@
       "amount": 150
     },
     "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "hostile": true,
+    "when": "onjoin",
+    "spawntype": ["mob_summoned", "spawn_egg"],
+    "result": "default"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "hostile": true,
+    "when": "onjoin",
+    "result": "deny"
   }
 ]
