@@ -108,7 +108,7 @@ ServerEvents.highPriorityData(event => {
     // bone
     tetraMaterialBuilder(event, "bone").setCategory("bone")
         .setPrimary(0.8).setSecondary(1.1).setTertiary(0.85)
-        .setDurability(120).setIntegrityCost(1).setIntegrityGain(5)
+        .setDurability(140).setIntegrityCost(1).setIntegrityGain(5)
         .setMagicCapacity(108).setToolLevel(2).setToolEfficiency(5)
         .setTints("bone_glyph", "bone")
         .addTexture("bone").addTexture("crude")

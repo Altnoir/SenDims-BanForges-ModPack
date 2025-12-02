@@ -3,7 +3,7 @@
     "category": "fibre",
     "primary": 1.5,
     "secondary": 2.4,
-    "tertiary": 3,
+    "tertiary": 1.8,
     "durability": 200,
     "integrityCost": 1,
     "integrityGain": 5,

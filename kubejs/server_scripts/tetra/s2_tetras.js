@@ -49,7 +49,7 @@ ServerEvents.highPriorityData(event => {
         .setRequiredTool("hammer_dig", 1)
         .build();
 
-    tetraMaterialBuilder(event, "zanite_gemstone").setCategory("germ")
+    tetraMaterialBuilder(event, "zanite_gemstone").setCategory("gem")
         .setPrimary(2.5).setSecondary(2.5).setTertiary(2.0)
         .setDurability(220).setIntegrityCost(2).setIntegrityGain(5)
         .setMagicCapacity(130).setToolLevel(4).setToolEfficiency(4)

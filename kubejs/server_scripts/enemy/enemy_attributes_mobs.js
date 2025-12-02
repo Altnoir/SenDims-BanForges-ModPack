@@ -85,6 +85,7 @@ const mobTypes = {
 
     "ad_astra:star_crawler": typeA,
     "ad_astra:corrupted_lunarian": typeC,
+    "minecraft:stray": typeC,
 
     "aether:aechor_plant": typeB,
     "aether:blue_swet": typeSlime,
@@ -189,10 +190,13 @@ const mobTypes = {
     "minecraft:wither": bossType2,
 
     "minecraft:piglin": typeA,
+    "minecraft:piglin_brute": typeAEX2,
     "minecraft:zombified_piglin": typeA,
     "minecraft:wither_skeleton": typeA,
     "minecraft:blaze": typeA,
     "minecraft:ghast": typeA,
+    "minecraft:hoglin": typeC,
+    "minecraft:zoglin": typeC,
 
     "cataclysm:netherite_monstrosity": bossType2,
 

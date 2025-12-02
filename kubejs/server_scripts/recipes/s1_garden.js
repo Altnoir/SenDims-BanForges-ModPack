@@ -9,8 +9,8 @@ ServerEvents.recipes(event => {
 
     event.shapeless('2x thermal_shock:phobotite', [
         'thermal_shock:phobotite',
-         Ingredient.of(['thermal_shock:ferrum_ingot', 'thermal_shock:corrial_ingot']),
-          '2x thermal_shock:permafrost'])
+        Ingredient.of(['thermal_shock:ferrum_ingot', 'thermal_shock:corrial_ingot']),
+        '2x thermal_shock:permafrost'])
         .id("sdbf:phobotite_s1")
 
     event.recipes.slashblade.slashblade_shaped_recipe("slashblade:slashblade", [
@@ -47,5 +47,21 @@ ServerEvents.recipes(event => {
         A: 'minecraft:paper',
         B: '#forge:cobblestone'
     }).id('sdbf:sq_stone_village_s1');
+
+    event.custom({
+        "type": "minecraft:smithing_transform",
+        "addition": { "item": 'slashblade:proudsoul' },
+        "base": { "tag": "forge:ingots/iron" },
+        "result": { "item": "last_smith:blade_unfinished_1" },
+        "template": { "item": "last_smith:scroll_basic" }
+    }).id("sdbf:blade_unfinished_1_s1");
+
+    event.custom({
+        "type": "minecraft:smithing_transform",
+        "addition": { "item": "last_smith:sakura_full" },
+        "base": { "tag": "forge:ingots/iron" },
+        "result": { "item": "last_smith:sakura_steel_ingot" },
+        "template": { "item": "last_smith:scroll_sakura" }
+    }).id("sdbf:sakura_steel_ingot_s1")
 
 })

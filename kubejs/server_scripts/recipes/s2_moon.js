@@ -55,7 +55,7 @@ ServerEvents.recipes(event => {
         "BC "
     ], {
         "B": SlashBladeIngredient.of(
-            SlashBladeRequestDefinition
+            SlashBladeRequestDefinition.newInstance()
                 .name("slashblade:doutanuki")
                 .build()
         ),
@@ -73,6 +73,15 @@ ServerEvents.recipes(event => {
         A: 'ad_astra:moon_stone',
         B: 'minecraft:map'
     }).id('sdbf:sq_moon_dungeon_s2')
+
+    event.shaped($StructureQuill.forStructure("tetra:regular_ruin"), [
+        'AAA',
+        'ABA',
+        'AAA'
+    ], {
+        A: "ad_astra:desh_ingot",
+        B: 'minecraft:map'
+    }).id('sdbf:sq_regular_ruin_s2')
 
     event.custom({
         "type": "ad_astra:compressing",

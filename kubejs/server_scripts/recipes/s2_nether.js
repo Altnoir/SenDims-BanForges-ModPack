@@ -6,8 +6,8 @@ ServerEvents.recipes(event => {
         "JDS"
     ], {
         "B": SlashBladeIngredient.of(
-            SlashBladeRequestDefinition
-                .name("slashblade:slashblade")
+            SlashBladeRequestDefinition.newInstance()
+                
                 .proudSoul(10000)
                 .refineCount(10)
                 .build()
@@ -28,8 +28,8 @@ ServerEvents.recipes(event => {
         "A": "minecraft:diamond_block",
         "B": "minecraft:obsidian",
         "C": SlashBladeIngredient.of(
-            SlashBladeRequestDefinition
-                .name("slashblade:slashblade")
+            SlashBladeRequestDefinition.newInstance()
+                
                 .proudSoul(5000)
                 .refineCount(10)
                 .build()
@@ -44,7 +44,7 @@ ServerEvents.recipes(event => {
         "SIS"
     ], {
         "B": SlashBladeIngredient.of(
-            SlashBladeRequestDefinition
+            SlashBladeRequestDefinition.newInstance()
                 .name("pseudoedge_break_dawn:kingblade")
                 .proudSoul(5000)
                 .refineCount(10)

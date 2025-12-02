@@ -21,11 +21,11 @@
 		maxCostPerLevel = 10
 		minCostBase = 10
 		minCostPerLevel = 5
-		chanceBase = 0.35
-		chancePerLevel = 0.1
+		chanceBase = 0.0
+		chancePerLevel = 0.0
 		rangeBase = 8.0
 		rangePerLevel = 8.0
-		nonPlayerChance = 0.75
+		nonPlayerChance = 0.0
 
 	[enchantments.shimmer]
 		maxCost = 100

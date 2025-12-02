@@ -10,6 +10,11 @@ holoMaterialLine = 2
 #修改改进间距。
 #Modify Improvement spacing.
 modify_improvement_spacing = 28
+#修改全息球显示模块行数
+#midify module line in holo
+holoModuleLine = 2
+#在材料页面显示sorter和filter的数量
+showFilterAndSorterElements = 10
 
 [Tooltip]
 	#是否启用添加材料Tooltip-修改此配置需重启生效
@@ -40,6 +45,12 @@ modify_improvement_spacing = 28
 	showToolLevel = true
 	#是否在tooltip里面提示材料完整度奖励与花费
 	showIntegrityInfo = true
+	#是否启用添加卷轴Tooltip-修改此配置需重启生效
+	enableScrollTooltip = true
+	#按material的key隐藏tooltip
+	hideMaterialKeys = []
+	#是否启用添加特殊材料Tooltip-修改此配置需重启生效
+	enableSpecialMaterialTooltip = true
 
 	[Tooltip.ProgressBar]
 		#设置进度条的长度

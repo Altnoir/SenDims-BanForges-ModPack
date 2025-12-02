@@ -13,26 +13,31 @@ ServerEvents.recipes(event => {
         })
         .id("sdbf:jade_to_soul")
 
-    event.smithing('slashblade:proudsoul_sphere',
-        'slashblade:proudsoul_tiny',
-        'slashblade:proudsoul_ingot',
-        'slashblade:proudsoul_ingot'
-    ).id("sdbf:proudsoul_sphere")
+    event.recipes.slashblade.proudsoul_shapeless_recipe('slashblade:proudsoul_ingot', [
+        '#forge:ingots/steel',
+        '3x slashblade:proudsoul',
+        '3x minecraft:blaze_powder'
+    ]).id('sdbf:proudsoul_ingot')
 
-    event.smithing('slashblade:proudsoul_crystal',
-        'slashblade:proudsoul_sphere',
-        'slashblade:proudsoul_sphere',
-        'slashblade:proudsoul_sphere'
-    ).id("sdbf:proudsoul_crystal")
+    // TODO 替换基岩为真正的材料
+    event.recipes.slashblade.proudsoul_shapeless_recipe('slashblade:proudsoul_sphere', [
+        '3x slashblade:proudsoul_ingot',
+        'minecraft:bedrock'
+    ]).id("sdbf:proudsoul_sphere")
 
-    event.smithing('slashblade:proudsoul_trapezohedron',
-        'slashblade:proudsoul_crystal',
-        'slashblade_useful_addon:soul_crystal',
-        'slashblade:proudsoul_crystal'
-    ).id("sdbf:proudsoul_trapezohedron")
+    event.recipes.slashblade.proudsoul_shapeless_recipe('slashblade:proudsoul_crystal', [
+        '3x slashblade:proudsoul_sphere',
+        'minecraft:bedrock'
+    ]).id("sdbf:proudsoul_crystal")
+
+    event.recipes.slashblade.proudsoul_shapeless_recipe('slashblade:proudsoul_trapezohedron', [
+        '3x slashblade:proudsoul_crystal',
+        'minecraft:bedrock'
+    ]).id("sdbf:proudsoul_trapezohedron")
 
     event.recipes.thermal.smelter('slashblade:proudsoul_sphere', [
-        '2x slashblade:proudsoul_ingot'
+        '2x slashblade:proudsoul_ingot',
+        'minecraft:bedrock'
     ])
         .energy(8192)
         .id("sdbf:proudsoul_sphere_acc")

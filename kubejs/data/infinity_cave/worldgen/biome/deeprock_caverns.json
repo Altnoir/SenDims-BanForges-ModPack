@@ -64,12 +64,6 @@
         "weight": 50
       },
       {
-        "type": "minecraft:wither_skeleton",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 15
-      },
-      {
         "type": "minecraft:slime",
         "maxCount": 4,
         "minCount": 4,

@@ -58,7 +58,7 @@ ServerEvents.recipes(event => {
         "B": "slashblade:proudsoul_sphere",
         "C": "slashblade:proudsoul_ingot",
         "D": SlashBladeIngredient.of(
-            SlashBladeRequestDefinition.name("slashblade:fox_black")
+            SlashBladeRequestDefinition.newInstance().name("slashblade:fox_black")
                 .refineCount(10)
                 .build()
         ),
@@ -75,7 +75,7 @@ ServerEvents.recipes(event => {
         "B": ["minecraft:nether_star", 'deep_aether:stratus_ingot'],
         "C": "minecraft:diamond_block",
         "D": SlashBladeIngredient.of(
-            SlashBladeRequestDefinition.name("slashblade:fox_black")
+            SlashBladeRequestDefinition.newInstance().name("slashblade:fox_black")
                 .killCount(1500)
                 .proudSoul(12000)
                 .refineCount(6)
@@ -93,7 +93,7 @@ ServerEvents.recipes(event => {
         "B": ["minecraft:nether_star", 'deep_aether:stratus_ingot'],
         "C": "minecraft:diamond_block",
         "D": SlashBladeIngredient.of(
-            SlashBladeRequestDefinition.name("slashblade:fox_white")
+            SlashBladeRequestDefinition.newInstance().name("slashblade:fox_white")
                 .killCount(1500)
                 .proudSoul(12000)
                 .refineCount(6)
@@ -111,7 +111,7 @@ ServerEvents.recipes(event => {
         "B": "minecraft:cactus",
         "C": ["minecraft:nether_star", 'deep_aether:stratus_ingot'],
         "D": SlashBladeIngredient.of(
-            SlashBladeRequestDefinition.name("pseudoedge_break_dawn:purplesblade")
+            SlashBladeRequestDefinition.newInstance().name("pseudoedge_break_dawn:purplesblade")
                 .killCount(300)
                 .proudSoul(20000)
                 .refineCount(10)
@@ -119,6 +119,44 @@ ServerEvents.recipes(event => {
         )
     }, "pseudoedge_break_dawn:vitex")
         .id("sdbf:vitex_s2")
+
+    event.recipes.slashblade.slashblade_shaped_recipe("slashblade:slashblade", [
+        " EF",
+        "BCS",
+        "WQ "
+    ], {
+        "B": "minecraft:blaze_powder",
+        "C": SlashBladeIngredient.of(
+            SlashBladeRequestDefinition.newInstance().name("slashblade:ruby")
+                .addEnchantment(SBEnchantmentDefinition.of("minecraft:looting", 1))
+                .build()
+        ),
+        "E": "#forge:obsidian",
+        "F": "#forge:feathers",
+        "Q": "#forge:storage_blocks/quartz",
+        "S": 'slashblade:proudsoul',
+        "W": "#forge:crops/wheat"
+    }, "slashblade:fox_white")
+        .id("sdbf:fox_white_s2")
+
+    event.recipes.slashblade.slashblade_shaped_recipe("slashblade:slashblade", [
+        " EF",
+        "BCS",
+        "WQ "
+    ], {
+        "B": "minecraft:blaze_powder",
+        "C": SlashBladeIngredient.of(
+            SlashBladeRequestDefinition.newInstance().name("slashblade:ruby")
+                .addEnchantment(SBEnchantmentDefinition.of("minecraft:smite", 1))
+                .build()
+        ),
+        "E": "#forge:obsidian",
+        "F": "#forge:feathers",
+        "Q": "#forge:storage_blocks/quartz",
+        "S": 'slashblade:proudsoul',
+        "W": "#forge:crops/wheat"
+    }, "slashblade:fox_black")
+        .id("sdbf:fox_black_s2")
 
     event.custom({
         "type": "slashblade:slashblade_smithing",

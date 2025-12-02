@@ -127,35 +127,41 @@ global.materialReplaceRules.set('aether:ambrosium_shard', {
     ]
 });
 
-global.materialRemoveRule = ItemFilter.or(
-    ItemFilter.TOOL,
-    ItemFilter.ARMOR,
-    ItemFilter.WEAPON,
+global.materialRemoveRule = ItemFilter.and(
+    ItemFilter.not(ItemFilter.or(
+        'twilightforest:giant_sword',
+        'twilightforest:giant_pickaxe',
+    )),
+    ItemFilter.or(
+        ItemFilter.TOOL,
+        ItemFilter.ARMOR,
+        ItemFilter.WEAPON,
 
-    'minecraft:shield',
-    'terra_entity:wooden_yoyo',
-    'terra_entity:valor',
-    'terra_entity:rally',
-    'terra_entity:malaise',
-    'terra_entity:hive_five',
-    'terra_entity:code_1',
-    'terra_entity:cascade',
-    'terra_entity:artery',
-    'terra_entity:amazon',
-    'terra_entity:summon_netherite_sword_staff',
-    'terra_entity:summon_diamond_sword_staff',
-    'terra_entity:summon_golden_sword_staff',
-    'terra_entity:summon_iron_sword_staff',
-    'terra_entity:summon_stone_sword_staff',
-    'terra_entity:summon_wooden_sword_staff',
+        'minecraft:shield',
+        'terra_entity:wooden_yoyo',
+        'terra_entity:valor',
+        'terra_entity:rally',
+        'terra_entity:malaise',
+        'terra_entity:hive_five',
+        'terra_entity:code_1',
+        'terra_entity:cascade',
+        'terra_entity:artery',
+        'terra_entity:amazon',
+        'terra_entity:summon_netherite_sword_staff',
+        'terra_entity:summon_diamond_sword_staff',
+        'terra_entity:summon_golden_sword_staff',
+        'terra_entity:summon_iron_sword_staff',
+        'terra_entity:summon_stone_sword_staff',
+        'terra_entity:summon_wooden_sword_staff',
 
-    'terra_entity:finch_staff',
-    'terra_entity:hornet_staff',
-    'terra_entity:slime_staff',
-    'terra_entity:snow_flinx_staff',
-    'terra_entity:imp_staff',
-    'terra_entity:sculk_wisp_staff',
-    'terra_entity:iron_golem_staff'
+        'terra_entity:finch_staff',
+        'terra_entity:hornet_staff',
+        'terra_entity:slime_staff',
+        'terra_entity:snow_flinx_staff',
+        'terra_entity:imp_staff',
+        'terra_entity:sculk_wisp_staff',
+        'terra_entity:iron_golem_staff'
+    )
 );
 
 // global.materialRemoveRule = ItemFilter.or(

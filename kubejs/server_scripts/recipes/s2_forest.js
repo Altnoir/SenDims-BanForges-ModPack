@@ -23,4 +23,75 @@ ServerEvents.recipes(event => {
         }
     }).id("sdbf:exorcism_sakura_s2")
 
+    event.recipes.slashblade.slashblade_shaped_recipe("slashblade:slashblade", [
+        "ABG",
+        "CDC",
+        "EFH"
+    ], {
+        "A": '#forge:storage_blocks/diamond',
+        "B": "twilightforest:naga_trophy",
+        "C": "twilightforest:naga_scale",
+        "D": SlashBladeIngredient.of(
+            SlashBladeRequestDefinition.newInstance().name("slashblade:agito")
+                .killCount(2000)
+                .proudSoul(20000)
+                .refineCount(15)
+                .build()
+        ),
+        "E": "twilightforest:ironwood_ingot",
+        "F": ["twilightforest:lifedrain_scepter", "twilightforest:twilight_scepter", "twilightforest:zombie_scepter"],
+        "G": "twilightforest:magic_map_focus",
+        "H": 'slashblade:proudsoul'
+    }, "sjap_adder:agito_ex")
+        .id("sdbf:agito_ex_s2")
+
+    event.recipes.slashblade.slashblade_shaped_recipe("slashblade:slashblade", [
+        "PIP",
+        "IBI",
+        "PIP"
+    ], {
+        "B": SlashBladeIngredient.of(
+            SlashBladeRequestDefinition.newInstance().name("slashblade:sabigatana")
+                .killCount(100)
+                .proudSoul(1000)
+                .refineCount(10)
+                .build()
+        ),
+        "P": 'slashblade:proudsoul',
+        "I": '#forge:ingots/iron'
+    }, "slashblade:doutanuki")
+        .id("sdbf:doutanuki_s2")
+
+    event.recipes.slashblade.slashblade_shaped_recipe("slashblade:slashblade", [
+        "  P",
+        " P ",
+        "B  "
+    ], {
+        "B": SlashBladeIngredient.of(
+            SlashBladeRequestDefinition.newInstance().name("slashblade:sabigatana")
+                .addSwordType("broken")
+                .addSwordType("sealed")
+                .build()
+        ),
+        "P": '#forge:ingots/iron'
+    }, "slashblade:sabigatana")
+        .id("sdbf:sabigatana_s2")
+
+    event.recipes.slashblade.slashblade_shaped_recipe("slashblade:slashblade", [
+        "PSP",
+        "SBS",
+        "PSP"
+    ], {
+        "B": SlashBladeIngredient.of(
+            SlashBladeRequestDefinition.newInstance().name("slashblade:orotiagito_sealed")
+                .killCount(1000)
+                .proudSoul(1000)
+                .refineCount(10)
+                .build()
+        ),
+        "P": "slashblade:proudsoul",
+        "S": '#forge:gems/diamond'
+    }, "slashblade:orotiagito")
+        .id("sdbf:orotiagito_s2")
+
 })

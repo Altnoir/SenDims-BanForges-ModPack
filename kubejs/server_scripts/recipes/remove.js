@@ -41,6 +41,18 @@ const toRemoveID = new Set([
     "foxextra:foxex_black",
     "foxextra:foxex_white",
     "pseudoedge_break_dawn:vitex",
+    "slashblade:material/ingot",
+    "last_smith:blade_step_1",
+    "slashblade:fox_white",
+    "slashblade:fox_black",
+    "last_smith:sakura_steel",
+    "slashblade:yuzukitukumo",
+    "blades_derby:uma_hishi",
+    "sjap_adder:agito_ex",
+    "slashblade:sabigatana",
+    "slashblade:doutanuki",
+    "slashblade:orotiagito",
+    "undergarden:catalyst",
 
     // 临时
     "apotheosis:hellshelf",

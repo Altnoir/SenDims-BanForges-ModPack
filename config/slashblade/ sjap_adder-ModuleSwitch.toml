@@ -12,7 +12,7 @@ countDarkCutJudgementCutEx = 25
 driveSumRatio = 7.5
 #The damage ratio of Queen Slash of DriveSum
 #Range: 0.0 ~ 100.0
-driveSumQueenRatio = 14.0
+driveSumQueenRatio = 0.1
 #The damage ratio of Shadow of Revenant
 #Range: 0.0 ~ 100.0
 shadowOfRevenantRatio = 0.35
@@ -39,14 +39,14 @@ countNightingalesSlash = 20
 countSuperBloodCut = 25
 #Base count of Slash (before boosted by BoostTrigger) of the SA Wave Edge Super.
 #Range: > 0
-countWaveEdgeSuperBase = 25
+countWaveEdgeSuperBase = 5
 #Cost this many BoostTrigger and increase the same count of Slash dealt by the SA Wave Edge Super.
 #Set to 0 will disable the boosting.
 #Range: > 0
-costWaveEdgeSuperBoost = 8
+costWaveEdgeSuperBoost = 0
 #The damage dealt by Circle Drive of Wave Edge Super.
 #Range: 0.0 ~ 1.7976931348623157E308
-waveEdgeSuperDriveDamage = 10.0
+waveEdgeSuperDriveDamage = 7.0
 #The damage of XrossThunder.
 #Range: 0.0 ~ 1.7976931348623157E308
 xrossThunderDamage = 4.0

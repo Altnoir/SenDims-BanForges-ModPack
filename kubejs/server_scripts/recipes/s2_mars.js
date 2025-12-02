@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
         "CGK"
     ], {
         "E": SlashBladeIngredient.of(
-            SlashBladeRequestDefinition
+            SlashBladeRequestDefinition.newInstance()
                 .name("slashblade:doutanuki")
                 .killCount(10)
                 .refineCount(20)
@@ -28,12 +28,12 @@ ServerEvents.recipes(event => {
         "SOS"
     ], {
         "B": SlashBladeIngredient.of(
-            SlashBladeRequestDefinition.name("slashblade:slashblade")
+            SlashBladeRequestDefinition.newInstance()
                 .proudSoul(10000)
                 .refineCount(20)
                 .build()
         ),
-        "S": "slashblade:proudsoul_sphere",
+        "S": "slashblade:proudsoul",
         "O": '#forge:ingots/ostrum'
     }, "slashblade:muramasa")
         .id('sdbf:muramasa_s2')
@@ -44,7 +44,7 @@ ServerEvents.recipes(event => {
         " D "
     ], {
         "A": SlashBladeIngredient.of(
-            SlashBladeRequestDefinition
+            SlashBladeRequestDefinition.newInstance()
                 .name("last_smith:exorcism_ginkgo")
                 .proudSoul(1000)
                 .killCount(100)
@@ -52,7 +52,7 @@ ServerEvents.recipes(event => {
                 .build()
         ),
         "B": SlashBladeIngredient.of(
-            SlashBladeRequestDefinition
+            SlashBladeRequestDefinition.newInstance()
                 .name("last_smith:exorcism_sakura")
                 .proudSoul(1000)
                 .killCount(100)
@@ -60,7 +60,8 @@ ServerEvents.recipes(event => {
                 .build()
         ),
         "C": SlashBladeIngredient.of(
-            SlashBladeRequestDefinition.name("last_smith:exorcism_yuki")
+            SlashBladeRequestDefinition.newInstance()
+                .name("last_smith:exorcism_yuki")
                 .proudSoul(1000)
                 .killCount(100)
                 .refineCount(10)
@@ -78,14 +79,15 @@ ServerEvents.recipes(event => {
         "BQ "
     ], {
         "B": SlashBladeIngredient.of(
-            SlashBladeRequestDefinition.name("slashblade:doutanuki")
+            SlashBladeRequestDefinition.newInstance()
+                .name("slashblade:doutanuki")
                 .refineCount(10)
                 .addEnchantment(SBEnchantmentDefinition.of("minecraft:fire_protection", 1))
                 .build()
         ),
         "D": 'ad_astra:mars_sand',
         "I": 'ad_astra:conglomerate',
-        "P": "slashblade:proudsoul_sphere",
+        "P": "slashblade:proudsoul",
         "Q": 'minecraft:packed_ice',
         "S": "minecraft:snow_block"
     }, "slashblade_addon:frosty_cherry")

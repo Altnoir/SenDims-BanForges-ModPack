@@ -13,6 +13,8 @@ ServerEvents.tags("item", event => {
         'thermal_shock:cobbled_shale'
     )
 
+    // TODO 证章强化材料
+
     event.add("slashblade_sendims:drc_health_material_0", [
         '#forge:ingots/iron',
         'thermal_shock:ferrum_ingot'
@@ -34,7 +36,6 @@ ServerEvents.tags("item", event => {
         'twilightforest:steeleaf_ingot',
         'deep_aether:skyjade',
         'kubejs:bedrock_breaker',
-        'apotheosis:uncommon_material',
         'apotheosis:rare_material',
 
     ])
@@ -55,15 +56,14 @@ ServerEvents.tags("item", event => {
 
 
     event.add("slashblade_sendims:drc_health_material_2", [
-        'quark:blaze_lantern',
-        'apotheosis:epic_material'
+        // 'quark:blaze_lantern',
+        // 'apotheosis:epic_material'
+        "minecraft:bedrock"
 
     ])
 
     event.add("slashblade_sendims:drc_damage_material_2", [
-        'minecraft:netherite_ingot',
-        'ad_astra:ostrum_sliding_door',
-        'thermal:enderium_gear',
+        'minecraft:netherite_ingot'
 
     ])
 
