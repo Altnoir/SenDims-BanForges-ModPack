@@ -29,11 +29,7 @@
             "when_out_of_range": {
                 "type": "minecraft:range_choice",
                 "input": "y",
-<<<<<<< HEAD
                 "min_inclusive": 64,
-=======
-                "min_inclusive": 65,
->>>>>>> 58da10f917767fe54c18e28023a93390d0d7cfbd
                 "max_exclusive": 128,
                 "when_in_range": -2,
                 "when_out_of_range": 0
