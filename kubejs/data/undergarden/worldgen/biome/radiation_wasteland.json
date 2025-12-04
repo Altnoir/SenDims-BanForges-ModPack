@@ -69,6 +69,9 @@
       "undergarden:tall_shimmerweed_patch",
       "undergarden:droopvine_patch",
       "undergarden:gloomgourd_patch"
+    ],
+    [
+      "nuclearcraft:wasteland_surface"
     ]
   ],
   "has_precipitation": false,
@@ -152,6 +155,18 @@
         "maxCount": 3,
         "minCount": 1,
         "weight": 100
+      },
+      {
+        "type": "nuclearcraft:feral_ghoul",
+        "maxCount": 7,
+        "minCount": 1,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:spider",
+        "maxCount": 4,
+        "minCount": 1,
+        "weight": 50
       }
     ],
     "underground_water_creature": [],

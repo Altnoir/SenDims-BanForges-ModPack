@@ -53,6 +53,9 @@ const toRemoveID = new Set([
     "slashblade:doutanuki",
     "slashblade:orotiagito",
     "undergarden:catalyst",
+    "slashblade_addon:nihilex",
+    "pseudoedge_break_dawn:magicblade",
+    "pseudoedge_break_dawn:xblades",
 
     // 临时
     "apotheosis:hellshelf",

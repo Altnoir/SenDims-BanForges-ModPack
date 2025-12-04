@@ -255,6 +255,7 @@ undergarden:gronglegrowth
 undergarden:icy_sea
 undergarden:indigo_mushroom_bog
 undergarden:ink_mushroom_bog
+undergarden:radiation_wasteland
 undergarden:smog_spires
 undergarden:smogstem_forest
 undergarden:veil_mushroom_bog

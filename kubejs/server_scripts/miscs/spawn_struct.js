@@ -43,19 +43,20 @@ const createBossStructure = (config) => {
 
     const destroyStructure = (level, centerPos) => {
         for (let layerIndex = 0; layerIndex < patterns.length; layerIndex++) {
-            const pattern = patterns[layerIndex];
-            const yOffset = 1 - layerIndex;
+            let pattern = patterns[layerIndex];
+            let yOffset = 1 - layerIndex;
             for (let row = 0; row < pattern.length; row++) {
-                const rowPattern = pattern[row];
-                const zOffset = row - 1;
+                let rowPattern = pattern[row];
+                let zOffset = row - 1;
                 for (let col = 0; col < rowPattern.length; col++) {
-                    const expectedChar = rowPattern.charAt(col);
-                    const xOffset = col - 1;
-                    // if (expectedChar != " ") {
-                        const blockPos = centerPos.offset(xOffset, yOffset, zOffset);
-                        console.log(blockPos)
+                    let expectedChar = rowPattern.charAt(col);
+                    let xOffset = col - 1;
+                    if (expectedChar != " ") {
+                        let blockPos = centerPos.offset(xOffset, yOffset, zOffset);
+                        // console.log(blockPos)
                         level.removeBlock(blockPos, true);
-                    // }
+                        level.setBlock(blockPos, Blocks.AIR.defaultBlockState(), 2);
+                    }
                 }
             }
         }
@@ -63,26 +64,26 @@ const createBossStructure = (config) => {
 
     const checkStructure = (level, centerPos) => {
         for (let layerIndex = 0; layerIndex < patterns.length; layerIndex++) {
-            const pattern = patterns[layerIndex];
-            const yOffset = 1 - layerIndex;
+            let pattern = patterns[layerIndex];
+            let yOffset = 1 - layerIndex;
 
             for (let row = 0; row < pattern.length; row++) {
-                const rowPattern = pattern[row];
-                const zOffset = row - 1;
+                let rowPattern = pattern[row];
+                let zOffset = row - 1;
 
                 for (let col = 0; col < rowPattern.length; col++) {
-                    const expectedChar = rowPattern.charAt(col);
-                    const xOffset = col - 1;
+                    let expectedChar = rowPattern.charAt(col);
+                    let xOffset = col - 1;
 
-                    const checkPos = centerPos.offset(xOffset, yOffset, zOffset);
-                    const actualBlock = level.getBlockState(checkPos).getBlock();
+                    let checkPos = centerPos.offset(xOffset, yOffset, zOffset);
+                    let actualBlock = level.getBlockState(checkPos).getBlock();
 
                     if (expectedChar === ' ') {
                         if (!actualBlock.equals(Blocks.AIR)) {
                             return false;
                         }
                     } else {
-                        const expectedBlock = blockMapping[expectedChar];
+                        let expectedBlock = blockMapping[expectedChar];
                         if (!expectedBlock || !actualBlock.equals(Block.getBlock(expectedBlock))) {
                             return false;
                         }
@@ -125,7 +126,7 @@ const registeredStructures = new Map();
  * @param {Object} config
  */
 const registerBossStructure = (config) => {
-    const structure = createBossStructure(config);
+    let structure = createBossStructure(config);
     registeredStructures.set(config.activateItem, structure);
     return structure;
 }
@@ -145,15 +146,30 @@ registerBossStructure({
     structureName: "platinum_dungeon"
 });
 
+registerBossStructure({
+    activateItem: 'minecraft:ender_eye',
+    blockMapping: {
+        'A': 'aether:ambrosium_block',
+        'B': 'deep_aether:stratus_block',
+        'C': 'minecraft:stone_bricks'
+    },
+    destroyAfterSpawn: true,
+    executeCommands: (level, centerPos, player) => {
+        player.tell(Text.of("TungTungTung").obfuscated())
+        level.runCommandSilent(`execute at ${player.name.string} run place structure minecraft:stronghold`);
+    },
+    structureName: "stronghold"
+});
+
 BlockEvents.rightClicked(event => {
-    const { block, level, player, hand } = event;
+    let { block, level, player, hand } = event;
 
     if (hand !== 'main_hand') return;
 
-    const centerPos = event.block.pos;
+    let centerPos = event.block.pos;
 
     if (registeredStructures.has(String(event.item.getId()))) {
-        const structure = registeredStructures.get(String(event.item.getId()));
+        let structure = registeredStructures.get(String(event.item.getId()));
         if (block.id === structure.blockMapping['B']) {
             if (structure.checkStructure(level, centerPos)) {
                 structure.spawn(level, centerPos, player, event);

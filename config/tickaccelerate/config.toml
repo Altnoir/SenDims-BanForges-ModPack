@@ -5,4 +5,5 @@ performance_tuning = {}
 [general]
 	#Enable or disable the mod entirely.
 	enabled = true
+	singleplayer-warning = true
 

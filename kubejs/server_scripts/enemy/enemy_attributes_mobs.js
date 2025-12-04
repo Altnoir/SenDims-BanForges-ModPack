@@ -140,7 +140,7 @@ const mobTypes = {
     "terra_entity:spore_zombie": typeA,
     "terra_entity:hat_spore_zombie": typeA,
     "terra_entity:decayeder": typeA,
-    "terra_entity:devourer": typeB,
+    
     "terra_entity:giant_shelly": typeC,
     "terra_entity:giant_worm": typeD,
     "terra_entity:dark_caster": typeB,
@@ -180,7 +180,7 @@ const mobTypes = {
 
     "terra_entity:king_slime": bossType1,
     "terra_entity:eye_of_cthulhu": bossType1,
-    "terra_entity:eater_of_world": bossType2,
+    "terra_entity:eater_of_worlds": bossType2,
     "terra_entity:brain_of_cthulhu": bossType1,
     "terra_entity:queen_bee": bossType1,
     "terra_entity:skeletron": bossType1,
@@ -190,19 +190,25 @@ const mobTypes = {
     "minecraft:wither": bossType2,
 
     "minecraft:piglin": typeA,
-    "minecraft:piglin_brute": typeAEX2,
+    "minecraft:piglin_brute": typeAEX1,
     "minecraft:zombified_piglin": typeA,
     "minecraft:wither_skeleton": typeA,
     "minecraft:blaze": typeA,
     "minecraft:ghast": typeA,
     "minecraft:hoglin": typeC,
     "minecraft:zoglin": typeC,
+    "minecraft:magma_cube": typeSlime,
 
     "cataclysm:netherite_monstrosity": bossType2,
 
     "ad_astra:martian_raptor": typeC,
 
-    "minecraft:ender_dragon": bossType2
+    "minecraft:ender_dragon": bossType2,
+
+    "ad_astra:pygro": typeA,
+    "ad_astra:pygro_brute": typeAEX1,
+    "ad_astra:zombified_pygro": typeA,
+    "ad_astra:zombified_mogler": typeC,
 
 };
 /**
