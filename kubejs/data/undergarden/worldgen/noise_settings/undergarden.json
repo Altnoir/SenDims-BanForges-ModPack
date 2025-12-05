@@ -169,7 +169,6 @@
             {
                 "type": "minecraft:condition",
                 "if_true": {
-<<<<<<< HEAD
                     "type": "minecraft:stone_depth",
                     "add_surface_depth": true,
                     "offset": 0,
@@ -195,55 +194,19 @@
                             "Name": "undergarden:sediment"
                         }
                     }
-=======
-                    "type": "minecraft:biome",
-                    "biome_is": [
-                        "undergarden:radiation_wasteland"
-                    ]
-                },
-                "then_run": {
-                    "type": "minecraft:sequence",
-                    "sequence": [
-                        {
-                            "type": "minecraft:condition",
-                            "if_true": {
-                                "type": "minecraft:stone_depth",
-                                "add_surface_depth": true,
-                                "offset": 0,
-                                "secondary_depth_range": 0,
-                                "surface_type": "floor"
-                            },
-                            "then_run": {
-                                "type": "minecraft:block",
-                                "result_state": {
-                                    "Name": "nuclearcraft:wasteland_earth"
-                                }
-                            }
-                        }
-                    ]
->>>>>>> 58da10f917767fe54c18e28023a93390d0d7cfbd
                 }
             },
             {
                 "type": "minecraft:condition",
                 "if_true": {
-<<<<<<< HEAD
                     "type": "minecraft:biome",
                     "biome_is": [
                         "undergarden:blood_mushroom_bog"
                     ]
-=======
-                    "type": "minecraft:stone_depth",
-                    "add_surface_depth": true,
-                    "offset": 0,
-                    "secondary_depth_range": 0,
-                    "surface_type": "floor"
->>>>>>> 58da10f917767fe54c18e28023a93390d0d7cfbd
                 },
                 "then_run": {
                     "type": "minecraft:condition",
                     "if_true": {
-<<<<<<< HEAD
                         "type": "minecraft:stone_depth",
                         "add_surface_depth": true,
                         "offset": 0,
@@ -288,23 +251,6 @@
                                 }
                             }
                         ]
-=======
-                        "type": "minecraft:not",
-                        "invert": {
-                            "type": "minecraft:y_above",
-                            "add_stone_depth": false,
-                            "anchor": {
-                                "absolute": 33
-                            },
-                            "surface_depth_multiplier": 0
-                        }
-                    },
-                    "then_run": {
-                        "type": "minecraft:block",
-                        "result_state": {
-                            "Name": "undergarden:sediment"
-                        }
->>>>>>> 58da10f917767fe54c18e28023a93390d0d7cfbd
                     }
                 }
             },
@@ -313,11 +259,7 @@
                 "if_true": {
                     "type": "minecraft:biome",
                     "biome_is": [
-<<<<<<< HEAD
                         "undergarden:smog_spires"
-=======
-                        "undergarden:blood_mushroom_bog"
->>>>>>> 58da10f917767fe54c18e28023a93390d0d7cfbd
                     ]
                 },
                 "then_run": {
@@ -359,14 +301,7 @@
                                 "then_run": {
                                     "type": "minecraft:block",
                                     "result_state": {
-<<<<<<< HEAD
                                         "Name": "undergarden:ashen_deepturf_block"
-=======
-                                        "Name": "undergarden:deepturf_block",
-                                        "Properties": {
-                                            "snowy": "false"
-                                        }
->>>>>>> 58da10f917767fe54c18e28023a93390d0d7cfbd
                                     }
                                 }
                             }
@@ -379,12 +314,8 @@
                 "if_true": {
                     "type": "minecraft:biome",
                     "biome_is": [
-<<<<<<< HEAD
                         "undergarden:barren_abyss",
                         "undergarden:dead_sea"
-=======
-                        "undergarden:smog_spires"
->>>>>>> 58da10f917767fe54c18e28023a93390d0d7cfbd
                     ]
                 },
                 "then_run": {
@@ -403,82 +334,6 @@
                                 "type": "minecraft:condition",
                                 "if_true": {
                                     "type": "minecraft:noise_threshold",
-                                    "max_threshold": 1.8,
-                                    "min_threshold": 0,
-                                    "noise": "minecraft:nether_state_selector"
-                                },
-                                "then_run": {
-                                    "type": "minecraft:block",
-                                    "result_state": {
-                                        "Name": "undergarden:coarse_deepsoil"
-                                    }
-                                }
-                            },
-                            {
-                                "type": "minecraft:condition",
-                                "if_true": {
-                                    "type": "minecraft:stone_depth",
-                                    "add_surface_depth": false,
-                                    "offset": 0,
-                                    "secondary_depth_range": 0,
-                                    "surface_type": "floor"
-                                },
-                                "then_run": {
-                                    "type": "minecraft:block",
-                                    "result_state": {
-<<<<<<< HEAD
-                                        "Name": "undergarden:depthrock"
-                                    }
-                                }
-                            },
-                            {
-                                "type": "minecraft:block",
-                                "result_state": {
-                                    "Name": "undergarden:depthrock"
-                                }
-=======
-                                        "Name": "undergarden:ashen_deepturf_block"
-                                    }
-                                }
->>>>>>> 58da10f917767fe54c18e28023a93390d0d7cfbd
-                            }
-                        ]
-                    }
-                }
-            },
-            {
-                "type": "minecraft:condition",
-                "if_true": {
-                    "type": "minecraft:biome",
-                    "biome_is": [
-<<<<<<< HEAD
-                        "undergarden:frostfields",
-                        "undergarden:icy_sea",
-                        "undergarden:frosty_smogstem_forest"
-=======
-                        "undergarden:barren_abyss",
-                        "undergarden:dead_sea"
->>>>>>> 58da10f917767fe54c18e28023a93390d0d7cfbd
-                    ]
-                },
-                "then_run": {
-                    "type": "minecraft:condition",
-                    "if_true": {
-                        "type": "minecraft:stone_depth",
-                        "add_surface_depth": true,
-                        "offset": 0,
-                        "secondary_depth_range": 0,
-                        "surface_type": "floor"
-                    },
-                    "then_run": {
-                        "type": "minecraft:sequence",
-                        "sequence": [
-                            {
-                                "type": "minecraft:condition",
-                                "if_true": {
-                                    "type": "minecraft:noise_threshold",
-<<<<<<< HEAD
-=======
                                     "max_threshold": 1.8,
                                     "min_threshold": 0,
                                     "noise": "minecraft:nether_state_selector"
@@ -542,7 +397,6 @@
                                 "type": "minecraft:condition",
                                 "if_true": {
                                     "type": "minecraft:noise_threshold",
->>>>>>> 58da10f917767fe54c18e28023a93390d0d7cfbd
                                     "max_threshold": 0.58,
                                     "min_threshold": 0.45,
                                     "noise": "minecraft:powder_snow"
@@ -577,7 +431,6 @@
             {
                 "type": "minecraft:condition",
                 "if_true": {
-<<<<<<< HEAD
                     "type": "minecraft:biome",
                     "biome_is": [
                         "nuclearcraft:wasteland"
@@ -608,8 +461,6 @@
             {
                 "type": "minecraft:condition",
                 "if_true": {
-=======
->>>>>>> 58da10f917767fe54c18e28023a93390d0d7cfbd
                     "type": "minecraft:stone_depth",
                     "add_surface_depth": false,
                     "offset": 0,

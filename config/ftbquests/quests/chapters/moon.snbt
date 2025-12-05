@@ -1,0 +1,462 @@
+{
+	autofocus_id: "5D5BA71C5348297D"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "moon"
+	group: "49FC4157519361C1"
+	icon: "ad_astra:cheese"
+	id: "05ABDD9D79EF355A"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["750B557031EFBBEE"]
+			hide_until_deps_complete: true
+			icon: "ad_astra:moon_globe"
+			id: "5D5BA71C5348297D"
+			size: 2.0d
+			tasks: [{
+				dimension: "ad_astra:moon"
+				icon: "ad_astra:moon_globe"
+				id: "3588C62D10C3D397"
+				title: "月球"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D5BA71C5348297D"]
+			hide_until_deps_complete: true
+			id: "1650B4334A8E0786"
+			tasks: [{
+				id: "793E23A76711FB39"
+				item: "ad_astra:moon_stone"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1650B4334A8E0786"]
+			hide_until_deps_complete: true
+			id: "5D98E7EA6A1E56FC"
+			tasks: [{
+				id: "00AEC72C1C356703"
+				structure: "ad_astra:moon_dungeon"
+				type: "structure"
+			}]
+			title: "月球地牢"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5D98E7EA6A1E56FC"]
+			id: "5BD21261CD9F446E"
+			tasks: [{
+				id: "3091B2FE530931A5"
+				item: "ad_astra:moon_globe"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"5BD21261CD9F446E"
+				"6EA2DE0DEBD7A693"
+			]
+			description: ["月球仪不会消耗"]
+			id: "36E8BDF00D6B600E"
+			tasks: [{
+				id: "0F0EAD3EF14C170F"
+				item: "confluence:obsidian_rose"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5D5BA71C5348297D"]
+			hide_until_deps_complete: true
+			id: "1C5BA781B3774E75"
+			tasks: [{
+				id: "099CD6B012FFCFA6"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ad_astra:lunarian"
+				type: "observation"
+			}]
+			title: "月球村民"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D5BA71C5348297D"]
+			hide_until_deps_complete: true
+			id: "6EA2DE0DEBD7A693"
+			tasks: [{
+				id: "3EDAFBC3B4F41AAE"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6EA2DE0DEBD7A693"]
+			description: ["发现结构：远古遗迹"]
+			id: "12DB2506A51D2B05"
+			tasks: [{
+				advancement: "tetra:spelunking/ancient_ruins"
+				criterion: ""
+				id: "57A08899CDCAE7AD"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D5BA71C5348297D"]
+			hide_until_deps_complete: true
+			id: "74262FD23FBE1CF8"
+			tasks: [{
+				id: "2D1994E38ECB9335"
+				item: "ad_astra:moon_sand"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["74262FD23FBE1CF8"]
+			id: "762D77442C0B2116"
+			tasks: [{
+				id: "58999B392F388593"
+				type: "checkmark"
+			}]
+			title: "月面战斗塔"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0936AB2DCC0172A8"]
+			icon: "minecraft:bedrock"
+			id: "3C83ED0BBD919A31"
+			tasks: [{
+				id: "1CFCA310372C33E1"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:bedrock"
+				type: "observation"
+			}]
+			title: "深入月心"
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["12DB2506A51D2B05"]
+			id: "4BBDBE99D484D70B"
+			tasks: [{
+				id: "421A279F41116BBA"
+				item: "tetra:metal_scrap"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4BBDBE99D484D70B"
+				"36E8BDF00D6B600E"
+			]
+			id: "0936AB2DCC0172A8"
+			tasks: [{
+				id: "10B39805EEEBF4FC"
+				item: "kubejs:bedrock_breaker"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3C83ED0BBD919A31"]
+			icon: "minecraft:netherrack"
+			id: "0AC8512136285C3E"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "620E444F142EC951"
+				type: "dimension"
+			}]
+			title: "下界"
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5D5BA71C5348297D"]
+			hide_until_deps_complete: true
+			icon: "terra_entity:demon_eye_spawn_egg"
+			id: "07353FCC58BFF967"
+			tasks: [{
+				entity: "terra_entity:demon_eye"
+				id: "4FB7BBDF618AB180"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["07353FCC58BFF967"]
+			id: "1FB3D934BD1CBA55"
+			tasks: [{
+				id: "3FCAE47EC5D4B816"
+				item: "terra_entity:cthulhu_eye_spawn_egg"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1FB3D934BD1CBA55"]
+			id: "3CA10D95C27A594B"
+			tasks: [{
+				id: "303BF753A5B24686"
+				item: "terra_entity:summon_wooden_sword_staff"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1FB3D934BD1CBA55"]
+			id: "3CF816E3E0B2977A"
+			tasks: [{
+				id: "72FF249DA096FDD6"
+				item: "terra_entity:brain_of_cthulhu_spawn_egg"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1FB3D934BD1CBA55"]
+			id: "6A37B43AC63E9375"
+			tasks: [{
+				id: "744C5CC9553E1F89"
+				item: "terra_entity:eater_of_world_spawn_egg"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0936AB2DCC0172A8"]
+			description: [
+				"如果你没有启用沉浸式传送门，请无视这个任务！"
+				""
+				"如果在破坏基岩之后，月球的基岩层下没有出现下界的话，可以通过完成（创造模式/编辑模式）该任务修复这个问题（一般不会发生）。"
+			]
+			icon: "minecraft:structure_void"
+			id: "27E4EB6E9AA5BAD2"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/portal global connect_ceil minecraft:the_nether ad_astra:moon"
+					elevate_perms: true
+					id: "1EBF7F3F8E059801"
+					title: "下界月球"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/portal global connect_floor ad_astra:moon minecraft:the_nether"
+					elevate_perms: true
+					id: "497718A804444E99"
+					title: "月球下界"
+					type: "command"
+				}
+			]
+			subtitle: "BUG保险"
+			tasks: [{
+				id: "6801BE704DDFD49B"
+				item: "ftbquests:barrier"
+				type: "item"
+			}]
+			title: "保险：月球下界"
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"6EA2DE0DEBD7A693"
+				"5D3B1F040BBB2AF2"
+			]
+			hide_until_deps_complete: true
+			id: "44DD7148C7185A28"
+			tasks: [{
+				id: "475BED26ED75FA3C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade_addon:model/wanderer/wanderer.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade_addon:rapid_blistering_swords"
+							StandbyRenderType: 3b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade_addon:model/wanderer/wanderer.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 7.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 60
+							proudSoul: 0
+							translationKey: "item.slashblade_addon.wanderer"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade_addon:model/wanderer/wanderer.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade_addon:rapid_blistering_swords"
+							StandbyRenderType: 3b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade_addon:model/wanderer/wanderer.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 7.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 60
+							proudSoul: 0
+							translationKey: "item.slashblade_addon.wanderer"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["44DD7148C7185A28"]
+			id: "40DEC594EA4037DF"
+			tasks: [{
+				id: "6065CD78FAAA51B5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							Energy: {
+								Capacity: 2000000
+								Energy: 0
+								EnergyDurability: 0b
+								MaxExtract: 20000
+								MaxReceive: 20000
+								PowerupExtract: 1000
+								StandbyExtract: 100
+								isPowered: 0b
+							}
+							ModelName: "slashblade_addon:model/wanderer/wanderer.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade_addon:rapid_blistering_swords"
+							StandbyRenderType: 3b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade_addon:model/wanderer/wanderer.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 7.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 70
+							proudSoul: 0
+							translationKey: "item.slashblade_addon.wanderer_hf"
+						}
+					}
+					id: "energyblade:forge_energy_blade"
+					tag: {
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade_addon:model/wanderer/wanderer.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade_addon:rapid_blistering_swords"
+							StandbyRenderType: 3b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade_addon:model/wanderer/wanderer.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 7.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 70
+							proudSoul: 0
+							translationKey: "item.slashblade_addon.wanderer_hf"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+	]
+	title: "畸变的月球"
+}

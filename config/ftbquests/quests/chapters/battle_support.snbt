@@ -1,0 +1,142 @@
+{
+	autofocus_id: "3C14A2F8BA3C3DA6"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "battle_support"
+	group: "0937198EE94F2B97"
+	icon: "minecraft:anvil"
+	id: "727081F98CCAB90B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["73531FB69122489F"]
+			id: "3C14A2F8BA3C3DA6"
+			size: 2.0d
+			tasks: [{
+				id: "4FF7F8A5BE4D1636"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C14A2F8BA3C3DA6"]
+			id: "77ABEFEE93012F0A"
+			tasks: [{
+				id: "225DF5F889219204"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["77ABEFEE93012F0A"]
+			id: "555957F2FF4AE8AF"
+			tasks: [{
+				id: "49C35E80B7E30960"
+				item: "apotheosis:salvaging_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3C14A2F8BA3C3DA6"]
+			id: "4188A7E761838045"
+			tasks: [{
+				id: "10440B00D74C91F5"
+				item: "apotheosis:uncommon_material"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C14A2F8BA3C3DA6"]
+			id: "389AE3451AB9A022"
+			tasks: [{
+				id: "6AB4B184C21D4F2C"
+				item: "apotheosis:rare_material"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C14A2F8BA3C3DA6"]
+			id: "278A39AEC26ACC1A"
+			tasks: [{
+				id: "388068FFCA1A925E"
+				item: "apotheosis:epic_material"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C14A2F8BA3C3DA6"]
+			id: "3864617F2C8F7BE0"
+			tasks: [{
+				id: "3EF599E64D6133BF"
+				item: "apotheosis:mythic_material"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77ABEFEE93012F0A"]
+			id: "2A958A3CA94287FD"
+			tasks: [{
+				id: "0590DF0F96C421EC"
+				item: "apotheosis:gem_cutting_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["77ABEFEE93012F0A"]
+			id: "419F370B5BCD93CF"
+			tasks: [{
+				id: "23BBE71F75826062"
+				item: "apotheosis:simple_reforging_table"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"419F370B5BCD93CF"
+				"278A39AEC26ACC1A"
+			]
+			id: "03D989C2ED12227E"
+			tasks: [{
+				id: "05E68A00B3D01919"
+				item: "apotheosis:reforging_table"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"3864617F2C8F7BE0"
+				"03D989C2ED12227E"
+			]
+			id: "5BB2FE532C00131E"
+			tasks: [{
+				id: "418D0C2FFF6F4F4E"
+				item: "apotheosis:augmenting_table"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.5d
+		}
+	]
+	title: "战斗辅助"
+}

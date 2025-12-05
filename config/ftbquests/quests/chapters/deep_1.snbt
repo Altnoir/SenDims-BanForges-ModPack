@@ -1,0 +1,515 @@
+{
+	autofocus_id: "5BB642BD0BE40541"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "deep_1"
+	group: "49FC4157519361C1"
+	icon: "minecraft:deepslate"
+	id: "3D1F39AAD8A724BA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["71F1943E6E3FCA17"]
+			description: [
+				"IMMPT：用红砖块构筑门槛，并使用深境证章点亮......"
+				""
+				"原始：用裂纹砖块构筑门槛，并使用深境证章点亮......"
+			]
+			hide_until_deps_complete: true
+			id: "5BB642BD0BE40541"
+			size: 2.0d
+			tasks: [{
+				dimension: "infinity_cave:deep_realm_level_1"
+				icon: "minecraft:deepslate"
+				id: "68FCAFE4D18A139C"
+				title: "深境一层"
+				type: "dimension"
+			}]
+			title: "深境一层"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BB642BD0BE40541"]
+			id: "6AE2EFEC0F3BE4BE"
+			tasks: [{
+				id: "5EA9F027884A6755"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5BB642BD0BE40541"]
+			id: "1525C465363807AE"
+			tasks: [{
+				id: "02F16B5C53EAEB97"
+				item: "terra_entity:skeletron_spawn_egg"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1DE54DDD04540738"]
+			id: "59C711671F81AB45"
+			tasks: [{
+				id: "442D16AF6C4F4689"
+				item: "nuclearcraft:sulfuric_acid_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BB642BD0BE40541"]
+			id: "1DE54DDD04540738"
+			tasks: [{
+				id: "0015D0CF74D0EC69"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E65D796E79EFCC3"]
+			id: "1FC6DCA09DEC558F"
+			tasks: [{
+				id: "774ECFC547F5AA8D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "last_smith:model/named/sakura/model.obj"
+							RepairCounter: 0
+							SpecialAttackType: "last_smith:sakura_blistering_swords"
+							SpecialEffects: ["last_smith:smite_se"]
+							StandbyRenderType: 3b
+							SummonedSwordColor: -8910
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "last_smith:model/named/sakura/texture_1.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 5.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 70
+							proudSoul: 0
+							translationKey: "item.last_smith.exorcism_ginkgo"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						Enchantments: [{
+							id: "minecraft:smite"
+							lvl: 2s
+						}]
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "last_smith:model/named/sakura/model.obj"
+							RepairCounter: 0
+							SpecialAttackType: "last_smith:sakura_blistering_swords"
+							SpecialEffects: ["last_smith:smite_se"]
+							StandbyRenderType: 3b
+							SummonedSwordColor: -8910
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "last_smith:model/named/sakura/texture_1.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 5.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 70
+							proudSoul: 0
+							translationKey: "item.last_smith.exorcism_ginkgo"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59C711671F81AB45"]
+			id: "4E65D796E79EFCC3"
+			tasks: [{
+				id: "0D772BB4F69798A8"
+				item: "last_smith:scroll_named"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FC6DCA09DEC558F"]
+			id: "1B70EA5FC4515C6A"
+			tasks: [{
+				id: "51DA817DFCE176BA"
+				item: "last_smith:scroll_exorcism"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AE2EFEC0F3BE4BE"]
+			id: "3F3BE932D1892CC4"
+			tasks: [{
+				id: "38B1E2F156E3367D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "blades_derby:model/uma_hishi.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:drive_vertical"
+							SpecialEffects: ["blades_derby:uma_special"]
+							StandbyRenderType: 4b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "blades_derby:model/uma_hishi.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 7.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 50
+							proudSoul: 0
+							translationKey: "item.blades_derby.uma_hishi"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						Enchantments: [{
+							id: "minecraft:sharpness"
+							lvl: 1s
+						}]
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "blades_derby:model/uma_hishi.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:drive_vertical"
+							SpecialEffects: ["blades_derby:uma_special"]
+							StandbyRenderType: 4b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "blades_derby:model/uma_hishi.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 7.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 50
+							proudSoul: 0
+							translationKey: "item.blades_derby.uma_hishi"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5BB642BD0BE40541"]
+			id: "0402AC2E4A8127A4"
+			tasks: [{
+				id: "70B06522DDB559DE"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1DE54DDD04540738"]
+			id: "21AAA0495A97DD6A"
+			tasks: [{
+				id: "4DF61D9E91839C53"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/named/agito.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:drive_horizontal"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/named/a_tukumo.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 6.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 40
+							proudSoul: 0
+							translationKey: "item.slashblade.yuzukitukumo"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						Enchantments: [
+							{
+								id: "minecraft:fire_aspect"
+								lvl: 1s
+							}
+							{
+								id: "minecraft:sharpness"
+								lvl: 4s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+						]
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/named/agito.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:drive_horizontal"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/named/a_tukumo.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 6.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 40
+							proudSoul: 0
+							translationKey: "item.slashblade.yuzukitukumo"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["21AAA0495A97DD6A"]
+			id: "189D056BF992C545"
+			tasks: [{
+				id: "3DCDE3CAFAE7B87B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade_addon:model/yukari/model.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:drive_horizontal"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade_addon:model/yukari/texture.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 8.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 50
+							proudSoul: 0
+							translationKey: "item.slashblade_addon.yukari"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade_addon:model/yukari/model.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:drive_horizontal"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade_addon:model/yukari/texture.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 8.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 50
+							proudSoul: 0
+							translationKey: "item.slashblade_addon.yukari"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5BB642BD0BE40541"]
+			description: [
+				"深境的第一层是一套复杂的洞穴系统："
+				"·y>0：高密度的岩石层，夹杂着一部分小型洞穴，安全又贫瘠；"
+				"·y<0：更加多样化的岩石层，拥有着大量的大型洞穴，各种前文明的结构，以及一些在此定居的主世界土著，充满着冒险与机遇；"
+				"·y<？：在最底层，洞穴......；"
+				""
+				"由于深境一层是一个地底世界，长距离的远征并不容易。使用传送设备记录坐标点，然后分批次探索会是更好的选择。"
+			]
+			icon: "minecraft:map"
+			id: "2EADF063117EE157"
+			subtitle: "信息"
+			tasks: [{
+				id: "7C2857CCF82C28A2"
+				type: "checkmark"
+			}]
+			title: "深境一层的结构"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5BB642BD0BE40541"]
+			id: "33F75375A067D418"
+			tasks: [{
+				id: "2F6FA4D3DC893C82"
+				item: "yungscavebiomes:frost_lily"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BB642BD0BE40541"]
+			id: "6005126CA254EC52"
+			tasks: [{
+				id: "7FEEEE88ECBC5795"
+				item: "minecraft:pitcher_plant"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5BB642BD0BE40541"]
+			id: "377759DBC15115C1"
+			tasks: [{
+				id: "22B60CC9AABD204F"
+				item: "minecraft:torchflower"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5BB642BD0BE40541"]
+			id: "3C8A6884B30E7AE7"
+			tasks: [{
+				id: "33FEE8AA231C94B7"
+				item: "minecraft:sculk_catalyst"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+	]
+	title: "深境：深邃洞穴"
+}

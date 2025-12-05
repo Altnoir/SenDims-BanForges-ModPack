@@ -1,0 +1,764 @@
+{
+	autofocus_id: "5251AFEDB9C97974"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nether"
+	group: "49FC4157519361C1"
+	icon: "minecraft:netherrack"
+	id: "21FDCDE620C842AA"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"36E8BDF00D6B600E"
+				"0AC8512136285C3E"
+			]
+			hide_until_deps_complete: true
+			id: "5251AFEDB9C97974"
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:netherrack"
+				id: "0676BA676B9646D4"
+				title: "下界"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5251AFEDB9C97974"]
+			hide_until_deps_complete: true
+			id: "188D639DFD113F3D"
+			tasks: [{
+				id: "3AD617781A3E8557"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5251AFEDB9C97974"]
+			hide_until_deps_complete: true
+			id: "477A42CD53645E08"
+			tasks: [{
+				id: "2CB6B32510D0BFAC"
+				item: "cataclysm:monstrous_eye"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["477A42CD53645E08"]
+			id: "1BFFE0DF9A447A4A"
+			tasks: [{
+				id: "525575C9079CC106"
+				structure: "cataclysm:soul_black_smith"
+				type: "structure"
+			}]
+			title: "灵魂锻造厂"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BFFE0DF9A447A4A"]
+			id: "74CCF300B72CB6EE"
+			tasks: [{
+				id: "0848DCCC260DA074"
+				item: "cataclysm:monstrous_horn"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["188D639DFD113F3D"]
+			id: "1F9B9C1CBB5B9659"
+			tasks: [{
+				id: "3B860CD72D903B14"
+				item: "minecraft:nether_bricks"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"5251AFEDB9C97974"
+				"1F9B9C1CBB5B9659"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			id: "43F1C6E6DEF9378A"
+			tasks: [{
+				id: "418F13DB0A172EA3"
+				structure: "minecraft:fortress"
+				type: "structure"
+			}]
+			title: "下界堡垒"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5251AFEDB9C97974"]
+			hide_until_deps_complete: true
+			id: "3BE7D32A56D6FB44"
+			tasks: [{
+				advancement: "minecraft:nether/explore_nether"
+				criterion: ""
+				id: "01FA29D215FC0CF7"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5251AFEDB9C97974"]
+			hide_until_deps_complete: true
+			id: "0F5A08067624B75C"
+			tasks: [{
+				id: "56A28843DDDCD135"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F5A08067624B75C"]
+			id: "0809F64B7A3864AC"
+			tasks: [{
+				id: "1CE2DD3E1A345971"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BFFE0DF9A447A4A"]
+			id: "33D5A2CD9DD1BA9F"
+			tasks: [{
+				id: "4034617E68E38889"
+				item: "cataclysm:lava_power_cell"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5251AFEDB9C97974"]
+			hide_until_deps_complete: true
+			icon: "terra_entity:demon_spawn_egg"
+			id: "7A229A04D3AFE10F"
+			tasks: [{
+				entity: "terra_entity:demon"
+				id: "7D2C93540271C005"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7A229A04D3AFE10F"]
+			id: "32F557E18C00B7A1"
+			tasks: [{
+				id: "4F8C81C88CB8F81F"
+				item: "terra_entity:wall_of_flesh_spawn_egg"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5251AFEDB9C97974"]
+			hide_until_deps_complete: true
+			id: "18E165437CBA9864"
+			tasks: [{
+				id: "2FDDDF14AA3C66D0"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["18E165437CBA9864"]
+			id: "59D5F0F6374C1433"
+			tasks: [{
+				id: "2C899E96C690C9D9"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0809F64B7A3864AC"]
+			id: "3AA2BC619D04E949"
+			tasks: [{
+				id: "0DFB48B8E6310DA0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "blades_derby:model/uma_black.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:void_slash"
+							SpecialEffects: ["blades_derby:uma_special"]
+							StandbyRenderType: 4b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "blades_derby:model/uma_black.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 7.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 50
+							proudSoul: 0
+							translationKey: "item.blades_derby.uma_black"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						Enchantments: [{
+							id: "minecraft:sweeping"
+							lvl: 1s
+						}]
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "blades_derby:model/uma_black.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:void_slash"
+							SpecialEffects: ["blades_derby:uma_special"]
+							StandbyRenderType: 4b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "blades_derby:model/uma_black.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 7.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 50
+							proudSoul: 0
+							translationKey: "item.blades_derby.uma_black"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["058C32492347BB2C"]
+			id: "182A2091DC790784"
+			tasks: [{
+				id: "25FFD2FE2362BAB1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade_addon:model/nihil/nihil.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:drive_horizontal"
+							StandbyRenderType: 4b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade_addon:model/nihil/nihil.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 8.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 45
+							proudSoul: 0
+							translationKey: "item.slashblade_addon.nihil"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						Enchantments: [
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:sharpness"
+								lvl: 2s
+							}
+							{
+								id: "minecraft:smite"
+								lvl: 1s
+							}
+							{
+								id: "minecraft:fire_aspect"
+								lvl: 1s
+							}
+						]
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade_addon:model/nihil/nihil.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:drive_horizontal"
+							StandbyRenderType: 4b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade_addon:model/nihil/nihil.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 8.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 45
+							proudSoul: 0
+							translationKey: "item.slashblade_addon.nihil"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0809F64B7A3864AC"]
+			id: "058C32492347BB2C"
+			tasks: [{
+				id: "04BB32396AA2DA33"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "pseudoedge_break_dawn:model/pseudo/named/pseudosword/kingblade/kingblade.obj"
+							RepairCounter: 0
+							SpecialAttackType: "pseudoedge_break_dawn:kingblade"
+							StandbyRenderType: 1b
+							SummonedSwordColor: -65536
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "pseudoedge_break_dawn:model/pseudo/named/pseudosword/kingblade/kingblade.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 23.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 300
+							proudSoul: 0
+							translationKey: "item.pseudoedge_break_dawn.kingblade"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						Enchantments: [
+							{
+								id: "minecraft:sharpness"
+								lvl: 5s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:fire_aspect"
+								lvl: 2s
+							}
+						]
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "pseudoedge_break_dawn:model/pseudo/named/pseudosword/kingblade/kingblade.obj"
+							RepairCounter: 0
+							SpecialAttackType: "pseudoedge_break_dawn:kingblade"
+							StandbyRenderType: 1b
+							SummonedSwordColor: -65536
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "pseudoedge_break_dawn:model/pseudo/named/pseudosword/kingblade/kingblade.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 23.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 300
+							proudSoul: 0
+							translationKey: "item.pseudoedge_break_dawn.kingblade"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"182A2091DC790784"
+				"59D5F0F6374C1433"
+			]
+			id: "76BFA745E2BBDC7E"
+			tasks: [{
+				id: "5ED0B99CECE6DC72"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade_addon:model/nihil/nihil.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:wave_edge"
+							StandbyRenderType: 4b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade_addon:model/nihil/nihilex.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 10.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 60
+							proudSoul: 0
+							translationKey: "item.slashblade_addon.nihilex"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						Enchantments: [
+							{
+								id: "minecraft:unbreaking"
+								lvl: 2s
+							}
+							{
+								id: "minecraft:sharpness"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:smite"
+								lvl: 2s
+							}
+							{
+								id: "minecraft:bane_of_arthropods"
+								lvl: 1s
+							}
+							{
+								id: "minecraft:fire_aspect"
+								lvl: 2s
+							}
+							{
+								id: "minecraft:looting"
+								lvl: 1s
+							}
+						]
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade_addon:model/nihil/nihil.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:wave_edge"
+							StandbyRenderType: 4b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade_addon:model/nihil/nihilex.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 10.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 60
+							proudSoul: 0
+							translationKey: "item.slashblade_addon.nihilex"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0809F64B7A3864AC"
+				"59D5F0F6374C1433"
+			]
+			id: "6ED32EAF0CA23ECC"
+			tasks: [{
+				id: "6E858D9823124DE3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "pseudoedge_break_dawn:model/pseudo/named/pseudosword/xblades/xblades.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 1b
+							SummonedSwordColor: -65536
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "pseudoedge_break_dawn:model/pseudo/named/pseudosword/xblades/xblades.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 21.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 300
+							proudSoul: 0
+							translationKey: "item.pseudoedge_break_dawn.xblades"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						Enchantments: [
+							{
+								id: "minecraft:sharpness"
+								lvl: 5s
+							}
+							{
+								id: "minecraft:fire_aspect"
+								lvl: 2s
+							}
+						]
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "pseudoedge_break_dawn:model/pseudo/named/pseudosword/xblades/xblades.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 1b
+							SummonedSwordColor: -65536
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "pseudoedge_break_dawn:model/pseudo/named/pseudosword/xblades/xblades.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 21.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 300
+							proudSoul: 0
+							translationKey: "item.pseudoedge_break_dawn.xblades"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6ED32EAF0CA23ECC"]
+			id: "28F13DDE71732A6F"
+			tasks: [{
+				id: "0F4499B79A94E5C5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "pseudoedge_break_dawn:model/pseudo/named/pseudosword/magicblade/magicblade.obj"
+							RepairCounter: 0
+							SpecialAttackType: "pseudoedge_break_dawn:blackslash"
+							StandbyRenderType: 1b
+							SummonedSwordColor: -16777216
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "pseudoedge_break_dawn:model/pseudo/named/pseudosword/magicblade/magicblade.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 32.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 300
+							proudSoul: 0
+							translationKey: "item.pseudoedge_break_dawn.magicblade"
+						}
+					}
+					id: "slashblade:slashblade"
+					tag: {
+						Enchantments: [
+							{
+								id: "minecraft:sharpness"
+								lvl: 5s
+							}
+							{
+								id: "minecraft:smite"
+								lvl: 5s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+						]
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "pseudoedge_break_dawn:model/pseudo/named/pseudosword/magicblade/magicblade.obj"
+							RepairCounter: 0
+							SpecialAttackType: "pseudoedge_break_dawn:blackslash"
+							StandbyRenderType: 1b
+							SummonedSwordColor: -16777216
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "pseudoedge_break_dawn:model/pseudo/named/pseudosword/magicblade/magicblade.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 32.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 300
+							proudSoul: 0
+							translationKey: "item.pseudoedge_break_dawn.magicblade"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.5d
+		}
+	]
+	title: "入地狱"
+}

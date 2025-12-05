@@ -1,0 +1,295 @@
+{
+	autofocus_id: "2C21F5DDCC8B3890"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "uma"
+	group: "0937198EE94F2B97"
+	icon: "umapyoi:jewel"
+	id: "23B7B6107ABF3A54"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5748351A76910019"]
+			icon: "umapyoi:jewel"
+			id: "2C21F5DDCC8B3890"
+			rewards: [{
+				count: 2
+				id: "0EE83D8DDDC5C2C6"
+				item: "quark:carrot_crate"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "59C9B5F9F034211B"
+				type: "checkmark"
+			}]
+			title: "Umapyoi"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C21F5DDCC8B3890"]
+			id: "5BC9056FBEA395C4"
+			tasks: [{
+				id: "5F4D1E536DE4D9EA"
+				item: "umapyoi:jewel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5BC9056FBEA395C4"]
+			id: "7D818AD425FC2A9D"
+			tasks: [{
+				id: "130006DF138EEFD5"
+				item: "umapyoi:silver_uma_pedestal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5BC9056FBEA395C4"]
+			id: "3427F0EB26787AD4"
+			tasks: [{
+				id: "4087B39B49C04097"
+				item: "umapyoi:blank_ticket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4D8FDE5769575B98"]
+			id: "5F0A0C96A6AD7CF1"
+			tasks: [{
+				id: "65B9D1874DE55F69"
+				item: "umapyoi:three_goddess"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"3427F0EB26787AD4"
+				"7D818AD425FC2A9D"
+			]
+			id: "7EE81D3B46857E30"
+			tasks: [{
+				id: "74CD39C6065A28CC"
+				item: {
+					Count: 1
+					id: "umapyoi:support_card"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "支援卡"
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"3427F0EB26787AD4"
+				"7D818AD425FC2A9D"
+			]
+			id: "4D8FDE5769575B98"
+			tasks: [{
+				id: "35538C56D4575EB7"
+				item: {
+					Count: 1
+					id: "umapyoi:blank_uma_soul"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"5F0A0C96A6AD7CF1"
+				"7EE81D3B46857E30"
+			]
+			id: "5F5FBCD93EB0B99C"
+			tasks: [{
+				id: "74AC2965C1EC2F7E"
+				item: "umapyoi:training_facility"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["5F5FBCD93EB0B99C"]
+			id: "3B260E8BEBD4BE0D"
+			tasks: [{
+				id: "1BB686A5DA4C9362"
+				item: "umapyoi:register_lectern"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["5F5FBCD93EB0B99C"]
+			id: "560791FD0B56E4DC"
+			tasks: [{
+				id: "68F533A2B967B20F"
+				item: "umapyoi:skill_learning_table"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3B260E8BEBD4BE0D"]
+			id: "291BE5789CE1F72C"
+			tasks: [{
+				id: "74D62E1AF947B41C"
+				item: "umapyoi:disassembly_block"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["7D818AD425FC2A9D"]
+			id: "44276B696C7522ED"
+			tasks: [{
+				id: "7F1531C9744E9E4B"
+				item: "umapyoi:uma_pedestal"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2C21F5DDCC8B3890"]
+			id: "4C5C0CED4B02CADC"
+			subtitle: "行动力+"
+			tasks: [{
+				id: "669C0598654238E0"
+				item: "umapyoi:small_energy_drink"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4C5C0CED4B02CADC"]
+			id: "4907E1D813188F04"
+			subtitle: "行动力++"
+			tasks: [{
+				id: "270DFCB5F1CA6318"
+				item: "umapyoi:medium_energy_drink"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4907E1D813188F04"]
+			id: "6081596DEFE9524E"
+			subtitle: "行动力+++"
+			tasks: [{
+				id: "78F7932B5842F6F1"
+				item: "umapyoi:large_energy_drink"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2C21F5DDCC8B3890"]
+			id: "318497B5AECDACE3"
+			tasks: [{
+				id: "7021D18665F8BAD5"
+				item: {
+					Count: 1
+					id: "umapyoi:skill_book"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C21F5DDCC8B3890"]
+			id: "4CB5EB6C0C65AE6E"
+			subtitle: "心情+"
+			tasks: [{
+				id: "753BE738467FE942"
+				item: "umapyoi:hachimi_mid"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C21F5DDCC8B3890"]
+			id: "69C0FB78C878A50F"
+			subtitle: "心情+"
+			tasks: [{
+				id: "2F348F5A15993FA9"
+				item: "umapyoi:cupcake"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["69C0FB78C878A50F"]
+			id: "2620C4A1382EF083"
+			subtitle: "心情++"
+			tasks: [{
+				id: "103F432DD2E5ED85"
+				item: "umapyoi:sweet_cupcake"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CB5EB6C0C65AE6E"]
+			id: "648E2792C9DE4600"
+			subtitle: "心情++"
+			tasks: [{
+				id: "5E8764D6A589FF63"
+				item: "umapyoi:hachimi_big"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BC9056FBEA395C4"]
+			id: "2CD69CA797ED9076"
+			tasks: [{
+				id: "601E796A99337366"
+				item: "umapyoi:uma_select_block"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2C21F5DDCC8B3890"]
+			description: ["如果你能寻找一些村民，将他们培养成训练员的话，或许可以更轻松的发展......"]
+			icon: "minecraft:map"
+			id: "78FB3FF91E3368AA"
+			tasks: [{
+				id: "700F5474546355D3"
+				type: "checkmark"
+			}]
+			title: "提示"
+			x: 0.0d
+			y: 2.5d
+		}
+	]
+	title: "马娘之魂"
+}
