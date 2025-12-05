@@ -1,0 +1,27 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:fire_aspect"
+    },
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 2
+    },
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 2
+    }
+  ],
+  "name": "slashblade:yuzukitukumo",
+  "properties": {
+    "attack_base": 4.5,
+    "slash_art": "slashblade:drive_horizontal",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "slashblade:model/named/agito.obj",
+    "texture": "slashblade:model/named/a_tukumo.png"
+  }
+}

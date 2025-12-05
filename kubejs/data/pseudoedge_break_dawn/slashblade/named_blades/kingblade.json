@@ -1,0 +1,32 @@
+{
+  "creativeGroup": "pseudoedge_break_dawn:pseudoedge_break_dawn_slashblade",
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 2
+    },
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 2
+    },
+    {
+      "id": "minecraft:fire_aspect",
+      "lvl": 2
+    }
+  ],
+  "name": "pseudoedge_break_dawn:kingblade",
+  "properties": {
+    "attack_base": 7.0,
+    "max_damage": 70,
+    "slash_art": "pseudoedge_break_dawn:kingblade",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "pseudoedge_break_dawn:model/pseudo/named/pseudosword/kingblade/kingblade.obj",
+    "summon_sword_color": 16711680,
+    "texture": "pseudoedge_break_dawn:model/pseudo/named/pseudosword/kingblade/kingblade.png"
+  }
+}

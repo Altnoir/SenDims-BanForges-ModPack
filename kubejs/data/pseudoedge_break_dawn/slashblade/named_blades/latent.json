@@ -1,0 +1,27 @@
+{
+  "creativeGroup": "pseudoedge_break_dawn:pseudoedge_break_dawn_slashblade",
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:fire_aspect",
+      "lvl": 3
+    }
+  ],
+  "name": "pseudoedge_break_dawn:latent",
+  "properties": {
+    "attack_base": 25.0,
+    "max_damage": 300,
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "pseudoedge_break_dawn:model/pseudo/named/pseudosword/emptyblade/emptyblade.obj",
+    "summon_sword_color": 0,
+    "texture": "pseudoedge_break_dawn:model/pseudo/named/pseudosword/latent/latent.png"
+  }
+}

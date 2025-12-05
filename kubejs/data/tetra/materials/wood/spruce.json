@@ -1,0 +1,29 @@
+{
+    "key": "spruce",
+    "category": "wood",
+    "hidden": true,
+    "hiddenOutcomes": true,
+    "primary": 1,
+    "secondary": 1,
+    "tertiary": 0.7,
+    "durability": 110,
+    "integrityCost": 1,
+    "integrityGain": 4,
+    "magicCapacity": 90,
+    "toolLevel": "minecraft:wood",
+    "toolEfficiency": 2,
+    "tints": {
+        "glyph": "spruce_glyph",
+        "texture": "spruce"
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+        "items": [ "minecraft:spruce_planks" ]
+    },
+    "requiredTools": {
+        "axe_dig": "minecraft:wood"
+    }
+}

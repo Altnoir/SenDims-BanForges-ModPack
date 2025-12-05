@@ -1,0 +1,1390 @@
+{
+  "trades": [
+    {
+      "trade_task": {
+        "trades": [
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "tag": "minecraft:planks"
+                },
+                "count": 4
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:crafting_table",
+                "Count": 1
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:coal"
+                },
+                "count": 10
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:torch",
+                "Count": 64
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:diamond"
+                },
+                "count": 5
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:egg"
+                },
+                "count": 1
+              }
+            ],
+            "result": [
+              {
+                "id": "terra_entity:king_slime_spawn_egg",
+                "Count": 1
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:ender_eye"
+                },
+                "count": 5
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:redstone"
+                },
+                "count": 20
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:egg"
+                },
+                "count": 1
+              }
+            ],
+            "result": [
+              {
+                "id": "terra_entity:cthulhu_eye_spawn_egg",
+                "Count": 1
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:obsidian"
+                },
+                "count": 10
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:egg"
+                },
+                "count": 1
+              }
+            ],
+            "result": [
+              {
+                "id": "terra_entity:eater_of_world_spawn_egg",
+                "Count": 1
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:spider_eye"
+                },
+                "count": 5
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:rotten_flesh"
+                },
+                "count": 5
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:egg"
+                },
+                "count": 1
+              }
+            ],
+            "result": [
+              {
+                "id": "terra_entity:brain_of_cthulhu_spawn_egg",
+                "Count": 1
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:honey_bottle"
+                },
+                "count": 5
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:honeycomb"
+                },
+                "count": 5
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:egg"
+                },
+                "count": 1
+              }
+            ],
+            "result": [
+              {
+                "id": "terra_entity:queen_bee_spawn_egg",
+                "Count": 1
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:bone"
+                },
+                "count": 8
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:egg"
+                },
+                "count": 1
+              }
+            ],
+            "result": [
+              {
+                "id": "terra_entity:skeletron_spawn_egg",
+                "Count": 1
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          }
+        ],
+        "type": "terra_entity:progress_trade_task"
+      },
+      "type": "terra_entity:trade_task"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:diamond"
+          },
+          "count": 8
+        },
+        {
+          "ingredient": {
+            "item": "minecraft:egg"
+          },
+          "count": 1
+        }
+      ],
+      "result": [
+        {
+          "id": "terra_entity:king_slime_spawn_egg",
+          "Count": 1
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:ender_eye"
+          },
+          "count": 8
+        },
+        {
+          "ingredient": {
+            "item": "minecraft:redstone"
+          },
+          "count": 20
+        },
+        {
+          "ingredient": {
+            "item": "minecraft:egg"
+          },
+          "count": 1
+        }
+      ],
+      "result": [
+        {
+          "id": "terra_entity:cthulhu_eye_spawn_egg",
+          "Count": 1
+        }
+      ],
+      "properties": {
+        "lock": {
+          "entity_type": "terra_entity:king_slime",
+          "type": "terra_entity:kill_entity_lock"
+        }
+      },
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:obsidian"
+          },
+          "count": 15
+        },
+        {
+          "ingredient": {
+            "item": "minecraft:egg"
+          },
+          "count": 1
+        }
+      ],
+      "result": [
+        {
+          "id": "terra_entity:eater_of_world_spawn_egg",
+          "Count": 1
+        }
+      ],
+      "properties": {
+        "lock": {
+          "entity_type": "terra_entity:eye_of_cthulhu",
+          "type": "terra_entity:kill_entity_lock"
+        }
+      },
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:spider_eye"
+          },
+          "count": 8
+        },
+        {
+          "ingredient": {
+            "item": "minecraft:rotten_flesh"
+          },
+          "count": 8
+        },
+        {
+          "ingredient": {
+            "item": "minecraft:egg"
+          },
+          "count": 1
+        }
+      ],
+      "result": [
+        {
+          "id": "terra_entity:brain_of_cthulhu_spawn_egg",
+          "Count": 1
+        }
+      ],
+      "properties": {
+        "lock": {
+          "entity_type": "terra_entity:eater_of_worlds",
+          "type": "terra_entity:kill_entity_lock"
+        }
+      },
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:honey_bottle"
+          },
+          "count": 8
+        },
+        {
+          "ingredient": {
+            "item": "minecraft:honeycomb"
+          },
+          "count": 8
+        },
+        {
+          "ingredient": {
+            "item": "minecraft:egg"
+          },
+          "count": 1
+        }
+      ],
+      "result": [
+        {
+          "id": "terra_entity:queen_bee_spawn_egg",
+          "Count": 1
+        }
+      ],
+      "properties": {
+        "lock": {
+          "entity_type": "terra_entity:brain_of_cthulhu",
+          "type": "terra_entity:kill_entity_lock"
+        }
+      },
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:bone"
+          },
+          "count": 10
+        },
+        {
+          "ingredient": {
+            "item": "minecraft:egg"
+          },
+          "count": 1
+        }
+      ],
+      "result": [
+        {
+          "id": "terra_entity:skeletron_spawn_egg",
+          "Count": 1
+        }
+      ],
+      "properties": {
+        "lock": {
+          "entity_type": "terra_entity:brain_of_cthulhu",
+          "type": "terra_entity:kill_entity_lock"
+        }
+      },
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "trade_task": {
+        "trades": [
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "tag": "minecraft:planks"
+                },
+                "count": 2
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:wooden_sword",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:wooden_sword"
+                },
+                "count": 1
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:cobblestone"
+                },
+                "count": 1
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:stone_sword",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:stone_sword"
+                },
+                "count": 1
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:iron_ingot"
+                },
+                "count": 1
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:iron_sword",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:iron_sword"
+                },
+                "count": 1
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:gold_ingot"
+                },
+                "count": 1
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:golden_sword",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:golden_sword"
+                },
+                "count": 1
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:diamond"
+                },
+                "count": 1
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:diamond_sword",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:diamond_sword"
+                },
+                "count": 1
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:netherite_ingot"
+                },
+                "count": 1
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:netherite_sword",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          }
+        ],
+        "type": "terra_entity:progress_trade_task"
+      },
+      "type": "terra_entity:trade_task"
+    },
+    {
+      "trade_task": {
+        "trades": [
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "tag": "minecraft:planks"
+                },
+                "count": 3
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:wooden_axe",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:wooden_axe"
+                },
+                "count": 1
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:cobblestone"
+                },
+                "count": 1
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:stone_axe",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:stone_axe"
+                },
+                "count": 1
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:iron_ingot"
+                },
+                "count": 1
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:iron_axe",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:iron_axe"
+                },
+                "count": 1
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:gold_ingot"
+                },
+                "count": 1
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:golden_axe",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:golden_axe"
+                },
+                "count": 1
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:diamond"
+                },
+                "count": 1
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:diamond_axe",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:diamond_axe"
+                },
+                "count": 1
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:netherite_ingot"
+                },
+                "count": 1
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:netherite_axe",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          }
+        ],
+        "type": "terra_entity:progress_trade_task"
+      },
+      "type": "terra_entity:trade_task"
+    },
+    {
+      "trade_task": {
+        "trades": [
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "tag": "minecraft:planks"
+                },
+                "count": 3
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:wooden_pickaxe",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:wooden_pickaxe"
+                },
+                "count": 1
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:cobblestone"
+                },
+                "count": 1
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:stone_pickaxe",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:stone_pickaxe"
+                },
+                "count": 1
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:iron_ingot"
+                },
+                "count": 1
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:iron_pickaxe",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:iron_pickaxe"
+                },
+                "count": 1
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:gold_ingot"
+                },
+                "count": 1
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:golden_pickaxe",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:golden_pickaxe"
+                },
+                "count": 1
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:diamond"
+                },
+                "count": 1
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:diamond_pickaxe",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:diamond_pickaxe"
+                },
+                "count": 1
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:netherite_ingot"
+                },
+                "count": 1
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:netherite_pickaxe",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          }
+        ],
+        "type": "terra_entity:progress_trade_task"
+      },
+      "type": "terra_entity:trade_task"
+    },
+    {
+      "trade_task": {
+        "trades": [
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:leather"
+                },
+                "count": 3
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:leather_helmet",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:leather_helmet"
+                },
+                "count": 1
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:iron_ingot"
+                },
+                "count": 2
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:iron_helmet",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:iron_helmet"
+                },
+                "count": 1
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:gold_ingot"
+                },
+                "count": 2
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:golden_helmet",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:golden_helmet"
+                },
+                "count": 1
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:diamond"
+                },
+                "count": 2
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:diamond_helmet",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:diamond_helmet"
+                },
+                "count": 1
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:netherite_ingot"
+                },
+                "count": 1
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:netherite_helmet",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          }
+        ],
+        "type": "terra_entity:progress_trade_task"
+      },
+      "type": "terra_entity:trade_task"
+    },
+    {
+      "trade_task": {
+        "trades": [
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:leather"
+                },
+                "count": 6
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:leather_chestplate",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:leather_chestplate"
+                },
+                "count": 1
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:iron_ingot"
+                },
+                "count": 4
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:iron_chestplate",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:iron_chestplate"
+                },
+                "count": 1
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:gold_ingot"
+                },
+                "count": 4
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:golden_chestplate",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:golden_chestplate"
+                },
+                "count": 1
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:diamond"
+                },
+                "count": 4
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:diamond_chestplate",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:diamond_chestplate"
+                },
+                "count": 1
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:netherite_ingot"
+                },
+                "count": 1
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:netherite_chestplate",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          }
+        ],
+        "type": "terra_entity:progress_trade_task"
+      },
+      "type": "terra_entity:trade_task"
+    },
+    {
+      "trade_task": {
+        "trades": [
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:leather"
+                },
+                "count": 5
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:leather_leggings",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:leather_leggings"
+                },
+                "count": 1
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:iron_ingot"
+                },
+                "count": 3
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:iron_leggings",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:iron_leggings"
+                },
+                "count": 1
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:gold_ingot"
+                },
+                "count": 3
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:golden_leggings",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:golden_leggings"
+                },
+                "count": 1
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:diamond"
+                },
+                "count": 3
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:diamond_leggings",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:diamond_leggings"
+                },
+                "count": 1
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:netherite_ingot"
+                },
+                "count": 1
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:netherite_leggings",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          }
+        ],
+        "type": "terra_entity:progress_trade_task"
+      },
+      "type": "terra_entity:trade_task"
+    },
+    {
+      "trade_task": {
+        "trades": [
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:leather"
+                },
+                "count": 2
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:leather_boots",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:leather_boots"
+                },
+                "count": 1
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:iron_ingot"
+                },
+                "count": 2
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:iron_boots",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:iron_boots"
+                },
+                "count": 1
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:gold_ingot"
+                },
+                "count": 2
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:golden_boots",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:golden_boots"
+                },
+                "count": 1
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:diamond"
+                },
+                "count": 2
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:diamond_boots",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          },
+          {
+            "costs": [
+              {
+                "ingredient": {
+                  "item": "minecraft:diamond_boots"
+                },
+                "count": 1
+              },
+              {
+                "ingredient": {
+                  "item": "minecraft:netherite_ingot"
+                },
+                "count": 1
+              }
+            ],
+            "result": [
+              {
+                "id": "minecraft:netherite_boots",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            ],
+            "type": "terra_entity:ingredient_trade_item_list"
+          }
+        ],
+        "type": "terra_entity:progress_trade_task"
+      },
+      "type": "terra_entity:trade_task"
+    }
+  ]
+}

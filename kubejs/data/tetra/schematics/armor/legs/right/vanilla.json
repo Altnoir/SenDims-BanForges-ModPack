@@ -1,0 +1,17 @@
+{
+    "replace": true,
+    "slots": ["legs/right"],
+    "materialSlotCount": 1,
+    "displayType": "major",
+    "glyph": {
+        "textureX": 16
+    },
+    "outcomes": [
+        {
+            "materials": ["tetra:wood/","tetra:gem/","tetra:metal/","tetra:bone/","tetra:fabric/","tetra:fibre/","tetra:skin/","tetra:scale/"],
+            "countFactor": 2,
+            "moduleKey": "armor/legs/right/vanilla",
+            "moduleVariant": "vanilla_legs_right/"
+        }
+    ]
+}

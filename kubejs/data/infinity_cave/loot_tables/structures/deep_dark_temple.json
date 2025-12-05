@@ -1,0 +1,469 @@
+{
+    "pools": [
+      {
+        "rolls": {
+          "min": 2,
+          "max": 6
+        },
+        "bonus_rolls": 2,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:ender_eye",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 1
+                }
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:1,ic:rc,rc:enchant,ec:1}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Enchantlet Tier I",
+                    "color": "aqua",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "Right click to enchant an ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "item in your offhand. ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": " ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Costs 6 levels. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:armor_stand",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:1,ic:light_emblem,EntityTag:{Marker:1b,Invisible:1b,Tags:[\"ic.light_emblem\"]}}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Light Emblem",
+                    "color": "light_purple",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "When placed mobs will spawn ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "per player in the area for ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "60 seconds.",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": " ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Only works below -y56. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.005
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:ender_eye",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 1
+                }
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:2,ic:rc,rc:enchant,ec:2}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Enchantlet Tier II",
+                    "color": "aqua",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "Right click to enchant an ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "item in your offhand. ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": " ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Costs 10 levels. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:ender_eye",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 1
+                }
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:3,ic:rc,rc:enchant,ec:3}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Enchantlet Tier III",
+                    "color": "aqua",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "Right click to enchant an ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "item in your offhand. ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": " ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Costs 16 levels. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.5
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 4,
+            "name": "minecraft:bone",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 4,
+                  "max": 8
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:cobweb",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 4,
+                  "max": 8
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:ender_eye",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 1
+                }
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:4,ic:rc,rc:enchant,ec:4}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Enchantlet Tier IV",
+                    "color": "light_purple",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "Right click to enchant an ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "item in your offhand. ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": " ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Costs 22 levels. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.125
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:ender_eye",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 1
+                }
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{CustomModelData:5,ic:rc,rc:enchant,ec:5}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Enchantlet Tier V",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "text": "Right click to enchant an ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "item in your offhand. ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": " ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "Costs 30 levels. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.05
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bow",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:1,ic:sonic_bow}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": [
+                  {
+                    "text": "Supersonic Bow",
+                    "color": "gold",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": "Bow is chargable and will gain ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "momentum the longer charged ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "gaining pierce at charge level ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "2 or higher. ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": " ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "If an emnemy is close while ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "shooting a charged shot, an ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "explosion occurs instead. ",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              }
+            ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.02
+            }
+          ]
+          }
+        ]
+      }
+    ]
+  }
+  

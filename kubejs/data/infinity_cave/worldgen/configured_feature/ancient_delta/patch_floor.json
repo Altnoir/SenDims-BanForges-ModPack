@@ -1,0 +1,89 @@
+{
+  "type": "minecraft:vegetation_patch",
+  "config": {
+    "surface": "floor",
+    "depth": 1,
+    "vertical_range": 1,
+    "extra_bottom_block_chance": 0.5,
+    "extra_edge_column_chance": 1,
+    "vegetation_chance": 1,
+    "xz_radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 15,
+        "max_inclusive": 15
+      }
+    },
+    "replaceable": "#minecraft:base_stone_overworld",
+    "ground_state": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 1,
+          "data": {
+            "Name": "regions_unexplored:argillite_grass_block"
+          }
+        }
+      ]
+    },
+    "vegetation_feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "weight": 5,
+                "data": {
+                  "Name": "minecraft:short_grass",
+                  "Properties": {
+                    "waterlogged": "false"
+                  }
+                }
+              },
+              {
+                "weight": 4,
+                "data": {
+                  "Name": "minecraft:fern",
+                  "Properties": {
+                    "waterlogged": "false"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "regions_unexplored:corpse_flower",
+                  "Properties": {
+                    "waterlogged": "false"
+                  }
+                }
+              },
+              {
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:pitcher_plant",
+                  "Properties": {
+                    "waterlogged": "false"
+                  }
+                }
+              },
+              {
+                "weight": 3,
+                "data": {
+                  "Name": "minecraft:light",
+                  "Properties": {
+                    "level": "7",
+                    "waterlogged": "false"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "placement": []
+    }
+  }
+}

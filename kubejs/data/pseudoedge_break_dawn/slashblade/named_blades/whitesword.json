@@ -1,0 +1,29 @@
+{
+  "creativeGroup": "pseudoedge_break_dawn:pseudoedge_break_dawn_slashblade",
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:looting"
+    },
+    {
+      "id": "minecraft:fire_aspect"
+    }
+  ],
+  "name": "pseudoedge_break_dawn:whitesword",
+  "properties": {
+    "attack_base": 28.0,
+    "max_damage": 300,
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "pseudoedge_break_dawn:model/pseudo/named/pseudosword/sword/sword.obj",
+    "summon_sword_color": 16777215,
+    "texture": "pseudoedge_break_dawn:model/pseudo/named/pseudosword/sword/whitensword.png"
+  }
+}

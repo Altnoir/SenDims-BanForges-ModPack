@@ -1,0 +1,26 @@
+// const $ForgeTier = Java.loadClass("net.minecraftforge.common.ForgeTier")
+// const $BlockTags = Java.loadClass("net.minecraft.tags.BlockTags")
+// const $TierSortingRegistry = Java.loadClass("net.minecraftforge.common.TierSortingRegistry")
+
+SBSDEvents.registerTier(event => {
+    event.registerTier(5,
+         "kubejs:mining_tier_5", "thermal:enderium_ingot", ["minecraft:netherite"],
+          "kubejs:enderium")
+
+    // TODO 6
+
+    event.registerTier(7,
+         "kubejs:mining_tier_7", "nuclearcraft:thorium_ingot", ["kubejs:enderium"],
+          "kubejs:thorium")
+
+    event.registerTier(8,
+         "kubejs:mining_tier_8", "nuclearcraft:tough_alloy_ingot", ["kubejs:thorium"],
+          "kubejs:tough")
+
+    event.registerTier(9,
+         "kubejs:mining_tier_9", "nuclearcraft:qnp", ["kubejs:tough"],
+          "kubejs:qnp")
+
+    // TODO 10
+
+})

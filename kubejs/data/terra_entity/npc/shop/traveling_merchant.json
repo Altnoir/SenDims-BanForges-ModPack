@@ -1,0 +1,277 @@
+{
+  "trades_generator": {
+    "trade_weight_list": [
+      {
+        "trade": {
+          "costs": [
+            {
+              "ingredient": {
+                "item": "minecraft:emerald"
+              },
+              "count": 1
+            }
+          ],
+          "result": [
+            {
+              "id": "minecraft:leather",
+              "Count": 10
+            }
+          ],
+          "type": "terra_entity:ingredient_trade_item_list"
+        },
+        "weight": 50
+      },
+      {
+        "trade": {
+          "costs": [
+            {
+              "ingredient": {
+                "item": "minecraft:emerald"
+              },
+              "count": 1
+            }
+          ],
+          "result": [
+            {
+              "id": "minecraft:coal",
+              "Count": 10
+            }
+          ],
+          "type": "terra_entity:ingredient_trade_item_list"
+        },
+        "weight": 50
+      },
+      {
+        "trade": {
+          "costs": [
+            {
+              "ingredient": {
+                "item": "minecraft:emerald"
+              },
+              "count": 1
+            }
+          ],
+          "result": [
+            {
+              "id": "minecraft:copper_ingot",
+              "Count": 10
+            }
+          ],
+          "type": "terra_entity:ingredient_trade_item_list"
+        },
+        "weight": 50
+      },
+      {
+        "trade": {
+          "costs": [
+            {
+              "ingredient": {
+                "item": "minecraft:emerald"
+              },
+              "count": 1
+            }
+          ],
+          "result": [
+            {
+              "id": "minecraft:iron_ingot",
+              "Count": 8
+            }
+          ],
+          "type": "terra_entity:ingredient_trade_item_list"
+        },
+        "weight": 40
+      },
+      {
+        "trade": {
+          "costs": [
+            {
+              "ingredient": {
+                "item": "minecraft:emerald"
+              },
+              "count": 1
+            }
+          ],
+          "result": [
+            {
+              "id": "minecraft:gold_ingot",
+              "Count": 4
+            }
+          ],
+          "type": "terra_entity:ingredient_trade_item_list"
+        },
+        "weight": 30
+      },
+      {
+        "trade": {
+          "costs": [
+            {
+              "ingredient": {
+                "item": "minecraft:emerald"
+              },
+              "count": 1
+            }
+          ],
+          "result": [
+            {
+              "id": "minecraft:diamond",
+              "Count": 2
+            }
+          ],
+          "type": "terra_entity:ingredient_trade_item_list"
+        },
+        "weight": 10
+      },
+      {
+        "trade": {
+          "costs": [
+            {
+              "ingredient": {
+                "item": "minecraft:emerald"
+              },
+              "count": 1
+            }
+          ],
+          "result": [
+            {
+              "id": "minecraft:redstone",
+              "Count": 10
+            }
+          ],
+          "type": "terra_entity:ingredient_trade_item_list"
+        },
+        "weight": 30
+      },
+      {
+        "trade": {
+          "costs": [
+            {
+              "ingredient": {
+                "item": "minecraft:emerald"
+              },
+              "count": 1
+            }
+          ],
+          "result": [
+            {
+              "id": "minecraft:lapis_lazuli",
+              "Count": 10
+            }
+          ],
+          "type": "terra_entity:ingredient_trade_item_list"
+        },
+        "weight": 30
+      },
+      {
+        "trade": {
+          "costs": [
+            {
+              "ingredient": {
+                "item": "minecraft:emerald"
+              },
+              "count": 1
+            }
+          ],
+          "result": [
+            {
+              "id": "minecraft:amethyst_cluster",
+              "Count": 4
+            }
+          ],
+          "type": "terra_entity:ingredient_trade_item_list"
+        },
+        "weight": 30
+      },
+      {
+        "trade": {
+          "costs": [
+            {
+              "ingredient": {
+                "item": "minecraft:emerald"
+              },
+              "count": 64
+            }
+          ],
+          "result": [
+            {
+              "id": "terra_entity:summon_golden_sword_staff",
+              "Count": 1
+            }
+          ],
+          "type": "terra_entity:ingredient_trade_item_list"
+        },
+        "weight": 5
+      },
+      {
+        "trade": {
+          "costs": [
+            {
+              "ingredient": {
+                "item": "minecraft:emerald"
+              },
+              "count": 10
+            }
+          ],
+          "result": [
+            {
+              "id": "terra_entity:chester_staff",
+              "Count": 1
+            }
+          ],
+          "type": "terra_entity:ingredient_trade_item_list"
+        },
+        "weight": 5
+      },
+      {
+        "trade": {
+          "costs": [
+            {
+              "ingredient": {
+                "item": "minecraft:emerald"
+              },
+              "count": 10
+            }
+          ],
+          "result": [
+            {
+              "id": "terra_entity:wallet",
+              "Count": 1
+            }
+          ],
+          "type": "terra_entity:ingredient_trade_item_list"
+        },
+        "weight": 5
+      },
+      {
+        "trade": {
+          "costs": [
+            {
+              "ingredient": {
+                "item": "minecraft:emerald"
+              },
+              "count": 10
+            }
+          ],
+          "result": [
+            {
+              "id": "terra_entity:code_1",
+              "Count": 1,
+              "tag": {
+                "Damage": 0
+              }
+            }
+          ],
+          "properties": {
+            "lock": {
+              "entity_type": "terra_entity:eye_of_cthulhu",
+              "type": "terra_entity:kill_entity_lock"
+            }
+          },
+          "type": "terra_entity:ingredient_trade_item_list"
+        },
+        "weight": 30
+      }
+    ],
+    "count": 6,
+    "type": "terra_entity:weight_map"
+  }
+}

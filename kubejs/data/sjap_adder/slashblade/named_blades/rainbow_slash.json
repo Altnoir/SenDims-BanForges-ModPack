@@ -1,0 +1,26 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:power",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:unbreaking"
+    }
+  ],
+  "name": "sjap_adder:rainbow_slash",
+  "properties": {
+    "attack_base": 6.0,
+    "max_damage": 300,
+    "slash_art": "sjap_adder:rainbow_drives",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "sjap_adder:model/tw/frostbane_moonveil.obj",
+    "summon_sword_color": -1,
+    "texture": "sjap_adder:model/tw/rainbow_slash.png"
+  }
+}

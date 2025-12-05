@@ -1,0 +1,30 @@
+{
+	"variant": "tyrannical",
+	"weight": 10,
+	"quality": 0,
+	"unique": true,
+	"dimensions": [
+	],
+	"bonuses": [
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "light_weapon",
+				"types": [
+					"chestplate", 
+					"leggings"
+				]
+			},
+			"attribute": "minecraft:generic.attack_damage",
+			"operation": "MULTIPLY_TOTAL",
+			"values": {
+				"common": 0.05,
+				"uncommon": 0.075,
+				"rare": 0.1,
+				"epic": 0.125,
+				"mythic": 0.15,
+				"ancient": 0.2
+			}
+		}
+	]
+}

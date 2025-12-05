@@ -1,0 +1,28 @@
+{
+  "creativeGroup": "pseudoedge_break_dawn:pseudoedge_break_dawn_slashblade",
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 1
+    },
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 1
+    }
+  ],
+  "name": "pseudoedge_break_dawn:kumasakura",
+  "properties": {
+    "attack_base": 6.0,
+    "max_damage": 80,
+    "slash_art": "slashblade:wave_edge",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "pseudoedge_break_dawn:model/pseudo/named/pseudosword/kumasakura/kumasakura.obj",
+    "summon_sword_color": 15662848,
+    "texture": "pseudoedge_break_dawn:model/pseudo/named/pseudosword/kumasakura/kumasakura.png"
+  }
+}

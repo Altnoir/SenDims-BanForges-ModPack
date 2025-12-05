@@ -1,0 +1,74 @@
+{
+  "trades": [
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:emerald"
+          },
+          "count": 1
+        }
+      ],
+      "health": 10,
+      "type": "terra_entity:ingredient_trade_health"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:red_mushroom"
+          },
+          "count": 1
+        },
+        {
+          "ingredient": {
+            "item": "minecraft:brown_mushroom"
+          },
+          "count": 1
+        }
+      ],
+      "result": [
+        {
+          "id": "minecraft:potion",
+          "Count": 1,
+          "tag": {
+            "Potion": "minecraft:healing"
+          }
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:red_mushroom"
+          },
+          "count": 1
+        },
+        {
+          "ingredient": {
+            "item": "minecraft:brown_mushroom"
+          },
+          "count": 1
+        },
+        {
+          "ingredient": {
+            "item": "minecraft:warped_fungus"
+          },
+          "count": 1
+        }
+      ],
+      "result": [
+        {
+          "id": "minecraft:potion",
+          "Count": 1,
+          "tag": {
+            "Potion": "minecraft:strong_healing"
+          }
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    }
+  ]
+}

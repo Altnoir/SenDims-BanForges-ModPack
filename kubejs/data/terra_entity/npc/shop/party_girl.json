@@ -1,0 +1,99 @@
+{
+  "trades": [
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:emerald"
+          },
+          "count": 1
+        }
+      ],
+      "result": [
+        {
+          "id": "minecraft:firework_rocket",
+          "Count": 3,
+          "tag": {
+            "Type": 2,
+            "Fireworks": {
+              "Flight": 1
+            },
+            "forge:shape_type": "STAR"
+          }
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:emerald"
+          },
+          "count": 1
+        }
+      ],
+      "result": [
+        {
+          "id": "minecraft:firework_rocket",
+          "Count": 3,
+          "tag": {
+            "Type": 3,
+            "Fireworks": {
+              "Flight": 1
+            },
+            "forge:shape_type": "CREEPER"
+          }
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:emerald"
+          },
+          "count": 1
+        }
+      ],
+      "result": [
+        {
+          "id": "minecraft:firework_rocket",
+          "Count": 3,
+          "tag": {
+            "Type": 4,
+            "Fireworks": {
+              "Flight": 1
+            },
+            "forge:shape_type": "BURST"
+          }
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:emerald"
+          },
+          "count": 64
+        },
+        {
+          "ingredient": {
+            "item": "minecraft:emerald"
+          },
+          "count": 32
+        }
+      ],
+      "result": [
+        {
+          "id": "terra_entity:summon_diamond_sword_staff",
+          "Count": 1
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    }
+  ]
+}

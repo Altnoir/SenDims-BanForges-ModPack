@@ -1,0 +1,59 @@
+{
+  "trades": [
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:emerald"
+          },
+          "count": 10
+        }
+      ],
+      "result": [
+        {
+          "id": "terra_entity:shroomerang",
+          "Count": 1,
+          "tag": {
+            "Damage": 0,
+            "cafelib:boolean": "true"
+          }
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:brown_mushroom"
+          },
+          "count": 10
+        }
+      ],
+      "result": [
+        {
+          "id": "minecraft:emerald",
+          "Count": 1
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    },
+    {
+      "costs": [
+        {
+          "ingredient": {
+            "item": "minecraft:red_mushroom"
+          },
+          "count": 10
+        }
+      ],
+      "result": [
+        {
+          "id": "minecraft:emerald",
+          "Count": 1
+        }
+      ],
+      "type": "terra_entity:ingredient_trade_item_list"
+    }
+  ]
+}

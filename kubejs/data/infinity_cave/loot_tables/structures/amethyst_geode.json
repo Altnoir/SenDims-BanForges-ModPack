@@ -1,0 +1,408 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 4,
+        "max": 8
+      },
+      "bonus_rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:ender_eye",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{ic:rc,rc:magic_repair,Enchantments:[{}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "text": "Magic Repair",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Right click to fully repair ",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "the armor you are wearing. ",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " ",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "Costs 10 levels. ",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 24,
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:amethyst_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:amethyst_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:enchanted_golden_apple",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:ender_eye",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:2,ic:rc,rc:enchant,ec:2}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "text": "Enchantlet Tier II",
+                  "color": "aqua",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Right click to enchant an ",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "item in your offhand. ",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " ",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "Costs 10 levels. ",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:ender_eye",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:4,ic:rc,rc:enchant,ec:4}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Enchantlet Tier IV",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Right click to enchant an ",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "item in your offhand. ",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " ",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "Costs 22 levels. ",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.125
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:spyglass",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{ic:magic_spyglass,Enchantments:[{}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "text": "Magic Spyglass",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Looking at a mob will ",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "return its health. ",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.15
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:ender_eye",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:5,ic:rc,rc:enchant,ec:5}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "Enchantlet Tier V",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Right click to enchant an ",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "item in your offhand. ",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " ",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "Costs 30 levels. ",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.06125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:2,CustomModelData:1,ic:amethyst_blade,AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.3,Operation:0,UUID:[I;232069848,20531297,-1339166817,1330268803],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:8,Operation:0,UUID:[I;319156707,1453736356,-1572244117,1901841866],Slot:\"mainhand\"}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "text": "Amethyst Blade",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": " "
+                },
+                {
+                  "text": "Deals more damage when enemy ",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "is under half health. ",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "When in Main Hand:",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " 9 Attack Damage ",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
+                  "text": " 1.7 Attack Speed",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
