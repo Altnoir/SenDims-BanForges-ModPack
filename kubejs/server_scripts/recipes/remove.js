@@ -56,6 +56,7 @@ const toRemoveID = new Set([
     "slashblade_addon:nihilex",
     "pseudoedge_break_dawn:magicblade",
     "pseudoedge_break_dawn:xblades",
+    "enderio:void_chassis",
 
     // 临时
     "apotheosis:hellshelf",
@@ -84,11 +85,7 @@ const toRemoveID = new Set([
     "apotheosis:sightshelf",
     "apotheosis:sightshelf_t2",
     "apotheosis:filtering_shelf",
-    "apotheosis:treasure_shelf",
-
-    "enderio:void_chassis",
-    "enderio:primitive_alloy_smelter",
-    "enderio:basic_capacitor"
+    "apotheosis:treasure_shelf"
 ]);
 
 ServerEvents.recipes(event => {
