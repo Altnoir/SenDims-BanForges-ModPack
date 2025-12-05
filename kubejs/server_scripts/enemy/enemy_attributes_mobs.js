@@ -210,6 +210,10 @@ const mobTypes = {
     "ad_astra:zombified_pygro": typeA,
     "ad_astra:zombified_mogler": typeC,
 
+    "nuclearcraft:feral_ghoul": typeA,
+
+    "nuclearcraft:feral_ghoul_boss": bossType1
+
 };
 /**
  * 黑名单
