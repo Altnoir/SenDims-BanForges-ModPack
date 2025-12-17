@@ -1,4 +1,5 @@
 minecraft:overworld
+<<<<<<< HEAD
 ad_astra:glacio
 ad_astra:glacio_orbit
 ad_astra:mars_orbit
@@ -24,4 +25,32 @@ minecraft:the_nether
 sdbf:asteroid_belt
 ad_astra:earth_orbit
 sdbf:saturn
+=======
+ad_astra:moon_orbit
+ad_astra:mars
+ad_astra:glacio
+ad_astra:moon
+thermal_shock:loqendia
+the_bumblezone:the_bumblezone
+ad_astra:venus
+aether:the_aether
+nuclearcraft:wasteland
+infinity_cave:deep_realm_level_1
+undergarden:undergarden
+sdbf:saturn
+sdbf:deep_realm_level_1
+ad_astra:venus_orbit
+minecraft:the_overworld
+twilightforest:twilight_forest
+ad_astra:glacio_orbit
+minecraft:the_nether
+feur_dimensional_skyland:dimensional_skyland
+ad_astra:mercury
+cavernous:the_myst
+ad_astra:earth_orbit
+ad_astra:mars_orbit
+minecraft:the_end
+ad_astra:mercury_orbit
+sdbf:asteroid_belt
+>>>>>>> 3f220ae98388356c5b7b87c14b77621f976e1bac
 ae2:spatial_storage
