@@ -12,13 +12,13 @@
           "xz_scale": 0.19,
           "y_scale": 0.12
         },
-        "noise": "infinity_cave:infinity_cave",
+        "noise": "sdbf:deep_realm_level_1",
         "rarity_value_mapper": "type_2"
       },
       "argument2": {
         "type": "minecraft:mul",
         "argument1": 0.123,
-        "argument2": "infinity_cave:caves/spaghetti_2d_thickness_modulator"
+        "argument2": "sdbf:level_1/caves/spaghetti_2d_thickness_modulator"
       }
     },
     "argument2": {
@@ -52,7 +52,7 @@
             }
           }
         },
-        "argument2": "infinity_cave:caves/spaghetti_2d_thickness_modulator"
+        "argument2": "sdbf:level_1/caves/spaghetti_2d_thickness_modulator"
       }
     }
   },

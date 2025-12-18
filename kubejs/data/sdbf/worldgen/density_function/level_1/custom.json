@@ -4,12 +4,12 @@
     "type": "minecraft:min",
     "argument1": {
       "type": "minecraft:cache_all_in_cell",
-      "argument": "infinity_cave:caves/spaghetti_2d"
+      "argument": "sdbf:level_1/caves/spaghetti_2d"
     },
     "argument2": {
       "type": "minecraft:cache_all_in_cell",
-      "argument": "infinity_cave:erosion"
+      "argument": "sdbf:level_1/erosion"
     }
   },
-  "argument2": -0.05
+  "argument2": -0.15
 }
