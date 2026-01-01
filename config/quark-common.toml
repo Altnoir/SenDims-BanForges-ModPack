@@ -1,8 +1,8 @@
 
 [general]
-	"Enable 'q' Button" = false
+	"Enable 'q' Button" = true
 	"'q' Button on the Right" = false
-	"Disable Q Menu Effects" = true
+	"Disable Q Menu Effects" = false
 	#How many advancements deep you can see in the advancement screen. Vanilla is 2.
 	#Allowed values: (0,)
 	"Advancement Visibility Depth" = 2
@@ -24,11 +24,11 @@
 	#This will have various knock-on effects but might make the Weald more common, or appear closer to modded biomes. Who knows?
 	"Terrablender Modify Vanilla Anyway" = false
 	#Set to false to disable the popup message telling you that you can config quark in the q menu
-	"Enable Onboarding" = false
+	"Enable Onboarding" = true
 	#The amount of slots the chest button system should seek when trying to figure out if a container should be eligible for them.
 	"Chest Button Slot Target" = 27
 	#Set this to false to not generate the Quark Programmer Art resource pack
-	"Generate Programmer Art" = false
+	"Generate Programmer Art" = true
 
 	[general.chest_button_offsets]
 		"Player X" = 0
@@ -285,7 +285,7 @@
 	"Automatic Tool Restock" = true
 	"Easy Transfering" = true
 	"Expanded Item Interactions" = true
-	"Hotbar Changer" = false
+	"Hotbar Changer" = true
 	"Inventory Sorting" = true
 	"Item Sharing" = true
 	"Quick Armor Swapping" = true
@@ -340,14 +340,14 @@
 [tools]
 	Abacus = true
 	"Ambient Discs" = true
-	"Ancient Tomes" = false
+	"Ancient Tomes" = true
 	"Beacon Redirection" = true
 	"Bottled Cloud" = true
 	"Color Runes" = true
 	"Endermosh Music Disc" = true
 	"Parrot Eggs" = true
 	"Pathfinder Maps" = true
-	Pickarang = false
+	Pickarang = true
 	"Seed Pouch" = true
 	"Skull Pikes" = true
 	"Slime In A Bucket" = true
@@ -1656,7 +1656,7 @@
 		"Enable Shiny Llama" = true
 		"Enable Shiny Dolphin" = true
 		"Enable Shiny Slime" = true
-		"Enable L G B T Bees" = false
+		"Enable L G B T Bees" = true
 		"Every Bee Is L G B T" = false
 		#The chance for an animal to have a special "Shiny" skin, like a shiny pokemon. This is 1 in X. Set to 0 to disable.
 		"Shiny Animal Chance" = 2048
@@ -1827,7 +1827,7 @@
 	"Matrix Enchanting" = true
 	Pipes = true
 	"Tiny Potato" = true
-	"Totem Of Holding" = false
+	"Totem Of Holding" = true
 
 	[oddities.backpack]
 		#Set this to true to allow the backpacks to be unequipped even with items in them
@@ -1835,7 +1835,7 @@
 		"Enable Ravager Hide" = true
 		"Items In Backpack Tick" = true
 		"Base Ravager Hide Drop" = 1
-		"Extra Chance Per Looting" = 0.0
+		"Extra Chance Per Looting" = 0.5
 		"Allow Armor Stand Unloading" = true
 
 	[oddities.crate]

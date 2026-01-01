@@ -15,9 +15,9 @@
 	#Changes the background panorama into a preview of the latest played world
 	"Enables world preview" = false
 	#Adds a button to the top right of the main menu screen to toggle between the panorama and world preview
-	"Enables toggle world button" = false
+	"Enables toggle world button" = true
 	#Adds a button to the top right of the main menu screen to allow quick loading into a world if the world preview is enabled
-	"Enables quick load button" = false
+	"Enables quick load button" = true
 	#Determines that menu elements will align left if the menu's world preview is active, if true, this overrides 'Align menu elements left'
 	"Align menu elements left with world preview" = false
 	#Determines the default Aether menu style to switch to with the menu theme button
@@ -27,7 +27,7 @@
 	#Adds random trivia and tips to the bottom of loading screens
 	"Enables random trivia" = true
 	#Makes the extra hearts given by life shards display as silver colored
-	"Enables silver life shard hearts" = false
+	"Enables silver life shard hearts" = true
 	#Disables the Aether's accessories button from appearing in GUIs
 	"Disables the accessories button" = false
 	#The y-coordinate of the Ascending to the Aether and Descending from the Aether text in loading screens

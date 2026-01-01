@@ -13,20 +13,20 @@
 	#
 	# Allow Bumblezone mod to handle teleporting into the Bumblezone dimension.
 	#
-	enableEntranceTeleportation = false
+	enableEntranceTeleportation = true
 	# 
 	#-----------------------------------------------------
 	#
 	# Allow Bumblezone mod to handle teleporting out of the Bumblezone dimension.
 	#
-	enableExitTeleportation = false
+	enableExitTeleportation = true
 	# 
 	#-----------------------------------------------------
 	#
 	# If this is enabled, mobs that originally spawned in Bumblezone will be teleported
 	# to 0, 0 center of the Overworld when exiting Bumblezone dimension.
 	#
-	forceBumblezoneOriginMobToOverworldCenter = false
+	forceBumblezoneOriginMobToOverworldCenter = true
 	# 
 	#-----------------------------------------------------
 	#
@@ -60,7 +60,7 @@
 	# Should teleporting to and from The Bumblezone work 
 	# with modded Bee Nests and modded Beehives as well. 
 	#
-	allowTeleportationWithModdedBeehives = false
+	allowTeleportationWithModdedBeehives = true
 	# 
 	#-----------------------------------------------------
 	#

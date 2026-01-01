@@ -22,12 +22,17 @@
   "ribbitsSupporterHat": false,
   "mruApi": false,
   "projecteUUIDCheck": false,
-  "baCheckUpdate": false,
   "hexereiSupporter": false,
   "voidscapeDonator": false,
   "tenshilibPatreon": false,
   "additionalStructuresSupporterCheck": false,
+  "createTramAdditionsTTS": true,
+  "arsnouveauRewards": false,
+  "immersiveportalsModInfoChecking": false,
+  "majruszModsVersionCheck": false,
+  "kiwiTier": false,
   "quarkCelebration": "HideLGBTQIA",
   "citadelAprilFoolsContent": false,
-  "immersiveCavesDiscordMessage": false
+  "immersiveCavesDiscordMessage": false,
+  "disabledMixins": []
 }

@@ -24,28 +24,30 @@
 	boss_clear_when_no_target = true
 	#Multiplier for boss attributes health.
 	#Range: 0.0625 ~ 10.0
-	boss_attributes_multiplier_health = 1.0
+	boss_attributes_multiplier_health = 0.5
 	#Multiplier for boss attributes damage.
 	#Range: 0.0625 ~ 10.0
-	boss_attributes_multiplier_damage = 1.0
+	boss_attributes_multiplier_damage = 0.5
 	#Should the boss have no physics? Only for some bosses.
 	boss_no_physics = true
 	#Should the boss leave on day? Only for some bosses.
 	boss_leave_on_day = false
+	#Should bosses random stroll when have no target? 
+	boss_keep_wandering = true
 	#Should all monsters be enhanced?
 	#If false, only specific monsters in this mod.
 	enhance_all_monster = false
 	#Multiplier for monster attributes health.
 	#Range: 0.0625 ~ 100.0
-	monster_attributes_multiplier_health = 1.0
+	monster_attributes_multiplier_health = 0.5
 	#Multiplier for monster attributes damage.
 	#Range: 0.0625 ~ 100.0
-	monster_attributes_multiplier_damage = 1.0
+	monster_attributes_multiplier_damage = 0.5
 	#Should the built-in attributes setting be disabled for monsters?
 	#For kjs modify
-	disable_builtin_health_attack_modifier = true
+	disable_builtin_health_attack_modifier = false
 	#Should monsters spawn without light?
-	spawn_without_light = true
+	spawn_without_light = false
 	#Chance to spawn slime on zombie head.
 	#Range: 0.0 ~ 1.0
 	chance_to_spawn_slime_on_zombie_head = 0.05
@@ -54,6 +56,4 @@
 	enemy_spawn_chance = 1.0
 	#Should the chance to spawn a monster apply to all monsters?
 	enemy_spawn_chance_apply_all = false
-	#Should bosses random stroll when have no target? 
-	boss_keep_wandering = true
 
