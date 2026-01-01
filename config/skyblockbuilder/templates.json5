@@ -19,12 +19,12 @@
   
   "spawns": {
     "default": {
+      "west": [],
       "north": [],
       "south": [
         [ 6, 3, 5 ]
       ],
-      "east": [],
-      "west": []
+      "east": []
     }
   },
   

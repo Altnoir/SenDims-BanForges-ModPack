@@ -30,11 +30,7 @@
 
 		[Rendering.GUI.Menu]
 			#Current folder used for the menu panorama
-<<<<<<< HEAD
-			"Menu Directory" = "dungeon"
-=======
-			"Menu Directory" = "gilded"
->>>>>>> a2db2bc64738d8dd1f358eb618bd636a467a3bd8
+			"Menu Directory" = "skyfields"
 			#Which menu panorama directories to cycle between. Make empty to disable cycling logic
 			"Menu Choices" = ["skyfields", "dungeon", "blight", "cloudcaps", "gilded"]
 			#Randomize menu panorama ranther than cycling in order.
