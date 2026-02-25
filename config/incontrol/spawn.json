@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "dimension": "minecraft:overworld",
+    "hostile": true,
+    "when": "onjoin",
+    "spawntype": ["natural", "event"],
+    "result": "deny"
+  }
+]

@@ -5,47 +5,20 @@ ServerEvents.tags("item", event => {
     //     'minecraft:nether_star'
     // )
 
-    event.add('forge:gems/ruby',
-        'thermal_shock:ruby'
-    )
-
-    event.add('quark:stone_tool_materials',
-        'thermal_shock:cobbled_shale'
-    )
-
-    event.add('minecraft:logs', [
-        'thermal_shock:ochre_log',
-        'thermal_shock:ochre_wood',
-        'thermal_shock:stripped_ochre_log',
-        'thermal_shock:stripped_ochre_wood',
-        'thermal_shock:vermilli_log',
-        'thermal_shock:vermilli_wood',
-        'thermal_shock:stripped_vermilli_log',
-        'thermal_shock:stripped_vermilli_wood',
-        'thermal_shock:shiver_log',
-        'thermal_shock:shiverglitter_wood',
-        'thermal_shock:stripped_shiverglitter_log',
-        'thermal_shock:stripped_shiverglitter_wood',
-        'thermal_shock:kyaneos_log',
-        'thermal_shock:kyaneos_wood',
-        'thermal_shock:stripped_kyaneos_log',
-        'thermal_shock:stripped_kyaneos_wood'
-    ])
-
     // TODO 证章强化材料
-
+    // 阶段0
     event.add("slashblade_sendims:drc_health_material_0", [
         '#forge:ingots/iron',
-        'thermal_shock:ferrum_ingot'
+        'tofucraft:tofugem'
 
     ])
 
     event.add("slashblade_sendims:drc_damage_material_0", [
         '#forge:ingots/gold',
-        'thermal:ruby'
+        'tofucraft:tofudiamondnugget'
 
     ])
-
+    // 阶段1
     event.add('slashblade_sendims:drc_rank_material_1',
         'minecraft:diamond_block'
 
@@ -60,19 +33,17 @@ ServerEvents.tags("item", event => {
     ])
 
     event.add("slashblade_sendims:drc_damage_material_1", [
-        'thermal_shock:phobotite',
         'minecraft:diamond',
         'aether_redux:gravitite_ingot',
         'ad_astra:desh_sliding_door',
 
     ])
-
+    // 阶段2
     event.add('slashblade_sendims:drc_rank_material_2',
         'deep_aether:stratus_ingot',
         'minecraft:nether_star',
 
     )
-
 
     event.add("slashblade_sendims:drc_health_material_2", [
         // 'quark:blaze_lantern',
@@ -85,5 +56,7 @@ ServerEvents.tags("item", event => {
         'minecraft:netherite_ingot'
 
     ])
+    // 阶段3
+    
 
 })
