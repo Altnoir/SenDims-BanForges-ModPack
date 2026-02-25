@@ -3,10 +3,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "deep_3"
-	group: "2D698D2001694314"
+	group: ""
 	icon: "integrateddynamics:menril_sapling"
 	id: "5C91D6143A935C11"
-	order_index: 1
+	order_index: 7
 	quest_links: [
 		{
 			id: "05BA6F8A4B57F6F2"

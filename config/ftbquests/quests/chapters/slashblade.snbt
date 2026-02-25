@@ -3,7 +3,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "slashblade"
-	group: "0937198EE94F2B97"
+	group: ""
 	icon: {
 		Count: 1
 		id: "minecraft:wooden_sword"
@@ -12,7 +12,7 @@
 		}
 	}
 	id: "7D57C3AFB4E77A3B"
-	order_index: 0
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{

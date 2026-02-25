@@ -3,10 +3,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "aether"
-	group: "49FC4157519361C1"
+	group: ""
 	icon: "aether:cold_aercloud"
 	id: "57ADB472871000CE"
-	order_index: 2
+	order_index: 12
 	quest_links: [
 		{
 			id: "34204459AAC5D2D2"
@@ -199,10 +199,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: [
-				"0F8DC1AEBBC762C1"
-				"034D47E905861E48"
-			]
+			dependencies: ["0F8DC1AEBBC762C1"]
 			description: [
 				"A：寒风境云"
 				"B：天灵石"
@@ -838,10 +835,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"3E8E74B1D1E90894"
-				"034D47E905861E48"
-			]
+			dependencies: ["3E8E74B1D1E90894"]
 			description: [
 				"A：神能晶块"
 				"B：云母钢块"

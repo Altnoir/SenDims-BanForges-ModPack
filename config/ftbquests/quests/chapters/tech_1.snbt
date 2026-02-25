@@ -3,10 +3,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tech_1"
-	group: "70C8850B64AECE42"
+	group: ""
 	icon: "thermal:steel_ingot"
 	id: "524CE9039C21DC97"
-	order_index: 0
+	order_index: 6
 	quest_links: [
 		{
 			id: "4BB9EA6F2880C79F"

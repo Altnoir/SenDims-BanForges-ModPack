@@ -3,9 +3,9 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "deep_4"
-	group: "72FC493D243DC969"
+	group: ""
 	id: "23CB2F126A6644D7"
-	order_index: 0
+	order_index: 4
 	quest_links: [
 		{
 			id: "7535F66965759DE1"

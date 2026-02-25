@@ -3,10 +3,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "nether"
-	group: "49FC4157519361C1"
+	group: ""
 	icon: "minecraft:netherrack"
 	id: "21FDCDE620C842AA"
-	order_index: 4
+	order_index: 22
 	quest_links: [ ]
 	quests: [
 		{

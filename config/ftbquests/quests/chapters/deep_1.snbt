@@ -3,10 +3,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "deep_1"
-	group: "49FC4157519361C1"
+	group: ""
 	icon: "minecraft:deepslate"
 	id: "3D1F39AAD8A724BA"
-	order_index: 0
+	order_index: 2
 	quest_links: [
 		{
 			id: "20ABFC2B67E2EA9F"
@@ -34,7 +34,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6D4AF77DC54D55DB"
-				table_id: 7269548285138339695L
 				type: "choice"
 			}]
 			size: 2.0d

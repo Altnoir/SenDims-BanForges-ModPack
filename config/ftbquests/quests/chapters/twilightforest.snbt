@@ -3,10 +3,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "twilightforest"
-	group: "49FC4157519361C1"
+	group: ""
 	icon: "twilightforest:twilight_portal_miniature_structure"
 	id: "33C0F33A1D4678D5"
-	order_index: 1
+	order_index: 11
 	quest_links: [
 		{
 			id: "70B49C8B011567BB"

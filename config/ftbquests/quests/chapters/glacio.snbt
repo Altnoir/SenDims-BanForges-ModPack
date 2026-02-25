@@ -3,10 +3,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "glacio"
-	group: "72FC493D243DC969"
+	group: ""
 	icon: "ad_astra:glacio_globe"
 	id: "30913047B0C6C1E2"
-	order_index: 2
+	order_index: 13
 	quest_links: [
 		{
 			id: "66DC3C42246FEE07"
