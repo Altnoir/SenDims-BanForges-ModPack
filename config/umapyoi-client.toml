@@ -24,4 +24,21 @@
 	#Determining the interval tick between twice tail animation.
 	#Range: > 10
 	tail_animation_interval = 200
+<<<<<<< HEAD
+=======
+	#Deciding whether to always display skill or factor's details.
+	always_display_details = false
+	#The x-coordinate of the top-left coordinate of skill overlay. Default: 102
+	#Range: > -2147483648
+	top_left_skill_x = 102
+	#The y-coordinate of the top-left coordinate of skill overlay. Default: -21
+	#Range: > -2147483648
+	top_left_skill_y = -21
+	#The x-coordinate of the top-left coordinate of motivation overlay. Default: 102
+	#Range: > -2147483648
+	top_left_motivation_x = 118
+	#The y-coordinate of the top-left coordinate of motivation overlay. Default: -21
+	#Range: > -2147483648
+	top_left_motivation_y = -37
+>>>>>>> bf77ab5e38818ab25fd6e8556ade67dfe7dcae03
 

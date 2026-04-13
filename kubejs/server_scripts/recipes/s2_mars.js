@@ -74,26 +74,6 @@ ServerEvents.recipes(event => {
         .id('sdbf:exorcism_ginkgo_s2')
 
     event.recipes.slashblade.slashblade_shaped_recipe("slashblade:slashblade", [
-        " ID",
-        "SP ",
-        "BQ "
-    ], {
-        "B": SlashBladeIngredient.of(
-            SlashBladeRequestDefinition.newInstance()
-                .name("slashblade:doutanuki")
-                .refineCount(10)
-                .addEnchantment(SBEnchantmentDefinition.of("minecraft:fire_protection", 1))
-                .build()
-        ),
-        "D": 'ad_astra:mars_sand',
-        "I": 'ad_astra:conglomerate',
-        "P": "slashblade:proudsoul",
-        "Q": 'minecraft:packed_ice',
-        "S": "minecraft:snow_block"
-    }, "slashblade_addon:frosty_cherry")
-        .id('sdbf:frosty_cherry_s2')
-
-    event.recipes.slashblade.slashblade_shaped_recipe("slashblade:slashblade", [
         "ABC",
         "BDB",
         "EBA"
@@ -114,5 +94,26 @@ ServerEvents.recipes(event => {
         "E": '#forge:storage_blocks/ostrum'
     }, "slashblade:ruined_sword")
         .id('sdbf:ruined_sword_s2')
+
+    event.recipes.slashblade.slashblade_shaped_recipe("slashblade:slashblade", [
+        "DID",
+        "SBS",
+        "IDI"
+    ], {
+        "D": "minecraft:music_disc_13",    // 音乐唱片 13
+        "I": "minecraft:golden_apple",     // 金苹果
+        "S": 'ad_astra:ostrum_engine',
+        "B": SlashBladeIngredient.of(
+            SlashBladeRequestDefinition.newInstance()
+                .name("cialloblade:ciallo")
+                .killCount(1003)
+                .proudSoul(10003)
+                .refineCount(1)
+                .addSwordType("broken")
+                .addEnchantment(SBEnchantmentDefinition.of("minecraft:sharpness", 3)) // 锋利 III
+                .build()
+        )
+    }, "slashblade_addon:kirisaya")
+        .id("sdbf:kirisaya_s2")
 
 })

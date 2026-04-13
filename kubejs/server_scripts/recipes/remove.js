@@ -23,6 +23,19 @@ const toRemoveID = new Set([
     "thermal:machine_frame",
     "thermal:rf_coil",
     "ad_astra:desh_engine",
+    "nuclearcraft:plate_basic2",
+    "nuclearcraft:plate_basic",
+    "ancient_aether:enchanting_table_from_gravitite",
+    "terra_curio:workshop",
+    "integrateddynamics:crafting/logic_director",
+
+    "sjap_adder:dragon_fire",
+    "sjap_adder:dragon_ice",
+    "sjap_adder:dragon_lightning",
+    "sjap_adder:dragon_steel_fire",
+    "sjap_adder:dragon_steel_ice",
+    "sjap_adder:dragon_steel_lightning",
+
     "slashblade_addon:wanderer",
     "cialloblade:ciallo",
     "slashblade:muramasa",
@@ -58,6 +71,18 @@ const toRemoveID = new Set([
     "pseudoedge_break_dawn:xblades",
     "enderio:void_chassis",
 
+    "pseudoedge_break_dawn:pseudosword",
+    "pseudoedge_break_dawn:blackpixie",
+    "pseudoedge_break_dawn:latent",
+
+    "slashblade_addon:yukari",
+
+    "blades_derby:uma_odachi_haru",
+    "blades_derby:uma_odachi_halo",
+    "slashblade:egg_lan",
+
+    "slashblade_addon:kirisaya",
+
     // s3
     "slashblade:ruined_sword",
     "last_smith:bloodybamboo",
@@ -71,6 +96,29 @@ const toRemoveID = new Set([
     "slashblade:dissociator",
 
     "slashblade:rivers_of_blood",
+    "slashblade:clothesline",
+    "slashblade_addon:moonlight_cherry",
+    "slashblade_addon:green_mist",
+    "slashblade:hand_of_malenia",
+    "slashblade:ssa_kagari",
+    "slashblade:ssa_hayate",
+    "sjap_adder:toyoko",
+
+    "sjap_adder:agito_true_ex",
+    "slashblade:ssa_roze",
+    "slashblade:ssa_raye",
+    "last_smith:evil_shura",
+    "sjap_adder:nihil_soul",
+
+    "last_smith:nameless_odachi",
+    "last_smith:muramasa_kagura",
+    "sjap_adder:black_soul",
+    "last_smith:hakurouken",
+
+    "slashblade_addon:kamuy_none",
+    "last_smith:oboro_muramasa",
+    "last_smith:roukanken",
+    "pseudoedge_break_dawn:dragonblade",
 
     // 临时
     "apotheosis:hellshelf",

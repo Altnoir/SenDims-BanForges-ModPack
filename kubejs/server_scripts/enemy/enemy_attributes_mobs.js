@@ -4,6 +4,10 @@
  * 生物对应的模板
  */
 const mobTypes = {
+    'productivebees:configurable_bee': type0,
+    'productivebees:sweat_bee': type0,
+    'productivebees:digger_bee': type0,
+
     'tofucraft:shudofuspider': typeB,
     'tofucraft:fukumame_thower': typeA,
     'tofucraft:zundamite': typeB,
@@ -16,12 +20,32 @@ const mobTypes = {
     'tofucraft:tofu_gandlem': bossType1,
 
     "minecraft:zombie": typeA,
+    "minecraft:zombie_villager": typeA,
     "minecraft:skeleton": typeA,
     "minecraft:spider": typeB,
     "minecraft:creeper": typeB,
     "minecraft:enderman": typeC,
     "minecraft:iron_golem": typeC,
     "minecraft:warden": typeCEX2,
+    "artifacts:mimic": typeAEX1,
+    "minecraft:illusioner": typeA,
+
+    "species:wicked": typeC,
+    "species:cliff_hanger": typeB,
+    "species:limpet": typeA,
+    "species:quake": typeD,
+    "minecraft:villager": typeA,
+    "minecraft:bat": type0,
+    "minecraft:tropical_fish": type0,
+    "minecraft:glow_squid": type0,
+    "minecraft:pig": type0,
+    "minecraft:sheep": type0,
+    "minecraft:cow": type0,
+    "quark:shiba": type0,
+    "minecraft:goat": type0,
+    "minecraft:armor_stand": type0,
+
+    "yungscavebiomes:ice_cube": typeSlime,
 
     "twilightforest:towerwood_borer": typeB,
     "twilightforest:carminite_broodling": typeB,
@@ -172,7 +196,8 @@ const mobTypes = {
     "terra_entity:queen_bee": bossType1,
     "terra_entity:skeletron": bossType1,
     "terra_entity:dungeon_guardian": bossType2EX2,
-    "terra_entity:wall_of_flesh": bossType1EX1,
+    "terra_entity:wall_of_flesh": bossType2,
+    "terra_entity:hill_of_flesh": bossType2,
 
     "minecraft:wither": bossType2,
 
@@ -185,23 +210,79 @@ const mobTypes = {
     "minecraft:hoglin": typeC,
     "minecraft:zoglin": typeC,
     "minecraft:magma_cube": typeSlime,
+    "minecraft:strider": type0,
+    "quark:foxhound": typeB,
+    "thermal:basalz": typeA,
+    "thermal:blizz": typeA,
+    "terra_entity:the_hungry": typeB,
+    "terra_entity:hill_hungry": typeB,
+    "terra_entity:leech": typeC,
 
     "cataclysm:netherite_monstrosity": bossType2,
 
     "ad_astra:martian_raptor": typeC,
+
+    "minecraft:phantom": typeB,
+    "minecraft:evoker": typeA,
+    "minecraft:vex": typeSlime,
 
     "minecraft:ender_dragon": bossType2,
 
     "ad_astra:pygro": typeA,
     "ad_astra:pygro_brute": typeAEX1,
     "ad_astra:zombified_pygro": typeA,
+    "ad_astra:mogler": typeA,
     "ad_astra:zombified_mogler": typeC,
 
     "nuclearcraft:feral_ghoul": typeA,
+    "undergarden:rotbeast": typeC,
+    "undergarden:rotling": typeB,
+    "undergarden:rotwalker": typeA,
+    "undergarden:forgotten": typeD,
+    "undergarden:minion": typeD,
+    "undergarden:sploogie": typeSlime,
+    "undergarden:nargoyle": typeB,
+    "undergarden:muncher": typeA,
+    
+    "undergarden:brute": type0,
+    "undergarden:scintling": typeSlime,
+    "undergarden:gwib": type0,
+    "undergarden:gwibling": type0,
+    "undergarden:stoneborn": typeA,
+    "undergarden:mog": type0,
+    "undergarden:dweller": type0,
 
-    "nuclearcraft:feral_ghoul_boss": bossType1
+    "undergarden:forgotten_guardian": bossType1,
+    "nuclearcraft:feral_ghoul_boss": bossType2,
+
+    "midnight:rifter": typeA,
+    "midnight:nightshade": typeC,
+    "midnight:slink": typeD,
+    "midnight:nightstag": typeD,
+    "midnight:nova": typeB,
+
+    "cataclysm:urchinkin": type0,
+    "cataclysm:drowned_host": typeA,
+    "cataclysm:symbiocto": typeB,
+    "cataclysm:hippocamtus": typeD,
+    "cataclysm:cindaria": typeC,
+    "cataclysm:koboleton": typeC,
+    "cataclysm:wadjet": typeA,
+
+    "cataclysm:the_watcher": type0,
+
+    "cataclysm:the_prowler": typeAE,
+    "cataclysm:clawdian": typeAE,
+    "cataclysm:kobolediator": typeAE,
+    "cataclysm:ignited_revenant": typeAE,
+
+    "cataclysm:scylla": bossType1,
+    "cataclysm:the_harbinger": bossType1,
+    "cataclysm:ancient_remnant": bossType1,
+    "cataclysm:ignis": bossType1,
 
 };
+
 /**
  * 黑名单
  */

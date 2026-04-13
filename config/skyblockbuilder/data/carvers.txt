@@ -9,6 +9,7 @@ infinity_cave:cave
 infinity_cave:cave_extra_underground
 infinity_cave:insane
 infinity_cave:nether_cave
+midnight:midnight_cave
 minecraft:canyon
 minecraft:cave
 minecraft:cave_extra_underground
@@ -22,6 +23,7 @@ nullscape:strip
 nullscape:strip2
 nullscape:strip3
 nullscape:strip4
+terralith:deep_ravine
 tofucraft:tofu_canyon
 tofucraft:tofu_cave
 tofucraft:tofu_cave_extra_underground

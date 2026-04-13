@@ -5,10 +5,14 @@
 	"respawn_anchor_works": false,
 	"bed_works": true,
 	"has_raids": true,
-	"has_skylight": true,
+	"has_skylight": false,
 	"has_ceiling": true,
 	"coordinate_scale": 8,
+<<<<<<< HEAD
 	"ambient_light": 0.3,
+=======
+	"ambient_light": 0.05,
+>>>>>>> bf77ab5e38818ab25fd6e8556ade67dfe7dcae03
 	"logical_height": 384,
 	"effects": "minecraft:the_nether",
 	"infiniburn": "#minecraft:infiniburn_overworld",
@@ -22,4 +26,4 @@
 		}
 	},
 	"monster_spawn_block_light_limit": 0
-}
+}	

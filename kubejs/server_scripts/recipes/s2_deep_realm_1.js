@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
 
-    event.shaped($StructureQuill.forStructure("gods_ember:ae_lab"), [
+    event.shaped($StructureQuill.forStructure("sdbf:ae_lab"), [
         'AAA',
         'ABA',
         'AAA'
@@ -63,5 +63,33 @@ ServerEvents.recipes(event => {
         "S": 'slashblade:proudsoul'
     }, "blades_derby:uma_hishi")
         .id("sdbf:uma_hishi_s2")
+
+    event.recipes.slashblade.slashblade_shaped_recipe("slashblade:slashblade", [
+        "ISI",
+        "SBS",
+        "ISI"
+    ], {
+        "I": 'slashblade:proudsoul',
+        "S": '#forge:storage_blocks/diamond',
+        "B": SlashBladeIngredient.of(
+            SlashBladeRequestDefinition.newInstance()
+                .name("slashblade:yuzukitukumo") // 要求：付丧 (Yuzukitukumo)
+                .killCount(500)                // 要求：1000 击杀 (Kill Count)
+                .addEnchantment(SBEnchantmentDefinition.of("minecraft:fire_aspect", 1))
+                .build()
+        )
+    }, "slashblade_addon:yukari")
+        .id("sdbf:yukari_s2")
+
+    event.recipes.slashblade.slashblade_shaped_recipe("slashblade:slashblade", [
+        " AA",
+        "ABA",
+        "CA "
+    ], {
+        "A": 'minecraft:sculk_vein',
+        "B": 'minecraft:iron_sword',
+        "C": 'minecraft:sculk_catalyst'
+    }, "sjap_adder:break_moon")
+        .id("sdbf:break_moon_s2")
 
 })

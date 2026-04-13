@@ -1,3 +1,16 @@
 {
+<<<<<<< HEAD
 	chapter_groups: [ ]
+=======
+	chapter_groups: [
+		{ id: "6900D4BA6E5FB142", title: "1. 永恒维度" }
+		{ id: "0937198EE94F2B97", title: "战斗技巧" }
+		{ id: "09172E2BE2B038C0", title: "DLC" }
+		{ id: "70C8850B64AECE42", title: "后勤准备" }
+		{ id: "49FC4157519361C1", title: "2. 探窟" }
+		{ id: "2D698D2001694314", title: "3. 世界" }
+		{ id: "35DD57C332D61BB0", title: "4. 星海[WIP]" }
+		{ id: "72FC493D243DC969", title: "5. 终极[WIP]" }
+	]
+>>>>>>> bf77ab5e38818ab25fd6e8556ade67dfe7dcae03
 }

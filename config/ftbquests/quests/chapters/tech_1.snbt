@@ -539,7 +539,11 @@
 			y: 32.5d
 		}
 		{
-			dependencies: ["316871EADE2FF219"]
+			dependencies: [
+				"316871EADE2FF219"
+				"69049A89D4FB5D07"
+			]
+			dependency_requirement: "one_completed"
 			description: ["将水转换成氧气，维持你在太空的呼吸"]
 			id: "7FDE4062BD2DC285"
 			tasks: [{
@@ -575,10 +579,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: [
-				"7FDE4062BD2DC285"
-				"1D74838411B96ABC"
-			]
+			dependencies: ["1D74838411B96ABC"]
 			description: ["你也不想一桶水一桶水搬吧"]
 			id: "69049A89D4FB5D07"
 			tasks: [{
@@ -781,17 +782,6 @@
 		}
 		{
 			dependencies: ["1AFA1F8F4A3B7215"]
-			id: "433F8E70DDAB5F6C"
-			tasks: [{
-				id: "3989DE5760E7B3CF"
-				item: "enderio:vibrant_alloy_ingot"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 25.0d
-		}
-		{
-			dependencies: ["1AFA1F8F4A3B7215"]
 			id: "1B3FA12BA9FF9086"
 			tasks: [{
 				id: "5B81D5FEEDC4E196"
@@ -849,7 +839,7 @@
 			y: 22.5d
 		}
 		{
-			dependencies: ["58F48888F1039B24"]
+			dependencies: ["088AF6E3F4AA7E3B"]
 			id: "74388B1FF26F530C"
 			tasks: [{
 				id: "686BDE0F00B1B014"
@@ -857,7 +847,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 22.5d
+			y: 25.0d
 		}
 		{
 			dependencies: ["31801D73AF59C8CB"]
@@ -927,6 +917,75 @@
 			}]
 			x: 10.0d
 			y: 40.0d
+		}
+		{
+			dependencies: ["74388B1FF26F530C"]
+			id: "6B51A052D9066EF1"
+			tasks: [{
+				id: "201EE886CF40A538"
+				item: "nuclearcraft:alloy_smelter"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 25.0d
+		}
+		{
+			dependencies: ["6B51A052D9066EF1"]
+			id: "41D60AA656791D52"
+			tasks: [{
+				id: "3F80E38CC5DC9A3F"
+				item: "nuclearcraft:tough_alloy_ingot"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["41D60AA656791D52"]
+			id: "1EF6714DB8D7D5A4"
+			tasks: [{
+				id: "23D7AF604E85CA12"
+				item: "nuclearcraft:plate_advanced"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 25.0d
+		}
+		{
+			dependencies: ["41D60AA656791D52"]
+			id: "01E82FD52A60F607"
+			tasks: [{
+				id: "24CCB2162E91754A"
+				item: "nuclearcraft:chassis"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 22.5d
+		}
+		{
+			dependencies: [
+				"1EF6714DB8D7D5A4"
+				"01E82FD52A60F607"
+			]
+			id: "69997238A9B0874C"
+			tasks: [{
+				id: "02AB3F8679AFEA6E"
+				item: "nuclearcraft:rock_crusher"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 22.5d
+		}
+		{
+			dependencies: ["58F48888F1039B24"]
+			id: "088AF6E3F4AA7E3B"
+			tasks: [{
+				id: "3EA1E706616DEC28"
+				item: "nuclearcraft:manufactory"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 25.0d
 		}
 	]
 	title: "工业"
