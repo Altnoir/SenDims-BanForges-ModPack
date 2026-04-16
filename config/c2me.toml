@@ -19,11 +19,7 @@ version = 3
 #  Available variables: is_windows, is_j9vm, is_client, cpus, mem_gb
 # 
 defaultGlobalExecutorParallelismExpression = "default"
-<<<<<<< HEAD
 # (Default: 6) Configures the parallelism of global executor
-=======
-# (Default: 7) Configures the parallelism of global executor
->>>>>>> bf77ab5e38818ab25fd6e8556ade67dfe7dcae03
 globalExecutorParallelism = "default"
 
 [fixes]
@@ -111,11 +107,7 @@ globalExecutorParallelism = "default"
 [noTickViewDistance]
 	# (Default: true) Whether to enable no-tick view distance
 	enabled = "default"
-<<<<<<< HEAD
 	# (Default: 7) No-tick view distance max concurrent chunk loads 
-=======
-	# (Default: 8) No-tick view distance max concurrent chunk loads 
->>>>>>> bf77ab5e38818ab25fd6e8556ade67dfe7dcae03
 	#  Lower this for a better latency and higher this for a faster loading
 	maxConcurrentChunkLoads = "default"
 	# (Default: true) Whether to use compatibility mode to send chunks 

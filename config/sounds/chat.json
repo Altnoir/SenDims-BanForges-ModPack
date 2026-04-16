@@ -21,10 +21,6 @@
 		"soundEvent": "minecraft:block.note_block.chime"
 	},
 	"mentionKeywords": [
-<<<<<<< HEAD
-=======
-		"@Tonywww",
->>>>>>> bf77ab5e38818ab25fd6e8556ade67dfe7dcae03
 		"@ALTNOIR"
 	],
 	"ignoreSystemChats": false,

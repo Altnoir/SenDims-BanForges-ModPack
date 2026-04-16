@@ -25,10 +25,6 @@
   "notifications": {
     "force_disable_donation_prompts": false,
     "has_cleared_donation_button": false,
-<<<<<<< HEAD
     "has_seen_donation_prompt": false
-=======
-    "has_seen_donation_prompt": true
->>>>>>> bf77ab5e38818ab25fd6e8556ade67dfe7dcae03
   }
 }
